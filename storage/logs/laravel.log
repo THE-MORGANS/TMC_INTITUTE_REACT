@@ -124,3 +124,189 @@
 #63 C:\\Users\\23481\\.vscode\\extensions\\tiansin.vscode-laravel-assist-0.1.7\\assets\\cache\\1aSojiiR(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #64 {main}
 "} 
+[2023-05-21 17:06:05] PRODUCTION.ERROR: Header may not contain more than a single header, new line detected {"exception":"[object] (ErrorException(code: 0): Header may not contain more than a single header, new line detected at /home/morgaqb3/public_html/tmcinstitute/vendor/symfony/http-foundation/Response.php:342)
+[stacktrace]
+#0 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'Header may not ...', '/home/morgaqb3/...', 342)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'Header may not ...', '/home/morgaqb3/...', 342)
+#2 /home/morgaqb3/public_html/tmcinstitute/vendor/symfony/http-foundation/Response.php(342): header('Location: https...', false, 302)
+#3 /home/morgaqb3/public_html/tmcinstitute/vendor/symfony/http-foundation/Response.php(376): Symfony\\Component\\HttpFoundation\\Response->sendHeaders()
+#4 /home/morgaqb3/public_html/tmcinstitute/public/index.php(54): Symfony\\Component\\HttpFoundation\\Response->send()
+#5 {main}
+"} 
+[2023-05-21 17:10:40] PRODUCTION.ERROR: Header may not contain more than a single header, new line detected {"exception":"[object] (ErrorException(code: 0): Header may not contain more than a single header, new line detected at /home/morgaqb3/public_html/tmcinstitute/vendor/symfony/http-foundation/Response.php:342)
+[stacktrace]
+#0 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'Header may not ...', '/home/morgaqb3/...', 342)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'Header may not ...', '/home/morgaqb3/...', 342)
+#2 /home/morgaqb3/public_html/tmcinstitute/vendor/symfony/http-foundation/Response.php(342): header('Location: https...', false, 302)
+#3 /home/morgaqb3/public_html/tmcinstitute/vendor/symfony/http-foundation/Response.php(376): Symfony\\Component\\HttpFoundation\\Response->sendHeaders()
+#4 /home/morgaqb3/public_html/tmcinstitute/public/index.php(54): Symfony\\Component\\HttpFoundation\\Response->send()
+#5 {main}
+"} 
+[2023-06-08 04:49:47] PRODUCTION.ERROR: Header may not contain more than a single header, new line detected {"exception":"[object] (ErrorException(code: 0): Header may not contain more than a single header, new line detected at /home/morgaqb3/public_html/tmcinstitute/vendor/symfony/http-foundation/Response.php:342)
+[stacktrace]
+#0 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'Header may not ...', '/home/morgaqb3/...', 342)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'Header may not ...', '/home/morgaqb3/...', 342)
+#2 /home/morgaqb3/public_html/tmcinstitute/vendor/symfony/http-foundation/Response.php(342): header('Location: http:...', false, 302)
+#3 /home/morgaqb3/public_html/tmcinstitute/vendor/symfony/http-foundation/Response.php(376): Symfony\\Component\\HttpFoundation\\Response->sendHeaders()
+#4 /home/morgaqb3/public_html/tmcinstitute/public/index.php(54): Symfony\\Component\\HttpFoundation\\Response->send()
+#5 {main}
+"} 
+[2023-06-21 09:08:41] PRODUCTION.ERROR: Header may not contain more than a single header, new line detected {"exception":"[object] (ErrorException(code: 0): Header may not contain more than a single header, new line detected at /home/morgaqb3/public_html/tmcinstitute/vendor/symfony/http-foundation/Response.php:342)
+[stacktrace]
+#0 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'Header may not ...', '/home/morgaqb3/...', 342)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'Header may not ...', '/home/morgaqb3/...', 342)
+#2 /home/morgaqb3/public_html/tmcinstitute/vendor/symfony/http-foundation/Response.php(342): header('Location: http:...', false, 302)
+#3 /home/morgaqb3/public_html/tmcinstitute/vendor/symfony/http-foundation/Response.php(376): Symfony\\Component\\HttpFoundation\\Response->sendHeaders()
+#4 /home/morgaqb3/public_html/tmcinstitute/public/index.php(54): Symfony\\Component\\HttpFoundation\\Response->send()
+#5 {main}
+"} 
+[2023-07-07 23:03:03] PRODUCTION.ERROR: Header may not contain more than a single header, new line detected {"exception":"[object] (ErrorException(code: 0): Header may not contain more than a single header, new line detected at /home/morgaqb3/public_html/tmcinstitute/vendor/symfony/http-foundation/Response.php:342)
+[stacktrace]
+#0 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'Header may not ...', '/home/morgaqb3/...', 342)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'Header may not ...', '/home/morgaqb3/...', 342)
+#2 /home/morgaqb3/public_html/tmcinstitute/vendor/symfony/http-foundation/Response.php(342): header('Location: http:...', false, 302)
+#3 /home/morgaqb3/public_html/tmcinstitute/vendor/symfony/http-foundation/Response.php(376): Symfony\\Component\\HttpFoundation\\Response->sendHeaders()
+#4 /home/morgaqb3/public_html/tmcinstitute/public/index.php(54): Symfony\\Component\\HttpFoundation\\Response->send()
+#5 {main}
+"} 
+[2023-07-10 09:42:14] PRODUCTION.ERROR: Header may not contain more than a single header, new line detected {"exception":"[object] (ErrorException(code: 0): Header may not contain more than a single header, new line detected at /home/morgaqb3/public_html/tmcinstitute/vendor/symfony/http-foundation/Response.php:342)
+[stacktrace]
+#0 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'Header may not ...', '/home/morgaqb3/...', 342)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'Header may not ...', '/home/morgaqb3/...', 342)
+#2 /home/morgaqb3/public_html/tmcinstitute/vendor/symfony/http-foundation/Response.php(342): header('Location: http:...', false, 302)
+#3 /home/morgaqb3/public_html/tmcinstitute/vendor/symfony/http-foundation/Response.php(376): Symfony\\Component\\HttpFoundation\\Response->sendHeaders()
+#4 /home/morgaqb3/public_html/tmcinstitute/public/index.php(54): Symfony\\Component\\HttpFoundation\\Response->send()
+#5 {main}
+"} 
+[2023-07-11 08:35:45] PRODUCTION.ERROR: Header may not contain more than a single header, new line detected {"exception":"[object] (ErrorException(code: 0): Header may not contain more than a single header, new line detected at /home/morgaqb3/public_html/tmcinstitute/vendor/symfony/http-foundation/Response.php:342)
+[stacktrace]
+#0 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'Header may not ...', '/home/morgaqb3/...', 342)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'Header may not ...', '/home/morgaqb3/...', 342)
+#2 /home/morgaqb3/public_html/tmcinstitute/vendor/symfony/http-foundation/Response.php(342): header('Location: http:...', false, 302)
+#3 /home/morgaqb3/public_html/tmcinstitute/vendor/symfony/http-foundation/Response.php(376): Symfony\\Component\\HttpFoundation\\Response->sendHeaders()
+#4 /home/morgaqb3/public_html/tmcinstitute/public/index.php(54): Symfony\\Component\\HttpFoundation\\Response->send()
+#5 {main}
+"} 
+[2023-07-16 17:09:42] PRODUCTION.ERROR: Header may not contain more than a single header, new line detected {"exception":"[object] (ErrorException(code: 0): Header may not contain more than a single header, new line detected at /home/morgaqb3/public_html/tmcinstitute/vendor/symfony/http-foundation/Response.php:342)
+[stacktrace]
+#0 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'Header may not ...', '/home/morgaqb3/...', 342)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'Header may not ...', '/home/morgaqb3/...', 342)
+#2 /home/morgaqb3/public_html/tmcinstitute/vendor/symfony/http-foundation/Response.php(342): header('Location: http:...', false, 302)
+#3 /home/morgaqb3/public_html/tmcinstitute/vendor/symfony/http-foundation/Response.php(376): Symfony\\Component\\HttpFoundation\\Response->sendHeaders()
+#4 /home/morgaqb3/public_html/tmcinstitute/public/index.php(54): Symfony\\Component\\HttpFoundation\\Response->send()
+#5 {main}
+"} 
+[2023-07-24 03:06:01] PRODUCTION.ERROR: Undefined property: stdClass::$currency {"exception":"[object] (ErrorException(code: 0): Undefined property: stdClass::$currency at /home/morgaqb3/public_html/tmcinstitute/app/Helper/Help.php:92)
+[stacktrace]
+#0 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'Undefined prope...', '/home/morgaqb3/...', 92)
+#1 /home/morgaqb3/public_html/tmcinstitute/app/Helper/Help.php(92): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'Undefined prope...', '/home/morgaqb3/...', 92)
+#2 /home/morgaqb3/public_html/tmcinstitute/app/Http/Controllers/viewsController.php(41): App\\Helper\\Help->moneyconvert()
+#3 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): App\\Http\\Controllers\\viewsController->newdashboardfun()
+#4 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(43): Illuminate\\Routing\\Controller->callAction('newdashboardfun', Array)
+#5 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Routing/Route.php(259): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\viewsController), 'newdashboardfun')
+#6 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Routing/Route.php(205): Illuminate\\Routing\\Route->runController()
+#7 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Routing/Router.php(798): Illuminate\\Routing\\Route->run()
+#8 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#9 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#10 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#11 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#12 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#13 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#14 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#15 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#16 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#17 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#18 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Routing/Router.php(797): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#24 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Routing/Router.php(776): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#25 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Routing/Router.php(740): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#26 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Routing/Router.php(729): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#27 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(190): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#28 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#29 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#32 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#33 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#34 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#35 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#36 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#37 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#38 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#39 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#40 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#42 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#44 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#45 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#46 /home/morgaqb3/public_html/tmcinstitute/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#47 {main}
+"} 
+[2023-07-26 00:08:04] PRODUCTION.ERROR: Header may not contain more than a single header, new line detected {"exception":"[object] (ErrorException(code: 0): Header may not contain more than a single header, new line detected at /home/morgaqb3/public_html/tmcinstitute/vendor/symfony/http-foundation/Response.php:342)
+[stacktrace]
+#0 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'Header may not ...', '/home/morgaqb3/...', 342)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'Header may not ...', '/home/morgaqb3/...', 342)
+#2 /home/morgaqb3/public_html/tmcinstitute/vendor/symfony/http-foundation/Response.php(342): header('Location: http:...', false, 302)
+#3 /home/morgaqb3/public_html/tmcinstitute/vendor/symfony/http-foundation/Response.php(376): Symfony\\Component\\HttpFoundation\\Response->sendHeaders()
+#4 /home/morgaqb3/public_html/tmcinstitute/public/index.php(54): Symfony\\Component\\HttpFoundation\\Response->send()
+#5 {main}
+"} 
+[2023-07-27 06:09:38] PRODUCTION.ERROR: Header may not contain more than a single header, new line detected {"exception":"[object] (ErrorException(code: 0): Header may not contain more than a single header, new line detected at /home/morgaqb3/public_html/tmcinstitute/vendor/symfony/http-foundation/Response.php:342)
+[stacktrace]
+#0 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'Header may not ...', '/home/morgaqb3/...', 342)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'Header may not ...', '/home/morgaqb3/...', 342)
+#2 /home/morgaqb3/public_html/tmcinstitute/vendor/symfony/http-foundation/Response.php(342): header('Location: http:...', false, 302)
+#3 /home/morgaqb3/public_html/tmcinstitute/vendor/symfony/http-foundation/Response.php(376): Symfony\\Component\\HttpFoundation\\Response->sendHeaders()
+#4 /home/morgaqb3/public_html/tmcinstitute/public/index.php(54): Symfony\\Component\\HttpFoundation\\Response->send()
+#5 {main}
+"} 
+[2023-07-28 12:25:56] PRODUCTION.ERROR: Header may not contain more than a single header, new line detected {"exception":"[object] (ErrorException(code: 0): Header may not contain more than a single header, new line detected at /home/morgaqb3/public_html/tmcinstitute/vendor/symfony/http-foundation/Response.php:342)
+[stacktrace]
+#0 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'Header may not ...', '/home/morgaqb3/...', 342)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'Header may not ...', '/home/morgaqb3/...', 342)
+#2 /home/morgaqb3/public_html/tmcinstitute/vendor/symfony/http-foundation/Response.php(342): header('Location: http:...', false, 302)
+#3 /home/morgaqb3/public_html/tmcinstitute/vendor/symfony/http-foundation/Response.php(376): Symfony\\Component\\HttpFoundation\\Response->sendHeaders()
+#4 /home/morgaqb3/public_html/tmcinstitute/public/index.php(54): Symfony\\Component\\HttpFoundation\\Response->send()
+#5 {main}
+"} 
+[2023-08-01 15:08:26] PRODUCTION.ERROR: Header may not contain more than a single header, new line detected {"exception":"[object] (ErrorException(code: 0): Header may not contain more than a single header, new line detected at /home/morgaqb3/public_html/tmcinstitute/vendor/symfony/http-foundation/Response.php:342)
+[stacktrace]
+#0 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'Header may not ...', '/home/morgaqb3/...', 342)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'Header may not ...', '/home/morgaqb3/...', 342)
+#2 /home/morgaqb3/public_html/tmcinstitute/vendor/symfony/http-foundation/Response.php(342): header('Location: http:...', false, 302)
+#3 /home/morgaqb3/public_html/tmcinstitute/vendor/symfony/http-foundation/Response.php(376): Symfony\\Component\\HttpFoundation\\Response->sendHeaders()
+#4 /home/morgaqb3/public_html/tmcinstitute/public/index.php(54): Symfony\\Component\\HttpFoundation\\Response->send()
+#5 {main}
+"} 
+[2023-08-09 15:00:13] PRODUCTION.ERROR: Header may not contain more than a single header, new line detected {"exception":"[object] (ErrorException(code: 0): Header may not contain more than a single header, new line detected at /home/morgaqb3/public_html/tmcinstitute/vendor/symfony/http-foundation/Response.php:342)
+[stacktrace]
+#0 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'Header may not ...', '/home/morgaqb3/...', 342)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'Header may not ...', '/home/morgaqb3/...', 342)
+#2 /home/morgaqb3/public_html/tmcinstitute/vendor/symfony/http-foundation/Response.php(342): header('Location: http:...', false, 302)
+#3 /home/morgaqb3/public_html/tmcinstitute/vendor/symfony/http-foundation/Response.php(376): Symfony\\Component\\HttpFoundation\\Response->sendHeaders()
+#4 /home/morgaqb3/public_html/tmcinstitute/public/index.php(54): Symfony\\Component\\HttpFoundation\\Response->send()
+#5 {main}
+"} 
+[2023-08-21 04:39:56] PRODUCTION.ERROR: Header may not contain more than a single header, new line detected {"exception":"[object] (ErrorException(code: 0): Header may not contain more than a single header, new line detected at /home/morgaqb3/public_html/tmcinstitute/vendor/symfony/http-foundation/Response.php:342)
+[stacktrace]
+#0 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'Header may not ...', '/home/morgaqb3/...', 342)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'Header may not ...', '/home/morgaqb3/...', 342)
+#2 /home/morgaqb3/public_html/tmcinstitute/vendor/symfony/http-foundation/Response.php(342): header('Location: http:...', false, 302)
+#3 /home/morgaqb3/public_html/tmcinstitute/vendor/symfony/http-foundation/Response.php(376): Symfony\\Component\\HttpFoundation\\Response->sendHeaders()
+#4 /home/morgaqb3/public_html/tmcinstitute/public/index.php(54): Symfony\\Component\\HttpFoundation\\Response->send()
+#5 {main}
+"} 
+[2023-09-06 18:10:33] PRODUCTION.ERROR: Header may not contain more than a single header, new line detected {"exception":"[object] (ErrorException(code: 0): Header may not contain more than a single header, new line detected at /home/morgaqb3/public_html/tmcinstitute/vendor/symfony/http-foundation/Response.php:342)
+[stacktrace]
+#0 /home/morgaqb3/public_html/tmcinstitute/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'Header may not ...', '/home/morgaqb3/...', 342)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'Header may not ...', '/home/morgaqb3/...', 342)
+#2 /home/morgaqb3/public_html/tmcinstitute/vendor/symfony/http-foundation/Response.php(342): header('Location: http:...', false, 302)
+#3 /home/morgaqb3/public_html/tmcinstitute/vendor/symfony/http-foundation/Response.php(376): Symfony\\Component\\HttpFoundation\\Response->sendHeaders()
+#4 /home/morgaqb3/public_html/tmcinstitute/public/index.php(54): Symfony\\Component\\HttpFoundation\\Response->send()
+#5 {main}
+"} 

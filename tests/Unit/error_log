@@ -1,0 +1,856 @@
+[26-May-2023 04:23:16 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[27-May-2023 10:58:20 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[28-May-2023 11:03:18 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[29-May-2023 11:11:26 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[30-May-2023 10:47:34 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[31-May-2023 11:03:01 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[01-Jun-2023 01:44:18 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[01-Jun-2023 11:06:30 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[02-Jun-2023 11:20:52 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[02-Jun-2023 22:33:43 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[03-Jun-2023 11:23:40 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[04-Jun-2023 11:37:59 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[05-Jun-2023 11:50:19 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[06-Jun-2023 12:35:45 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[06-Jun-2023 12:35:47 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[07-Jun-2023 12:36:56 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[07-Jun-2023 12:36:58 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[08-Jun-2023 11:53:40 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[08-Jun-2023 11:53:42 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[09-Jun-2023 12:59:16 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[09-Jun-2023 12:59:17 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[10-Jun-2023 09:12:16 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[10-Jun-2023 09:12:20 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[10-Jun-2023 13:32:14 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[10-Jun-2023 13:32:16 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[11-Jun-2023 13:18:55 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[11-Jun-2023 13:18:57 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[12-Jun-2023 13:14:18 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[12-Jun-2023 13:14:20 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[13-Jun-2023 12:52:41 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[13-Jun-2023 12:52:43 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[14-Jun-2023 12:26:57 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[14-Jun-2023 12:26:58 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[15-Jun-2023 12:26:39 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[15-Jun-2023 12:26:41 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[16-Jun-2023 13:02:17 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[16-Jun-2023 13:02:18 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[17-Jun-2023 12:52:21 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[17-Jun-2023 12:52:23 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[17-Jun-2023 17:14:06 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[17-Jun-2023 17:14:08 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[18-Jun-2023 13:06:53 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[18-Jun-2023 13:06:54 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[19-Jun-2023 13:01:32 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[19-Jun-2023 13:01:34 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[20-Jun-2023 13:17:52 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[20-Jun-2023 13:17:53 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[21-Jun-2023 12:28:34 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[21-Jun-2023 12:28:35 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[22-Jun-2023 12:27:26 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[22-Jun-2023 12:27:29 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[23-Jun-2023 13:18:50 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[23-Jun-2023 13:18:51 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[24-Jun-2023 13:15:44 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[24-Jun-2023 13:15:45 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[24-Jun-2023 18:10:29 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[24-Jun-2023 18:10:30 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[25-Jun-2023 13:22:22 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[25-Jun-2023 13:22:25 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[26-Jun-2023 13:05:56 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[26-Jun-2023 13:05:59 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[27-Jun-2023 12:57:17 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[27-Jun-2023 12:57:19 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[28-Jun-2023 13:38:21 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[28-Jun-2023 13:38:22 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[29-Jun-2023 12:48:14 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[29-Jun-2023 12:48:15 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[30-Jun-2023 13:29:53 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[30-Jun-2023 13:29:55 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[01-Jul-2023 12:32:08 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[01-Jul-2023 12:32:10 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[02-Jul-2023 12:51:29 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[02-Jul-2023 12:51:30 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[02-Jul-2023 13:11:58 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[02-Jul-2023 13:12:00 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[03-Jul-2023 12:38:23 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[03-Jul-2023 12:38:24 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[04-Jul-2023 13:39:06 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[04-Jul-2023 13:39:07 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[05-Jul-2023 13:01:09 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[05-Jul-2023 13:01:12 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[06-Jul-2023 13:37:47 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[06-Jul-2023 13:37:49 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[07-Jul-2023 13:07:02 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[07-Jul-2023 13:07:03 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[08-Jul-2023 12:52:52 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[08-Jul-2023 12:52:53 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[09-Jul-2023 13:16:57 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[09-Jul-2023 13:16:58 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[10-Jul-2023 12:55:42 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[10-Jul-2023 12:55:44 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[10-Jul-2023 13:12:36 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[10-Jul-2023 13:12:37 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[11-Jul-2023 13:06:09 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[11-Jul-2023 13:06:11 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[12-Jul-2023 12:21:17 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[12-Jul-2023 12:21:19 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[13-Jul-2023 11:57:47 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[14-Jul-2023 11:55:35 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[15-Jul-2023 12:19:14 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[16-Jul-2023 11:55:32 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[17-Jul-2023 11:55:57 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[18-Jul-2023 12:53:10 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[18-Jul-2023 12:53:12 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[18-Jul-2023 13:11:47 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[18-Jul-2023 13:11:49 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[19-Jul-2023 11:54:13 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[19-Jul-2023 11:54:14 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[20-Jul-2023 12:55:34 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[20-Jul-2023 12:55:36 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[21-Jul-2023 13:06:42 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[21-Jul-2023 13:06:43 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[22-Jul-2023 13:12:25 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[22-Jul-2023 13:12:26 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[23-Jul-2023 13:20:34 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[23-Jul-2023 13:20:36 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[24-Jul-2023 13:17:47 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[24-Jul-2023 13:17:48 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[25-Jul-2023 13:03:27 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[25-Jul-2023 13:03:29 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[26-Jul-2023 13:35:34 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[26-Jul-2023 13:35:39 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[26-Jul-2023 17:13:41 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[26-Jul-2023 17:13:44 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[27-Jul-2023 13:31:29 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[27-Jul-2023 13:31:30 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[28-Jul-2023 12:54:40 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[28-Jul-2023 12:54:41 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[29-Jul-2023 12:21:09 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[29-Jul-2023 12:21:11 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[30-Jul-2023 12:22:36 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[30-Jul-2023 12:22:37 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[31-Jul-2023 20:06:52 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[31-Jul-2023 20:06:54 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[01-Aug-2023 18:45:04 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[01-Aug-2023 18:45:06 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[02-Aug-2023 16:39:52 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[02-Aug-2023 16:39:55 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[03-Aug-2023 11:53:44 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[03-Aug-2023 11:53:47 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[03-Aug-2023 17:57:33 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[03-Aug-2023 17:57:35 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[04-Aug-2023 10:10:49 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[04-Aug-2023 10:10:51 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[05-Aug-2023 10:10:09 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[05-Aug-2023 10:10:11 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[06-Aug-2023 09:40:30 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[06-Aug-2023 09:40:32 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[07-Aug-2023 09:45:45 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[07-Aug-2023 09:45:46 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[08-Aug-2023 10:10:56 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[08-Aug-2023 10:10:58 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[09-Aug-2023 10:06:06 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[09-Aug-2023 10:06:09 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[10-Aug-2023 10:34:23 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[10-Aug-2023 10:34:24 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[11-Aug-2023 10:02:19 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[11-Aug-2023 10:02:20 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[11-Aug-2023 13:11:10 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[11-Aug-2023 13:11:12 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[12-Aug-2023 10:01:47 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[12-Aug-2023 10:01:51 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[13-Aug-2023 11:14:52 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[13-Aug-2023 11:14:53 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[14-Aug-2023 09:56:51 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[14-Aug-2023 09:56:53 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[15-Aug-2023 10:10:21 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[15-Aug-2023 10:10:22 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[16-Aug-2023 10:03:01 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[16-Aug-2023 10:03:03 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[17-Aug-2023 11:52:57 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[17-Aug-2023 11:52:58 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[18-Aug-2023 09:58:20 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[18-Aug-2023 09:58:22 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[19-Aug-2023 10:40:21 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[19-Aug-2023 10:40:23 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[19-Aug-2023 13:10:56 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[19-Aug-2023 13:10:57 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[20-Aug-2023 10:16:19 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[20-Aug-2023 10:16:21 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[21-Aug-2023 10:34:54 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[21-Aug-2023 10:34:55 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[22-Aug-2023 09:49:05 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[22-Aug-2023 09:49:06 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[23-Aug-2023 10:34:09 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[23-Aug-2023 10:34:10 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[24-Aug-2023 18:33:55 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[24-Aug-2023 18:33:57 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[25-Aug-2023 12:33:40 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[25-Aug-2023 12:33:43 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[26-Aug-2023 09:35:47 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[26-Aug-2023 09:35:49 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[27-Aug-2023 11:07:46 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[27-Aug-2023 11:07:48 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[28-Aug-2023 11:12:23 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[28-Aug-2023 11:12:25 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[30-Aug-2023 11:51:51 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[30-Aug-2023 11:51:52 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[31-Aug-2023 11:16:42 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[31-Aug-2023 11:16:43 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[01-Sep-2023 10:41:27 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[01-Sep-2023 10:41:29 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[02-Sep-2023 11:30:25 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[02-Sep-2023 11:30:26 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[03-Sep-2023 11:26:18 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[03-Sep-2023 11:26:20 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[04-Sep-2023 12:10:33 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[04-Sep-2023 12:10:34 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[05-Sep-2023 11:13:32 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[05-Sep-2023 11:13:33 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[05-Sep-2023 13:12:15 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[05-Sep-2023 13:12:16 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[06-Sep-2023 11:09:16 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
+[06-Sep-2023 11:09:17 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/tests/Unit/ExampleTest.php on line 7
