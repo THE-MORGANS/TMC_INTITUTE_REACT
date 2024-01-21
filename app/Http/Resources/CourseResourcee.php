@@ -20,8 +20,13 @@ class CourseResourcee extends JsonResource
             'certification'=>$this->certification,
              'whothiscoursefor'=>$this->whothiscoursefor,
             'learning'=>$this->learning,
+<<<<<<< HEAD
             'price'=>$this->price,
             // "price"=>$this->currency_name == 'naira'?$this->price: (new Help)->constant()->result->NGN * $this->price,
+=======
+            //  'price'=>$this->price,
+             "price"=>$this->currency_name == 'naira'?$this->price: (new Help)->constant()->result->NGN * $this->price,
+>>>>>>> 05c22c9b8edf9775407bfc6ae0eeb5fb662143f4
              "converted"=>$this->currency_name == 'naira'?false :true,
             'instructor'=>$this->instructor,
             'rating'=>$this->rating,

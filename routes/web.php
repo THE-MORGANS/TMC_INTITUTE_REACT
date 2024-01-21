@@ -54,6 +54,10 @@ Route::get("/companylogin", [FrontendController::class, "companylogin"]);
 Route::post("/companyloginusers", [AuthController::class,"companyloginusers"]);
 Route::post("/setcook", [MainConroller::class, 'setcook']);
 Route::get('/courses/{code}/{email}', [ViewController::class, 'giftedfun']);
+<<<<<<< HEAD
+=======
+Route::get('/privacy', [FrontendController::class, 'privacy']);
+>>>>>>> 05c22c9b8edf9775407bfc6ae0eeb5fb662143f4
 Route::post('/insertothm', [MainConroller::class, 'insertothm']);
 Route::get('/insertothmcourse', [Frontends::class, 'insertothm']);
 Route::webhooks('webhook-receiving-url');
@@ -66,26 +70,35 @@ Route::patch('approvestatus', [MainConroller::class, 'approvestatus']);
 Route::get("/adminlogin", [Frontends::class, 'adminlog'])->middleware('admin');
 Route::post('/loginadmin', [AuthController::class, 'loginadmin']);
 Route::get("/listcourses", [viewsController::class, 'listcoursesfun']);
+<<<<<<< HEAD
 Route::get("/coursesdetails", [Frontends::class, 'coursesdetails']);
+=======
+>>>>>>> 05c22c9b8edf9775407bfc6ae0eeb5fb662143f4
 Route::post('/alphabet', [MainConroller::class, 'alphabet']);
 Route::post("/arrangment", [MainConroller::class, 'arrangment']);
 Route::post("/coursesdata", [MainConroller::class, "coursesdata"]);
 Route::post('/categories', [MainConroller::class, 'categories']);
 Route::post('/searchcourse', [MainConroller::class, 'searchcourse']);
 Route::get('/othmcourses', [Frontends::class, 'othmcourses']);
+<<<<<<< HEAD
 Route::get('/contactus', [Frontends::class, 'contact']); 
+=======
+>>>>>>> 05c22c9b8edf9775407bfc6ae0eeb5fb662143f4
 Route::post('/alphabetothm',[MainConroller::class, 'alphabetothm']);
 Route::post('/categoriesothm', [MainConroller::class, 'categoriesothm']);
 Route::post('/arrangmentothm', [MainConroller::class, 'arrangmentothm']);
 Route::post('/searchcourseothm', [MainConroller::class, 'searchcourseothm']);
 Route::post('/othmcheck', [MainConroller::class, 'othmcheck']);
 Route::get("/courseinfo/{word}/{id}", [viewsController::class, 'courseinfofun']);
+<<<<<<< HEAD
 Route::get("/cart", [Frontends::class, 'cart']);
 Route::get("/checkout", [Frontends::class, 'checkout']);
 Route::get("/order", [Frontends::class, 'order']);
 Route::get('/privacy', [Frontends::class, 'privacy']);
 
 
+=======
+>>>>>>> 05c22c9b8edf9775407bfc6ae0eeb5fb662143f4
 
 
 Route::get('/allcurrency', [Frontends::class, 'allcurrency']);

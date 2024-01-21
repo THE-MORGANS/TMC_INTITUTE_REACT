@@ -22,10 +22,16 @@ class FrontendController extends Controller
 
     }
     public function reactview(Request $request){
+<<<<<<< HEAD
         $cookies =  true;
         $data = 'stephen';
         $toptitle = 'TMC Institute-Home';
         return view('index', ['data'=>$data, 'cookies'=>$cookies, 'toptitle'=>$toptitle, ]);
+=======
+      $cookies =  true;
+        $data = 'stephen';
+        return view('index', ['data'=>$data, 'cookies'=>$cookies]);
+>>>>>>> 05c22c9b8edf9775407bfc6ae0eeb5fb662143f4
     }
 
     public function signup(){
@@ -73,6 +79,7 @@ class FrontendController extends Controller
         return view('coursedetails',['nibble'=>$data, 'coursepurshase'=>$coursepurshase, 'money'=>$money]);
     }
 
+<<<<<<< HEAD
     public function cart($cart, $money){
         return view('cart', ['cart'=>$cart, 'money'=>$money]);
     }
@@ -80,6 +87,11 @@ class FrontendController extends Controller
     
 
    
+=======
+    public static function cart($cart, $money){
+        return view('cart', ['cart'=>$cart, 'money'=>$money]);
+    }
+>>>>>>> 05c22c9b8edf9775407bfc6ae0eeb5fb662143f4
     public function Main(){
         return view('mainpage');
     }

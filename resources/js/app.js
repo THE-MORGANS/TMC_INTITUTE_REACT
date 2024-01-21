@@ -13,7 +13,11 @@ require('./bootstrap');
  */
 
 // require('./components/Landing');
+<<<<<<< HEAD
 require('./components/new/Navbar');
+=======
+// require('./components/Navbar');
+>>>>>>> 05c22c9b8edf9775407bfc6ae0eeb5fb662143f4
 require('./components/Signup');
 require('./components/Login');
 // require('./components/Home');
@@ -36,17 +40,23 @@ require('./components/Gifted');
 // require('./components/Mycourse');
 // require('./components/Aboutcourse');
 // require('./components/Pdftest');
+<<<<<<< HEAD
 require('./components/new/Privacy');
 require('./components/new/Dasboard');
 require('./components/new/Home');
 require('./components/new/Footer');
 require('./components/new/About');
 
+=======
+require('./components/Privacy');
+require('./components/new/Dasboard');
+>>>>>>> 05c22c9b8edf9775407bfc6ae0eeb5fb662143f4
 require('./components/new/Course-info');
 require('./components/new/Coursewatch');
 require('./components/new/Shopping');
 require('./components/new/Conditions');
 require('./components/new/ListCouses');
+<<<<<<< HEAD
 require('./components/new/Coursedetails');
 require('./components/new/Usercourse');
 require('./components/new/Study');   
@@ -56,6 +66,10 @@ require('./components/new/Checkout');
 require('./components/new/Order');
 require('./components/new/Terms');
 
+=======
+require('./components/new/Usercourse');
+require('./components/new/Study');
+>>>>>>> 05c22c9b8edf9775407bfc6ae0eeb5fb662143f4
 // require('./components/new/Othm');
 require('./components/new/Coureselistothm');
 require('./components/new/Quiz');
