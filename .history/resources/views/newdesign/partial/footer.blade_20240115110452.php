@@ -1,4 +1,0 @@
-<div id="footers">
-
-
-</div>
