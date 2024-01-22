@@ -71,8 +71,8 @@
    <script src="<?php echo e(asset('js/plugins/bootstrap.bundle.min.js')); ?>"></script>
    <script src="<?php echo e(asset('js/plugins/bootstrap-slider.min.js')); ?>"></script>
    <script src="<?php echo e(asset('js/plugins/jquery.fancybox.js')); ?>"></script>
-   <script src="<?php echo e(asset('js/plugins/jquery.waypoints.min.js')); ?>"></script> 
-   <script src="<?php echo e(asset('js/plugins/sticky.min.js')); ?>"></script>
+   
+   
    <script src="<?php echo e(asset('js/plugins/swiper.min.js')); ?>"></script>
    <script src="<?php echo e(asset('js/plugins/countdown.js')); ?>"></script>
  

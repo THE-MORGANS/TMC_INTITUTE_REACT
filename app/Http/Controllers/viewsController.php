@@ -23,24 +23,18 @@ class viewsController extends Controller
 {
 
     public function newdashboardfun(){
-<<<<<<< HEAD
         
-=======
->>>>>>> 05c22c9b8edf9775407bfc6ae0eeb5fb662143f4
         $user = $this->getuser();
         $cart = $user? $this->cartadded->where(['user_id'=> $user->id])->first():'';
         $additionalpic =  Auth::check() && Additional::where(['user_id'=>auth()->user()->id])->first() != null?Additional::where(['user_id'=>auth()->user()->id])->first()->image:'https://res.cloudinary.com/the-morgans-consortium/image/upload/v1658329437/Tmc%20institute/blank-profile-picture-gae268b379_1280_gtgqxr.png';
         $allcourse = CourseInfo::all();
        $allcollection = $user?CourseResource::collection($allcourse):CourseResourcee::collection($allcourse);
-<<<<<<< HEAD
         $featured =  CourseInfo::get()->take(2);
         $featuredcollect = $user?CourseResource::collection($featured):CourseResourcee::collection($featured);
         //   CourseResourcee
-=======
       $featured =  CourseInfo::get()->take(2);
       $featuredcollect = $user?CourseResource::collection($featured):CourseResourcee::collection($featured);
     //   CourseResourcee
->>>>>>> 05c22c9b8edf9775407bfc6ae0eeb5fb662143f4
        $popular =  CourseInfo::where(['price'=>150000.00, 'price'=>180000.00])->orderBy('id', 'desc')->get()->random(5);
        $popularcollect =  $user?CourseResource::collection($popular):CourseResourcee::collection($popular);
        $recent = CourseInfo::latest()->take(5)->get();
@@ -49,12 +43,9 @@ class viewsController extends Controller
       $help = new Help();
       $currencysymbol =(new Help())->getplace();
       $currencyex = (new Help)->moneyconvert();
-<<<<<<< HEAD
       //return view('welcome');
       return $show->newdashboard($featuredcollect, $popularcollect,  $recentcollect,  $cart, $allcollection, $currencysymbol, $currencyex,  $additionalpic);
-=======
      return $show->newdashboard($featuredcollect, $popularcollect,  $recentcollect,  $cart, $allcollection, $currencysymbol, $currencyex,  $additionalpic);
->>>>>>> 05c22c9b8edf9775407bfc6ae0eeb5fb662143f4
 
     }
 
@@ -81,11 +72,8 @@ class viewsController extends Controller
        return    (new Frontends)->listcourses($uni, $pagdata, $currencysymbol, $currencyex,  $additionalpic);
     }
 
-<<<<<<< HEAD
     
 
-=======
->>>>>>> 05c22c9b8edf9775407bfc6ae0eeb5fb662143f4
     public function courseinfofun($word, $id, Additional $add){
         $user = $this->getuser();
         // if($user){

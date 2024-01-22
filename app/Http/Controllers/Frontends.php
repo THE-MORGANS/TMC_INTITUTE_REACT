@@ -40,21 +40,12 @@ class Frontends extends Controller
         // $decrypted = CryptoJsAes::decrypt($encrypted, $password);
         // dd($decrypted);
 
-<<<<<<< HEAD
         $poundton =  $this->poundtonaira();
         $othermoney =    $this->frompoundtoother();
         $toptitle = 'TMC Institute-Home';
         
        // return view('newdesign.dashboard',['featured'=>$featured, 'popular'=>$popular, 'recent'=>$recent, 'cart'=>$cart, 'allcourse'=>$allcourse, 'currencysymbol'=>$currencysymbol, 'currencyex'=>$currencyex, 'poundton'=>$poundton, 'othermoney'=>$othermoney, 'toptitle'=>$toptitle, 'additionalpic'=>$additionalpic]);
         return view('newdesign.index',['featured'=>$featured, 'popular'=>$popular, 'recent'=>$recent, 'cart'=>$cart, 'allcourse'=>$allcourse, 'currencysymbol'=>$currencysymbol, 'currencyex'=>$currencyex, 'poundton'=>$poundton, 'othermoney'=>$othermoney, 'toptitle'=>$toptitle, 'additionalpic'=>$additionalpic]);
-=======
-
-
-        $poundton =  $this->poundtonaira();
-        $othermoney =    $this->frompoundtoother();
-        $toptitle = 'TMC Institute-Home';
-        return view('newdesign.dashboard',['featured'=>$featured, 'popular'=>$popular, 'recent'=>$recent, 'cart'=>$cart, 'allcourse'=>$allcourse, 'currencysymbol'=>$currencysymbol, 'currencyex'=>$currencyex, 'poundton'=>$poundton, 'othermoney'=>$othermoney, 'toptitle'=>$toptitle, 'additionalpic'=>$additionalpic]);
->>>>>>> 05c22c9b8edf9775407bfc6ae0eeb5fb662143f4
 
       }
 
@@ -109,7 +100,6 @@ class Frontends extends Controller
         return view('newdesign.listcouses',['unihead'=>$uni, 'coursesdata'=>$pagdata, 'currencysymbol'=>$currencysymbol, 'currencyex'=>$currencyex, 'poundton'=>$poundton, 'othermoney'=>$othermoney, 'toptitle'=>$toptitle, 'additionalpic'=>$additionalpic]);
       }
 
-<<<<<<< HEAD
       public function coursesdetails(){
         $toptitle = 'TMC Institute-TMC Courses';
 
@@ -137,8 +127,6 @@ class Frontends extends Controller
         return view('newdesign.privacy', ['toptitle'=>$toptitle]);
     }
 
-=======
->>>>>>> 05c22c9b8edf9775407bfc6ae0eeb5fb662143f4
       public function usercourses($pagdata, $currencysymbol, $currencyex, $additionalpic){
         $poundton =  $this->poundtonaira();
         $othermoney =    $this->frompoundtoother();
@@ -159,7 +147,6 @@ class Frontends extends Controller
         return view('newdesign.insertothm');
      }
 
-<<<<<<< HEAD
     //  public function othmcourses(  othm $othm){
     //     // $user = $this->getuser();
     //     // if($user){
@@ -185,38 +172,10 @@ class Frontends extends Controller
     //        'cart'=>$cart, 'poundton'=>$poundton, 'othermoney'=>$othermoney, 'toptitle'=>$toptitle,
     //         'additionalpic'=>$additionalpic
     //     ]);
-=======
-     public function othmcourses(  othm $othm){
-        // $user = $this->getuser();
-        // if($user){
-            $cart = Auth::check()?UserCart::where(['user_id'=>auth()->user()->id])->first():[];
-            $unique = $othm->get(['MainHead']);
-            $convet = $unique->toArray();
-            $unique_data = [];
-            foreach ($convet as $value) {
-                array_push($unique_data,  $value['MainHead']);
-          }
-            $uni = array_unique($unique_data);
-            $info = $othm->orderBy('id', 'asc')->get();
-            $data =  courseothm::collection($info)->resolve();
-            $page= 1;
-            $pagdata =  $this->paginate($data, 6, $page);
-             $currencysymbol =  (new Help)->getplace();
-            $currencyex =  (new Help)->moneyconvert();
-            $poundton =  $this->poundtonaira();
-           $additionalpic =  Auth::check() && Additional::where(['user_id'=>auth()->user()->id])->first() != null?Additional::where(['user_id'=>auth()->user()->id])->first()->image:'https://res.cloudinary.com/the-morgans-consortium/image/upload/v1658329437/Tmc%20institute/blank-profile-picture-gae268b379_1280_gtgqxr.png';            $othermoney =    $this->frompoundtoother();
-            $toptitle = 'TMC Institute-OTHM';
-            return view('newdesign.courselistothm', ['unihead'=>$uni, 'coursesdata'=>$pagdata,
-          'currencyex'=>$currencyex, 'currencysymbol'=>$currencysymbol,
-           'cart'=>$cart, 'poundton'=>$poundton, 'othermoney'=>$othermoney, 'toptitle'=>$toptitle,
-            'additionalpic'=>$additionalpic
-        ]);
->>>>>>> 05c22c9b8edf9775407bfc6ae0eeb5fb662143f4
         // }else{
         //     return redirect('/');
         // }
 
-<<<<<<< HEAD
     // }
     public function othmcourses(  othm $othm){
       $toptitle = 'TMC Institute-OTHM';
@@ -227,9 +186,6 @@ class Frontends extends Controller
       $toptitle = 'TMC Institute-Contact';
       return view('newdesign.contact', ['toptitle'=>$toptitle]);
     }
-=======
-     }
->>>>>>> 05c22c9b8edf9775407bfc6ae0eeb5fb662143f4
 
      public function quiz($course_type, $id, $num, CourseInfo $courseInfo,  questionremainer $questionremainer){
             if ($course_type == 'TMC') {

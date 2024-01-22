@@ -21,13 +21,8 @@ class CourseInfomation extends JsonResource
          //   'dhhjd'=>result,
             "id"=>$this->id,
             "coursename"=>$this->coursename,
-<<<<<<< HEAD
              'price'=>$this->price,
             //"price"=>$this->currency_name == 'naira'?$this->price :( new Help )->constant()->result->NGN * $this->price,
-=======
-            // 'price'=>$this->price,
-            "price"=>$this->currency_name == 'naira'?$this->price :( new Help )->constant()->result->NGN * $this->price,
->>>>>>> 05c22c9b8edf9775407bfc6ae0eeb5fb662143f4
             "converted"=>$this->currency_name == 'naira'?false :true,
             "rating"=>$this->rating,
             "MainHead"=>$this->MainHead,
