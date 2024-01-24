@@ -104,7 +104,7 @@ export default function Home() {
                 <div className="slideshow-text container position-absolute start-50 top-50 translate-middle text-white text-center w-75" style={textStyle} >
                   
                   <h4 className="text-yellow-bg-rounded text-uppercase fs-base fw-medium animate animate_fade animate_btt animate_delay-3" style={{fontWeight: '500px', color:'#A32926', zindex: 2}}> Never Stop Learning</h4>
-                  <h2 style={{color:'#37226C', zindex: 2, fontWeight: 500}} className="h1 fw-normal mb-0 animate animate_fade animate_btt animate_delay-5">
+                  <h2 style={{color:'#A32926', fontWeight: '500'}} className="h1 fw-normal mb-0 animate animate_fade animate_btt animate_delay-5">
                     TMC INSTITUTE
                   </h2>
                     <p className="text-white fs-6 mb-4 pb-2 animate animate_fade animate_btt animate_delay-5 h3">
@@ -148,7 +148,7 @@ export default function Home() {
                 <div className="slideshow-text container position-absolute start-50 top-50 translate-middle text-white text-center w-75" style={textStyle} >
                   
                   <h4 className="text-yellow-bg-rounded text-uppercase fs-base fw-medium animate animate_fade animate_btt animate_delay-3" style={{fontWeight: '500px', color:'#A32926', zindex: 2}}> Never Stop Learning</h4>
-                  <h2 style={{color:'#37226C', zindex: 2, fontWeight: 500}} className="h1 fw-normal mb-0 animate animate_fade animate_btt animate_delay-5">
+                  <h2 style={{color:'#A32926', fontWeight: '500'}} className="h1 fw-normal mb-0 animate animate_fade animate_btt animate_delay-5">
                     TMC INSTITUTE
                   </h2>
                     <p className="text-white h3 fs-6 mb-4 pb-2 animate animate_fade animate_btt animate_delay-5">
@@ -190,7 +190,7 @@ export default function Home() {
                 <div className="slideshow-text container position-absolute start-50 top-50 translate-middle text-white text-center w-75" style={textStyle} >
                   
                   <h4 className="text-yellow-bg-rounded text-uppercase fs-base fw-medium animate animate_fade animate_btt animate_delay-3" style={{fontWeight: '500px', color:'#A32926', zindex: 2}}> Never Stop Learning</h4>
-                  <h2 style={{color:'#37226C', zindex: 2,  fontWeight: 500}} className="h1 fw-normal mb-0 animate animate_fade animate_btt animate_delay-5">
+                  <h2 style={{color:'#A32926', fontWeight: '500'}} className="h1 fw-normal mb-0 animate animate_fade animate_btt animate_delay-5">
                     TMC INSTITUTE
                   </h2>
                     <p className="h3 text-white fs-6 mb-4 pb-2 animate animate_fade animate_btt animate_delay-5">
@@ -232,7 +232,7 @@ export default function Home() {
                 <div className="slideshow-text container position-absolute start-50 top-50 translate-middle text-white text-center w-75" style={textStyle} >
                   
                   <h4 className="text-yellow-bg-rounded text-uppercase fs-base fw-medium animate animate_fade animate_btt animate_delay-3" style={{fontWeight: '500px', color:'#A32926', zindex: 2}}> Never Stop Learning</h4>
-                  <h2 style={{color:'#37226C', zindex: 2}} className="h1 fw-normal mb-0 animate animate_fade animate_btt animate_delay-5">
+                  <h2 style={{color:'#A32926', fontWeight: '500'}}  className="h1 fw-normal mb-0 animate animate_fade animate_btt animate_delay-5">
                     TMC INSTITUTE
                   </h2>
                     <p className="fs-6 mb-4 pb-2 animate animate_fade animate_btt animate_delay-5">
@@ -260,19 +260,22 @@ export default function Home() {
                       </button>
                     </form>
                 </div>
-
               </div>
             </div>
 
           </div>
-          <div className="slideshow-pagination position-left-center"></div>
+          {/* <div className="slideshow-pagination position-left-center"></div> */}
+          <div class="container">
+            <div class="slideshow-pagination d-flex align-items-center position-absolute bottom-0 left-50 mb-5"></div>
+          
+          </div>
           </section>
 
           <div className="mb-1 pb-4 mb-xl-5 pb-xl-5"></div>
 
           <section className="grid-banner container">
             <div className="row">
-              <h2 style={{color: '#37226C' }} className="section-title text-center fw-normal mb-1 mb-md-1 pb-xl-1 mb-xl-4">
+              <h2 style={{color:'#A32926', fontWeight: '500'}} className="section-title text-center fw-normal mb-1 mb-md-1 pb-xl-1 mb-xl-4">
                 High quality video, audio & popular classes
               </h2>
               <p   className="fs-6  text-center fw-small mb-1 mb-md-3 pb-xl-3 mb-xl-4  align-content-center m-3" >
