@@ -27,9 +27,9 @@ class LoginValidate extends FormRequest
             // regex:/^[a-zA-Z0-9 ]*$/
             // /^.*(?=.{3,})(?=.*[a-zA-Z])(?=.*[0-9])(?=.*[\d\X])(?=.*[!$#%]).*$/|
             'email'=>'required|email',
-            'password'=>['required', 'string', Password::min(8)->letters()->numbers()->symbols()],
+            'password'=>['required'],
             // 'password'=>'required|regex:/^.*(?=.{3,})(?=.*[a-zA-Z])(?=.*[0-9])(?=.*[\d\X])(?=.*[!$#%]).*$/|',
-            'captcha' => 'required|captcha',
+            // 'captcha' => 'required|captcha',
         ];
     }
 }

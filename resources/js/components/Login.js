@@ -108,17 +108,18 @@ import {AiOutlineEye, AiOutlineEyeInvisible} from 'react-icons/ai'
 
             <article className='w-3/4 flex flex-col items-center mt-4'>
                 <span className='w-full text-left capitalize text-lg'>email</span>
-                <input type="text" className="w-full border py-2 rounded-md p-3" onChange={(e)=>setemail(e.target.value)} value={email} autoComplete="off"/>
+                <input type="text" className="w-full border py-2 rounded-md p-3" onChange={(e)=>setemail(e.target.value)} value={email} />
             </article>
 
-            <article className='w-3/4 flex flex-col items-center mt-4'>
+            {/* <article className='w-3/4 flex flex-col items-center mt-4'>
                 <article className='w-full'>
                 <span className='w-1/3 text-left capitalize text-lg float-left' >
                 <img src={captchaimg} />
                  </span>
                 </article>
                  <input type="text" className="w-full border py-2 rounded-md p-3 mt-1" onChange={(e)=>Setcaptcha(e.target.value)} value={captcha} autoComplete="off" />
-             </article>
+             </article> */}
+
 
             <article className='w-3/4 flex flex-col items-center mt-4'>
                 <span className='w-full text-left capitalize text-lg' >pasword</span>

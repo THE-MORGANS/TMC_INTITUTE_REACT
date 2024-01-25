@@ -62,7 +62,7 @@ class AuthController extends Controller
             cookieSecret: '4f60eb5de6b5904ad4b8e31d9193e7ea4a3013b476ddb5c259ee9077c05e1457'
           );
 
-
+ 
           $sdk = new Auth0($configuration);
         //   dd($sdk->getCredentials());
 
@@ -258,8 +258,10 @@ class AuthController extends Controller
 
     public function loginusers(LoginValidate $request, User $user, Admin $admin){
              $userid =  $user->where(['email'=>$request->email])->first();
+            //  return response()->json( $userid);
             if($userid){
                 $addetail =  $admin->where(['user_id'=>$userid->id])->first();
+                // return response()->json($addetail);
                 if(Auth::attempt(['email'=>$request->email, 'password'=>$request->password, 'is_verfield'=>1]) && $addetail->has_organisation == false){
                     Session::put('userdetail', auth()->user());
                   return response()->json([
@@ -271,7 +273,7 @@ class AuthController extends Controller
                   return response()->json(['error'=>'please insert the correct password or email']);
                 }
             }else{
-                return response()->json(['error'=>'please insert the correct password or email']);
+                return response()->json(['error'=>'Email does not exist']);
 
             }
     }

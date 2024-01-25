@@ -160,15 +160,6 @@ import PasswordChecklist  from  'react-password-checklist';
              </article>
 
              <article className='w-3/4 flex flex-col items-center mt-4'>
-                <article className='w-full'>
-                <span className='w-1/3 text-left capitalize text-lg float-left' >
-                <img src={captimg} />
-                 </span>
-                </article>
-                 <input type="text" className="w-full border py-2 rounded-md p-3 mt-1" onChange={(e)=>Setcaptcha(e.target.value)} value={captcha} autoComplete="off" />
-             </article>
-
-             <article className='w-3/4 flex flex-col items-center mt-4'>
                  <span className='w-full text-left capitalize text-lg' >password</span>
                  <div className="w-full relative">
                 <input type={changepass == false?"password":"text"}    className="w-full border py-2 rounded-md p-3" onChange={(e)=>Setpasssword(e.target.value)} value={pasword} />
@@ -181,14 +172,14 @@ import PasswordChecklist  from  'react-password-checklist';
              </article>
 
 
-             <article className='w-3/4 flex flex-col items-center mt-4'>
-                 <span className='w-full text-left capitalize text-lg' >confirm pasword</span>
+              <article className='w-3/4 flex flex-col items-center mt-4'>
+                {/* <span className='w-full text-left capitalize text-lg' >confirm pasword</span>
                  <div className="w-full relative">
                  <input type={conpass == false?"password":"text"} className="w-full border py-2 rounded-md p-3" onChange={(e)=>Setpassword_confirmation(e.target.value)} value={password_confirmation} />
                  <span className="absolute   top-3 right-2">
                     {conpass == false?<AiOutlineEye className='w-6 h-6' onClick={()=>setConpass(true)}/>:
                     <AiOutlineEyeInvisible className='w-6 h-6' onClick={()=>setConpass(false)}/>}
-                 </span>
+                  </span>*/}
                   <span className='w-full '>
                     {pasword != "" || password_confirmation != ""?
                         <PasswordChecklist
@@ -200,12 +191,19 @@ import PasswordChecklist  from  'react-password-checklist';
                             setShowbtn(isValid)
                         }}
                             />
-                    :""}
+                    :""} 
 
                   </span>
                  </div>
+             </article> 
+  <article className='w-3/4 flex flex-col items-center mt-4'>
+                <article className='w-full'>
+                <span className='w-1/3 text-left capitalize text-lg float-left' >
+                <img src={captimg} />
+                 </span>
+                </article>
+                 <input type="text" className="w-full border py-2 rounded-md p-3 mt-1" onChange={(e)=>Setcaptcha(e.target.value)} value={captcha} autoComplete="off" />
              </article>
-
              <article className='w-3/4 flex flex-row items-center mt-1 space-x-1 '>
                  <span className='w-11/12 text-xs cursor-pointer text-right  text-blue-700 sm:w-11/12 sm:text-xs sm:cursor-pointer sm:text-right sm:text-blue-700 md:w-11/12 md:text-sm md:cursor-pointer md:text-right md:text-blue-700 lg:w-11/12 lg:text-sm lg:cursor-pointer lg:text-right lg:text-blue-700' onClick={handleForget}>
                     Forgotten Password
