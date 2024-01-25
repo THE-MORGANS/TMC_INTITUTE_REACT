@@ -275,7 +275,7 @@ const [overon, setoveron] = useState(1000)
         <option> Ecommerce </option>
         <option> Food cooking </option>
         <option> Teaching academy </option>
-    </select>
+    </select> //check
 </div> */}
 {/* 
 <div>
