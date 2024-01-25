@@ -173,8 +173,9 @@ import PasswordChecklist  from  'react-password-checklist';
 
 
               <article className='w-3/4 flex flex-col items-center mt-4'>
-                {/* <span className='w-full text-left capitalize text-lg' >confirm pasword</span>
+                <span className='w-full text-left capitalize text-lg' >confirm pasword</span>
                  <div className="w-full relative">
+                  {/*<div className="w-full relative">
                  <input type={conpass == false?"password":"text"} className="w-full border py-2 rounded-md p-3" onChange={(e)=>Setpassword_confirmation(e.target.value)} value={password_confirmation} />
                  <span className="absolute   top-3 right-2">
                     {conpass == false?<AiOutlineEye className='w-6 h-6' onClick={()=>setConpass(true)}/>:
