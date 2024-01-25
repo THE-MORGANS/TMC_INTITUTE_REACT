@@ -225,9 +225,10 @@ export default function Dasboard() {
                                     </div>:""}
 
                                     {/* <div className="text-lg font-semibold"><Naira>{item.price}</Naira></div> */}
-                                    {/* {moneyTalks(item.converted, item.price, item.currency_name)} */}
+                                    {/* {moneyTalks(item.converted, item.price, item.currency_name)} 
                                     <div className='text-lg font-semibold'>   <CurrencyFormat value={moneyTalks(item.converted, item.price, item.currency_name)} displayType={'text'} thousandSeparator={true} prefix={currencysymbol.currency.symbol} /></div>
-                                </div>
+                                */}
+                                    </div>
                             </div>
                         </div>
 
@@ -281,10 +282,10 @@ export default function Dasboard() {
                         <div className="pt-1 flex items-center justify-between">
                        {item.instructor == null?"":<div className="text-sm font-semibold"> {item.instructor == null?'':'By'+item.instructor}</div>}
                             {/* <div className="text-lg font-semibold"> <Naira>{item.price}</Naira> </div> */}
-                            <div className='text-lg font-semibold'>
+                            {/* <div className='text-lg font-semibold'>
 
                             <CurrencyFormat value={moneyTalks(item.converted, item.price, item.currency_name)} displayType={'text'} thousandSeparator={true} prefix={currencysymbol.currency.symbol} />
-                            </div>
+                            </div> */}
 
                         </div>
                     </div>
