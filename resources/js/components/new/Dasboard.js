@@ -154,7 +154,7 @@ export default function Dasboard() {
         <ul className="uk-slideshow-items rounded">
             <li>
                 <div className="uk-position-cover" uk-slideshow-parallax="scale: 1.2,1.2,1">
-                    <img src="https://res.cloudinary.com/the-morgans-consortium/image/upload/q_auto:low/v1667898233/Tmc%20institute/Group_37329_hhrub1.png" className=" w-full h-full object-contain" alt="" uk-cover />
+                    <img src="https://res.cloudinary.com/the-morgans-consortium/image/upload/v1706200924/slider4_u88ce8.jpg" className=" w-full h-full object-contain" alt="" uk-cover />
                 </div>
                 <div class="container relative p-20 lg:mt-12 h-full">
                   <div uk-slideshow-parallax="scale: 1,1,0.8" className="flex flex-col justify-center h-full w-full space-y-3">
@@ -166,7 +166,7 @@ export default function Dasboard() {
             </li>
             <li>
               <div className="uk-position-cover" uk-slideshow-parallax="scale: 1.2,1.2,1">
-                  <img src="https://res.cloudinary.com/the-morgans-consortium/image/upload/q_auto:low/v1667898233/Tmc%20institute/Group_37329_hhrub1.png" className=" w-full h-full object-contain" alt="" uk-cover />
+                  <img src="https://res.cloudinary.com/the-morgans-consortium/image/upload/v1706200989/slider1_keexkr.jpg" className=" w-full h-full object-contain" alt="" uk-cover />
               </div>
               <div className="container relative p-20 lg:mt-12 h-full ">
                   <div uk-slideshow-parallax="scale: 1,1,0.8" className="flex flex-col justify-center h-full w-full space-y-3">
