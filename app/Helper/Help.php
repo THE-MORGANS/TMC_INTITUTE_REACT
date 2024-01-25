@@ -6,7 +6,7 @@ use App\Models\userscourse;
 class Help{
 
 
-    public static function Helps($model, $row, $length = 4, $prefix){
+    public static function Helps($model, $row,  $prefix, $length = 4){
 
         $data =  $model::orderBy('id', 'desc')->first();
 
@@ -94,7 +94,7 @@ class Help{
         $amount = 1;
        $curl = curl_init();
        curl_setopt_array($curl, array(
-        CURLOPT_URL => "https://api.fastforex.io/fetch-one?from=$from&to=$to&api_key=6ffd04e627-f6e68f8a74-rgrr5z",
+        CURLOPT_URL => "https://api.fastforex.io/fetch-one?from=$from&to=$to&api_key=bb3bea1989-8ef461ff09-s7tg9b",
         CURLOPT_HTTPHEADER => array(
        "Accept: application/json"
         ),
@@ -131,7 +131,7 @@ class Help{
         $amount = 1;
        $curl = curl_init();
        curl_setopt_array($curl, array(
-        CURLOPT_URL => "https://api.fastforex.io/fetch-one?from=$from&to=$to&api_key=6ffd04e627-f6e68f8a74-rgrr5z",
+        CURLOPT_URL => "https://api.fastforex.io/fetch-one?from=$from&to=$to&api_key=bb3bea1989-8ef461ff09-s7tg9b",
         CURLOPT_HTTPHEADER => array(
        //    "Content-Type: text/plain",
        //    "apikey: j4L2ULOPUCFCzuU6iyBoBH7c949ZQoCd"

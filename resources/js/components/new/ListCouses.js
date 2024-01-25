@@ -256,8 +256,8 @@ const [overon, setoveron] = useState(1000)
       {/* <!-- Spacer --> */}
             <div className="page-spacer"></div>
                   {/* <!-- Spacer --> */}
-                  <div className="lg:flex lg:space-x-10">
-                  <div className="lg:w-3/12 space-y-4 lg:block hidden">
+                  <div className="lg:flex lg:space-x-1">
+                  <div className=" lg:block hidden">
 
 {/* <div>
     <h4 className="font-semibold text-base mb-2"> Categories </h4>
@@ -277,7 +277,7 @@ const [overon, setoveron] = useState(1000)
         <option> Teaching academy </option>
     </select>
 </div> */}
-
+{/* 
 <div>
     <div className="font-semibold text-base mb-2 text-left">Order By</div>
     <form className="space-y-1">
@@ -331,17 +331,17 @@ const [overon, setoveron] = useState(1000)
     </form>
 </div>
 
-<div>
+<div> 
 
 
 
 </div>
-
+*/}
 
 
 
 </div>
-<div className="w-full md:space-y-10 space-y-5">
+<div className="w-full ">
 <div>
 
 {/* <!-- title --> */}
@@ -434,9 +434,10 @@ const [overon, setoveron] = useState(1000)
 
             <div className="pt-1 flex items-center justify-between">
                 {/* <div className="text-sm font-semibold"> Jesse Stevens  </div> */}
-                {/* <div className="text-lg font-semibold"><Naira>{item.price}</Naira></div> */}
+                {/* <div className="text-lg font-semibold"><Naira>{item.price}</Naira></div> 
                   <div className='text-lg font-semibold'> <CurrencyFormat value={moneyTalks(item.converted, item.price, item.currency_name)} displayType={'text'} thousandSeparator={true} prefix={symbol} /> </div>
-            </div>
+          */}
+                  </div>
         </div>
     </div>
 </a>
