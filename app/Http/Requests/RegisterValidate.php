@@ -29,7 +29,7 @@ class RegisterValidate extends FormRequest
             "term"=>'required|in:true',
             // 'required|confirmed'
             // ['required', 'confirmed', 'string', Password::min(8)->letters()->numbers()->symbols()],
-            'password'=> ['required', 'confirmed', 'string', Password::min(8)->letters()->numbers()->symbols()],
+            'password'=> ['required', 'string', Password::min(8)->letters()->numbers()->symbols()],
             'company'=>'required|regex:/^[a-zA-Z0-9 ]*$/',
             'captcha' => 'required|captcha',
         ];

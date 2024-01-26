@@ -173,7 +173,7 @@ import PasswordChecklist  from  'react-password-checklist';
 
 
               <article className='w-3/4 flex flex-col items-center mt-4'>
-                <span className='w-full text-left capitalize text-lg' >confirm pasword</span>
+                {/* <span className='w-full text-left capitalize text-lg' >confirm pasword</span> */}
                  <div className="w-full relative">
                   {/*<div className="w-full relative">
                  <input type={conpass == false?"password":"text"} className="w-full border py-2 rounded-md p-3" onChange={(e)=>Setpassword_confirmation(e.target.value)} value={password_confirmation} />
@@ -184,7 +184,7 @@ import PasswordChecklist  from  'react-password-checklist';
                   <span className='w-full '>
                     {pasword != "" || password_confirmation != ""?
                         <PasswordChecklist
-                        rules={["minLength","specialChar","number", "lowercase", "match"]}
+                        rules={["minLength","specialChar","number", "lowercase"]}
                         minLength={8}
                         value={pasword}
                         valueAgain={password_confirmation}
