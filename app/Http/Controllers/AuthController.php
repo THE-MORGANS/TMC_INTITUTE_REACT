@@ -165,9 +165,7 @@ class AuthController extends Controller
                  return response()->json(["success"=>"successful", "company"=>$admin->has_organisation]);
              }else{
                 return response()->json(["error"=>"please select an option"]);
-
              }
-
             }
 
 
@@ -185,12 +183,10 @@ class AuthController extends Controller
             'user_id'=>$user->id,
             'has_organisation'=>false
          ]);
-
-
          if($request->code){
             $group = $grouppurchase->where(['email'=>$request->email, 'code'=>$request->code])->get();
              if(count($group) > 0 ){
-                 foreach ($group as $grou) {
+                foreach ($group as $grou) {
                 $courses = new userscourse();
                 $courses->user_id = $user->id;
                 $courses->course_id = $grou->course_id;
@@ -199,7 +195,7 @@ class AuthController extends Controller
                 $courses->status = $grou->status;
                 $courses->referencecode =  $grou->code;
                 $courses->save();
-                 }
+              }
              }
 
              $this->SendMail($user->fullname, $user->email, $user->verification_code, $request->company);
