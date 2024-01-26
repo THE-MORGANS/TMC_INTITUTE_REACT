@@ -199,14 +199,14 @@ class AuthController extends Controller
               }
              }
 
-             $this->SendMail($user->fullname, $user->email, $user->verification_code, $request->company);
+            //  $this->SendMail($user->fullname, $user->email, $user->verification_code, $request->company);
              return response()->json([
                  "code"=>200,
                  "success"=>'your account has been created'
              ]);
 
          }else{
-            $this->SendMail($user->fullname, $user->email, $user->verification_code, $request->company);
+            // $this->SendMail($user->fullname, $user->email, $user->verification_code, $request->company);
             return response()->json([
                 "code"=>200,
                 "success"=>'your account has been created'
