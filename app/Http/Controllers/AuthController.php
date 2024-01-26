@@ -177,7 +177,8 @@ class AuthController extends Controller
             "password"=>Hash::make($request->password),
             "termsandcondition"=>1,
             "verification_code"=>sha1(time()),
-            "user_login"=>'normal'
+            "user_login"=>'normal',
+            'is_verified' => 1
         ]);
          $admin->create([
             'user_id'=>$user->id,
@@ -211,8 +212,6 @@ class AuthController extends Controller
                 "success"=>'your account has been created'
             ]);
          }
-
-
     }
 
     public function Logout() {
