@@ -407,7 +407,7 @@ class Controller extends BaseController
         $amount = 1;
        $curl = curl_init();
        curl_setopt_array($curl, array(
-         CURLOPT_URL => "https://api.fastforex.io/fetch-one?from=$from&to=$to&api_key=bb3bea1989-8ef461ff09-s7tg9b",
+         CURLOPT_URL => "https://api.fastforex.io/fetch-one?from=$from&to=$to&api_key=f08231d373-e6615cdd41-s87163",
          CURLOPT_HTTPHEADER => array(
         "Accept: application/json"
          ),
@@ -424,7 +424,15 @@ class Controller extends BaseController
 
        curl_close($curl);
 
-       $answer = json_decode($response);
+    //    $answer = json_decode($response);
+       $answers = '{"base": "GBP",
+        "result":{
+          "NGN":1127.31
+        },
+        "updated": "2024-02-02 09:51:35",
+        "ms": 2
+    }';
+    $answer = json_decode($answers);
        return $answer;
 
     }
@@ -436,7 +444,7 @@ class Controller extends BaseController
         $amount = 1;
        $curl = curl_init();
        curl_setopt_array($curl, array(
-         CURLOPT_URL => "https://api.fastforex.io/fetch-one?from=$from&to=$to&api_key=bb3bea1989-8ef461ff09-s7tg9b",
+         CURLOPT_URL => "https://api.fastforex.io/fetch-one?from=$from&to=$to&api_key=f08231d373-e6615cdd41-s87163",
          CURLOPT_HTTPHEADER => array(
         "Accept: application/json"
          ),
@@ -453,7 +461,15 @@ class Controller extends BaseController
 
        curl_close($curl);
 
-       $answer = json_decode($response);
+    //    $answer = json_decode($response);
+       $answers = '{"base": "GBP",
+        "result":{
+          "NGN":1127.31
+        },
+        "updated": "2024-02-02 09:51:35",
+        "ms": 2
+    }';
+    $answer = json_decode($answers);
        return $answer;
 
     }

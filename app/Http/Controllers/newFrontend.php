@@ -10,7 +10,6 @@ class newFrontend extends Controller
 
 }
   public function newdashboard($data){
-  dd($data);
     return view('newdesign.dashboard');
   }
 
