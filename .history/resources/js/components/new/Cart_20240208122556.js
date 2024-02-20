@@ -1,0 +1,52 @@
+import ReactDOM from 'react-dom';
+import Navbar from './Navbar';
+import Footer from './Footer';
+import React, {useState, useEffect} from 'react';
+import {MdOutlineCancel} from 'react-icons/md';
+import {AiOutlinePlus, AiFillStar, AiFillEdit, AiFillDelete, AiOutlineMinus} from 'react-icons/ai';
+import PaystackPop from '@paystack/inline-js';
+import {FiPlus} from 'react-icons/fi';
+import { useSpeechSynthesis } from 'react-speech-kit';
+
+function Cart() {
+  let url = ` ${window.location.origin}`;
+  
+  const handleCheckout = (e)=>{
+      e.preventDefault(); 
+      window.location.href = `${url}/checkout`
+  }
+
+  const handleCart= (e)=>{
+    e.preventDefault(); 
+    window.location.href = `${url}/cart`
+  }
+
+  const handleOrder= (e)=>{
+    e.preventDefault(); 
+    window.location.href = `${url}/order`
+  }
+  let symbol = currencysymbol.currency.symbol;
+
+ 
+ 
+
+ 
+
+ 
+
+  return (
+      <div>
+        {/* <Navbar /> */}
+
+        <Footer />
+      </div>
+      
+    );
+}
+ 
+export default Cart;
+
+if(document.getElementById('cart')){
+  ReactDOM.render(<Cart/>, document.getElementById('cart'))
+}
+  

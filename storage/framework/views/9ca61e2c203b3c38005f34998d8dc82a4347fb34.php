@@ -1,5 +1,5 @@
 <?php $__env->startSection('content'); ?>
-<div id='terms'></div>
+<div id='terms'></div> 
 <?php $__env->stopSection(); ?>
  
 

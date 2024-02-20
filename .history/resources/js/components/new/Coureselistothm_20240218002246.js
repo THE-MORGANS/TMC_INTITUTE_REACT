@@ -1,0 +1,1 @@
+$currencysymbol =  (new Help)->getplace();

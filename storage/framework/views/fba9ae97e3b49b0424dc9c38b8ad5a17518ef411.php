@@ -35,81 +35,71 @@
 <meta property="og:image:height" content="863">
 <meta name="msapplication-TileColor" content="#004281">
 <meta name="theme-color" content="#ffffff">
-<meta name="mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes"> 
 <meta name="apple-mobile-web-app-title" content="TMC Institute">
 <meta name="msapplication-TileImage" content="https://res.cloudinary.com/the-morgans-consortium/image/upload/v1667831345/Tmc%20institute/fav_dmznt6.jpg">
 
-    <link rel="shortcut icon" href="https://res.cloudinary.com/the-morgans-consortium/image/upload/v1667831345/Tmc%20institute/fav_dmznt6.jpg" type="image/x-icon"/>
-    <link rel="stylesheet" href="<?php echo e(asset('css/style.css')); ?>"/>
-    <link rel="stylesheet" href="<?php echo e(asset('css/icons.css')); ?>"/>
-    <link rel="stylesheet" href="<?php echo e(asset('css/uikit.css')); ?>"/>
-      <link rel="stylesheet" href="<?php echo e(asset('css/tailwind.min.css')); ?>"/>
-    <link rel="stylesheet" href="<?php echo e(asset('css/icons.css')); ?>}}" />
+    
+    <link rel="stylesheet" href="<?php echo e(asset('assets/css/app.min.css')); ?>">
+    <link rel="stylesheet" href="<?php echo e(asset('assets/css/fontawesome.min.css')); ?>">
+    <link rel="stylesheet" href="<?php echo e(asset('assets/css/style.css')); ?>">
 
 </head>
 <body>
-    <article class=''>
-        <div class="preloader grid place-content-center" >
-            <div class="w-60">
-                <img src="https://res.cloudinary.com/the-morgans-consortium/image/upload/v1659435270/Tmc%20institute/TMC_Institute_logo_kpv3d4.jpg" alt="preloader" class="preloader__item" />
-            </div>
-
-          </div>
-<?php echo $__env->yieldContent('content'); ?>
-    </article>
-</body>
+    <?php echo $__env->yieldContent('content'); ?>
 <script>
-var layout = "<?php echo e(asset('image/Layer7.svg')); ?>";
-var lay = "<?php echo e(asset('image/Layer12.svg')); ?>";
-var image = "<?php echo e(asset('image/Images.png')); ?>";
-var left = "<?php echo e(asset('image/Left.png')); ?>";
-var next = "<?php echo e(asset('images/bg.png')); ?>";
-var message = " <?php echo e(session()->get('message')??""); ?> ";
-var  token = document.querySelector('meta[name="csrf-token"]').getAttribute('content');
-var hype =    "<?php echo e(Request::url()); ?>";
-var cart = <?php echo e(Js::from(json_decode($cart->usercartdetails??''))); ?>
+    var layout = "<?php echo e(asset('image/Layer7.svg')); ?>";
+    var lay = "<?php echo e(asset('image/Layer12.svg')); ?>";
+    var image = "<?php echo e(asset('image/Images.png')); ?>";
+    var left = "<?php echo e(asset('image/Left.png')); ?>";
+    var next = "<?php echo e(asset('images/bg.png')); ?>";
+    var message = " <?php echo e(session()->get('message')??""); ?> ";
+    var  token = document.querySelector('meta[name="csrf-token"]').getAttribute('content');
+    var hype =    "<?php echo e(Request::url()); ?>";
+    var cart = <?php echo e(Js::from(json_decode($cart->usercartdetails??''))); ?>
 
-var money = <?php echo \Illuminate\Support\Js::from($money??"")->toHtml() ?>;
-var email = <?php echo \Illuminate\Support\Js::from(auth()->user()->email??"")->toHtml() ?>;
-var picture = "<?php echo e(asset('image/TMC-Institute-Logo2 1 (1).png')); ?>";
-var userimage = <?php echo \Illuminate\Support\Js::from(auth()->user()->picture??"")->toHtml() ?>;
-var username =  <?php echo e(Js::from(auth()->user()->fullname??"")); ?>
+    var money = <?php echo \Illuminate\Support\Js::from($money??"")->toHtml() ?>;
+    var email = <?php echo \Illuminate\Support\Js::from(auth()->user()->email??"")->toHtml() ?>;
+    var picture = "<?php echo e(asset('image/TMC-Institute-Logo2 1 (1).png')); ?>";
+    var userimage = <?php echo \Illuminate\Support\Js::from(auth()->user()->picture??"")->toHtml() ?>;
+    var username =  <?php echo e(Js::from(auth()->user()->fullname??"")); ?>
 
-var usersemail = <?php echo e(Js::from(auth()->user()->email??"")); ?>
+    var usersemail = <?php echo e(Js::from(auth()->user()->email??"")); ?>
 
-var userpic = <?php echo e(Js::from(auth()->user()->picture??"")); ?>;
-var Cris = "<?php echo e(asset('image/Cris 1.png')); ?>";
-var Dusig = "<?php echo e(asset('image/Dusig 1.png')); ?>";
-var Exra  = "<?php echo e(asset('image/Exra 1.png')); ?>";
-var J0ne = "<?php echo e(asset('image/J 1.png')); ?>"
-var countries = <?php echo \Illuminate\Support\Js::from($countries??"")->toHtml() ?>;
-var additional = <?php echo e(Js::from(json_decode($additional??""))); ?>
+    var userpic = <?php echo e(Js::from(auth()->user()->picture??"")); ?>;
+    var Cris = "<?php echo e(asset('image/Cris 1.png')); ?>";
+    var Dusig = "<?php echo e(asset('image/Dusig 1.png')); ?>";
+    var Exra  = "<?php echo e(asset('image/Exra 1.png')); ?>";
+    var J0ne = "<?php echo e(asset('image/J 1.png')); ?>"
+    var countries = <?php echo \Illuminate\Support\Js::from($countries??"")->toHtml() ?>;
+    var additional = <?php echo e(Js::from(json_decode($additional??""))); ?>
 
-var gifted_email = <?php echo e(JS::from($gifted_email??"")); ?>
+    var gifted_email = <?php echo e(JS::from($gifted_email??"")); ?>
 
-var code  = <?php echo e(JS::from($code??"")); ?>
+    var code  = <?php echo e(JS::from($code??"")); ?>
 
-var personname = <?php echo e(JS::from($fullname??"")); ?>
+    var personname = <?php echo e(JS::from($fullname??"")); ?>
 
-var captchaimg = <?php echo e(Js::from(captcha_src())); ?>
+    var captchaimg = <?php echo e(Js::from(captcha_src())); ?>
 
-var userinfoma = <?php echo e(Js::from($userinfoma??"")); ?>
+    var userinfoma = <?php echo e(Js::from($userinfoma??"")); ?>
 
+    var currencysymbol = <?php echo e(Js::from($currencysymbol??"")); ?>
 
+    var currencyex = <?php echo e(Js::from($currencyex??"")); ?>
+
+    var coursesdata = <?php echo e(Js::from($coursesdata??"")); ?>
+
+    
 </script>
-<script src="<?php echo e(mix('js/app.js')); ?>"></script>
-<script src="https://cdn.fusioncharts.com/fusioncharts/latest/fusioncharts.js"></script>
-<script src="https://cdn.fusioncharts.com/fusioncharts/latest/themes/fusioncharts.theme.fusion.js"></script>
-<script src="<?php echo e(asset('js/swap.js')); ?>"></script>
+ 
+    <script src="<?php echo e(mix('js/app.js')); ?>"></script>
+        
+    <script src="<?php echo e(asset('assets/js/vendor/jquery-3.6.0.min.js')); ?>"> </script>
+    <script src="<?php echo e(asset('assets/js/app.min.js')); ?>"></script>
+    <script src="<?php echo e(asset('assets/js/main.js')); ?>"></script>
+       
 
-<script src="<?php echo e(asset('js/uikit.js')); ?>"></script>
-<script src="<?php echo e(asset('js/bootstrap-select.min.js')); ?>"></script>
- <script src="<?php echo e(asset('js/tippy.all.min.js')); ?>"></script>
- <script src="<?php echo e(asset('js/custom.js')); ?>"></script>
-<script src="<?php echo e(asset('js/simplebar.js')); ?>"></script>
- <script src="<?php echo e(asset('js/jquery-3.6.0.min.js')); ?>"></script>
-<script src="<?php echo e(asset('js/uikit.min.js')); ?>"></script>
-<script src="<?php echo e(asset('js/ionicons.js')); ?>"></script>
 <script type="text/javascript">
     var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
     (function(){

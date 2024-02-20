@@ -1,6 +1,6 @@
 <?php $__env->startSection('content'); ?>
 <div id="cart">
-
+    
 </div>
 <?php $__env->stopSection(); ?>
 
