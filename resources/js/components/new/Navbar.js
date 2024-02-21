@@ -286,8 +286,8 @@ let dataa = localStorage.getItem('Cart')?JSON.parse(localStorage.getItem('Cart')
                             <div class="col-auto d-none d-lg-block">
                                 <div class="header-links">
                                     <ul>
-                                        <li><i class="far fa-phone"></i><a href="tel:+11156456825">+111 (564) 568 25</a></li>
-                                        <li class="d-none d-xl-inline-block"><i class="far fa-envelope"></i><a href="mailto:info@Edura.com">info@edura.com</a></li>
+                                        <li><i class="far fa-phone"></i><a href="tel:+234915-341-4314">+234 (1) 700-1770, +234 (0) 915-341-4314</a></li>
+                                        <li class="d-none d-xl-inline-block"><i class="far fa-envelope"></i><a href="mailto:enquiries@tmcinstitute.com">enquiries@tmcinstitute.com</a></li>
                                         <li><i class="far fa-clock"></i>Mon - Sat: 8:00 - 15:00</li>
                                     </ul>
                                 </div>

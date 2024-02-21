@@ -113,13 +113,13 @@ export default function Footer() {
                                 <div className="footer-contact_icon icon-btn"><i className="fal fa-phone"></i></div>
                                 <div className="media-body">
                                     <p className="footer-contact_text">Call us any time:</p>
-                                    <a href="tel%2b11234567890.html" className="footer-contact_link">+256 214 203 215</a>
+                                    <a href="tel:+234915-341-4314" className="footer-contact_link">+234 (1) 700-1770, +234 (0) 915-341-4314</a>
                                 </div>
                             </div>
                             <div className="divider"></div>
                             <div className="footer-contact">
                                 <div className="footer-contact_icon icon-btn"><i className="fal fa-envelope"></i></div>
-                                <div className="media-body"><p className="footer-contact_text">Email us 24/7 hours:</p><a href="mailto:info@edura.com" className="footer-contact_link">info@edura.com</a></div>
+                                <div className="media-body"><p className="footer-contact_text">Email us 24/7 hours:</p><a href="mailto:enquiries@tmcinstitute.com" className="footer-contact_link">enquiries@tmcinstitute.com</a></div>
                             </div>
                             
                         </div>
@@ -131,7 +131,7 @@ export default function Footer() {
                             <div className="col-md-6 col-xxl-3 col-xl-3">
                                 <div className="widget footer-widget">
                                     <div className="th-widget-about">
-                                        <div className="about-logo"><a href="index.html">
+                                        <div className="about-logo"><a href="">
                                             <img  width="70" height="10" src="https://res.cloudinary.com/the-morgans-consortium/image/upload/v1659435270/Tmc%20institute/TMC_Institute_logo_kpv3d4.jpg" alt="Edura"/></a>
                                         </div>
                                         <p className="about-text">
