@@ -10308,3 +10308,26 @@ Did you mean one of these?
 #67 /Applications/XAMPP/xamppfiles/htdocs/Tmcs/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('/Applications/X...')
 #68 {main}
 "} 
+[2024-02-25 21:40:13] local.ERROR: Command "run" is not defined.
+
+Did you mean one of these?
+    model:prune
+    queue:prune-batches
+    queue:prune-failed
+    sanctum:prune-expired
+    schedule:run {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"run\" is not defined.
+
+Did you mean one of these?
+    model:prune
+    queue:prune-batches
+    queue:prune-failed
+    sanctum:prune-expired
+    schedule:run at /Applications/XAMPP/xamppfiles/htdocs/Tmcs/vendor/symfony/console/Application.php:737)
+[stacktrace]
+#0 /Applications/XAMPP/xamppfiles/htdocs/Tmcs/vendor/symfony/console/Application.php(266): Symfony\\Component\\Console\\Application->find('run')
+#1 /Applications/XAMPP/xamppfiles/htdocs/Tmcs/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Tmcs/vendor/laravel/framework/src/Illuminate/Console/Application.php(102): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 /Applications/XAMPP/xamppfiles/htdocs/Tmcs/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(155): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 /Applications/XAMPP/xamppfiles/htdocs/Tmcs/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
