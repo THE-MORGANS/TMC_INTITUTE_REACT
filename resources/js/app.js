@@ -23,7 +23,7 @@ require('./components/EmailVerified');
 // require('./components/CourseDetail');
 // require('./components/Cart');
 // require('./components/Mainpage');
-require('./components/new/Profile');
+require('./components/new/Profile'); 
 // require('./components/Input');
 require('./components/Contactdetails');
 require('./components/Residential');
