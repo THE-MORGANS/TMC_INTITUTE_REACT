@@ -12868,6 +12868,12 @@ video {
 .mt-9 {
   margin-top: 2.25rem;
 }
+.me-3 {
+  margin-inline-end: 0.75rem;
+}
+.ml-20 {
+  margin-left: 5rem;
+}
 .line-clamp-2 {
   overflow: hidden;
   display: -webkit-box;
