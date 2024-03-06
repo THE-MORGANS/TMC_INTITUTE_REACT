@@ -259,7 +259,7 @@ let dataa = localStorage.getItem('Cart')?JSON.parse(localStorage.getItem('Cart')
                     <div className="th-mobile-menu">
                         <ul>
                             <li class="menu-item-has-children">
-                                <a href="">Programme</a>
+                                <a href="">Programmes</a>
                                 <ul class="sub-menu">
                                     <li class="menu-item-has-children">
                                         <a href="#">Bachelors</a>
