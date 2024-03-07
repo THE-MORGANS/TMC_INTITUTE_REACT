@@ -202,7 +202,7 @@ export default function Footer() {
                                         <ul className="menu">
                                             <li><a onClick={(e)=>handlelistcourses(e)} style={{cursor:'pointer', color:'#fff'}} >TMC Courses</a></li>
                                             <li><a onClick={(e)=>handleOthm(e)} style={{cursor:'pointer', color:'white'}}>OTHM Courses</a></li>
-                                            <li><a onClick={handleLG} style={{cursor:'pointer', color:'white'}}>LGCA</a></li>
+                                            <li><a onClick={handleLG} style={{cursor:'pointer', color:'white'}}>LGCA / AGRC Certification</a></li>
                                             <li><a onClick={(e)=>handleStudy(e)} style={{cursor:'pointer', color:'white'}}>Study Abroad</a></li>
                                             <li><a onClick={(e)=>handleAboutus(e)} style={{cursor:'pointer', color:'white'}}>About us</a></li>
                                         </ul>

@@ -262,7 +262,7 @@ let dataa = localStorage.getItem('Cart')?JSON.parse(localStorage.getItem('Cart')
                                 <a href="">Programmes</a>
                                 <ul class="sub-menu">
                                     <li class="menu-item-has-children">
-                                        <a href="#">Bachelors</a>
+                                        <a href="#">Bachelor Degrees (BSc , BA )</a>
                                         <ul class="sub-menu">
                                             <li>
                                                 <a href="#">
@@ -342,7 +342,7 @@ let dataa = localStorage.getItem('Cart')?JSON.parse(localStorage.getItem('Cart')
                                         </ul>
                                     </li>
                                     <li class="menu-item-has-children">
-                                        <a href="#">Masters</a>
+                                        <a href="#">Masters (MSC, MBA, MA)</a>
                                         <ul class="sub-menu">
                                             <li>
                                                 <a href="">
@@ -660,23 +660,22 @@ let dataa = localStorage.getItem('Cart')?JSON.parse(localStorage.getItem('Cart')
                                         </ul>
                                     </li>
                                     <li class="menu-item-has-children">
-                                        <a href="#">Professional</a>
+                                        <a href="#">Professional Certifications & Training Programmes</a>
                                         <ul class="sub-menu">
                                             <a
                                                 onClick={handleLG}
                                                 style={{ cursor: "pointer" }}
                                             >
-                                                LGCA
+                                                LGCA / AGRC Certification
                                             </a>
                                             <a
                                                 onClick={(e) => handleOthm(e)}
                                                 style={{ cursor: "pointer" }}
                                             >
-                                                OTHM{" "}
+                                                OTHM Professional Qualifications {" "}
                                             </a>
                                             <a onClick={(e) => handleGRC(e)}>
-                                                Governance, Risk Management,
-                                                Compliance & Fincrime Prevention
+                                                TMC Certification - GRC & FINCRIME Prevention
                                             </a>
                                         </ul>
                                     </li>
@@ -698,15 +697,7 @@ let dataa = localStorage.getItem('Cart')?JSON.parse(localStorage.getItem('Cart')
                                     TMC Courses
                                 </a>
                             </li>
-                            {/* <li class="menu-item-has-children">
-                                <a onClick={(e)=>handleAboutus(e)} >About us</a>
-                                <ul class="sub-menu">
-                                    <li onClick={(e)=>handleMission(e)} style={{cursor:'pointer'}}><a href="">Mission</a></li>
-                                    <li onClick={(e)=>handleAboutus(e)} style={{cursor:'pointer'}}><a href="">Our Team</a></li>
-                                    <li onClick={(e)=>handleAboutus(e)} style={{cursor:'pointer'}}><a href="">Recognition</a></li>
-                                    <li onClick={(e)=>handleAboutus(e)} style={{cursor:'pointer'}}><a href="">Our Partiners</a></li>
-                                </ul>
-                            </li> */}
+                          
                             <li>
                                 <a
                                     onClick={(e) => handleAboutus(e)}
@@ -872,10 +863,10 @@ let dataa = localStorage.getItem('Cart')?JSON.parse(localStorage.getItem('Cart')
                                             <nav class="main-menu d-none d-lg-inline-block">
                                                 <ul>
                                                     <li class="menu-item-has-children">
-                                                        <a href="">Programmers</a>
+                                                        <a href="">Programmes</a>
                                                         <ul className='sub-menu' style={{background:'#EEE6E6'}}>
                                                             <li >
-                                                                <a href="#">Bachelors </a>
+                                                                <a href="#">Bachelor Degrees (BSc , BA ) </a>
                                                                 <li>
                                                                     <a href=''>
                                                                         <div className='row  justify-content-center' style={{ color:'#333'}}>
@@ -900,7 +891,7 @@ let dataa = localStorage.getItem('Cart')?JSON.parse(localStorage.getItem('Cart')
                                                                 </li>
                                                             </li>
                                                             <li>
-                                                                <a href="#">Masters</a>
+                                                                <a href="#">Masters (MSC, MBA, MA)</a>
                                                                 <li>
                                                                     <a href=''>
                                                                         <div className='row justify-content-center' style={{ color:'#333'}}>
@@ -1007,10 +998,12 @@ let dataa = localStorage.getItem('Cart')?JSON.parse(localStorage.getItem('Cart')
                                                                 </li>
                                                             </li>
                                                             <li >
-                                                                <a href="#"> Professional </a>
-                                                                <li><a onClick={handleLG} style={{cursor:'pointer'}}>LGCA</a></li>
-                                                                    <li><a onClick={(e)=>handleOthm(e)} style={{cursor:'pointer'}}>OTHM Courses</a></li>
-                                                                    <li><a onClick={(e)=>handleGRC(e)} style={{cursor:'pointer'}}> Governance, Risk Management, Compliance & Fincrime Prevention</a></li>
+                                                                <a href="#"> Professional Certifications & Training Programmes </a>
+                                                                <li><a onClick={handleLG} style={{cursor:'pointer'}}>LGCA / AGRC Certification</a></li>
+                                                                    <li><a onClick={(e)=>handleOthm(e)} style={{cursor:'pointer'}}>OTHM Professional Qualifications</a></li>
+                                                                    <li><a onClick={(e)=>handleGRC(e)} style={{cursor:'pointer'}}>
+                                                                     TMC Certification - GRC & FINCRIME Prevention
+                                                                     </a></li>
                                                             </li>
                                                         </ul>
                                                     
