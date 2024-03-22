@@ -131,7 +131,7 @@ class Help{
         $amount = 1;
        $curl = curl_init();
        curl_setopt_array($curl, array(
-        CURLOPT_URL => "https://api.fastforex.io/fetch-one?from=$from&to=$to&api_key=1a6dbbcc3a-a6ac3cf98e-saqrxv",
+        CURLOPT_URL => "https://api.fastforex.io/fetch-one?from=$from&to=$to&api_key=ca17b24381-2e871f42e3-s9tg9w",
         CURLOPT_HTTPHEADER => array(
        //    "Content-Type: text/plain",
        //    "apikey: j4L2ULOPUCFCzuU6iyBoBH7c949ZQoCd"
