@@ -46,8 +46,6 @@ class viewsController extends Controller
       return $show->newdashboard($featuredcollect, $popularcollect,  $recentcollect,  $cart, $allcollection, $currencysymbol, $currencyex,  $additionalpic);
  
     }
-
-
   
     public function listcoursesfun(CourseInfo $courseInfo, UserCart $usercart){
         $user = $this->getuser();
@@ -72,7 +70,6 @@ class viewsController extends Controller
     }
     // Pagination function
   
-    
 
     public function courseinfofun($word, $id, Additional $add){
         $user = $this->getuser();
@@ -164,11 +161,9 @@ class viewsController extends Controller
         return (new Frontends)->usercourses($pagdata, $currencysymbol, $currencyex,  $additionalpic);
     }
 
-
     public function adminratefun(){
      return (new Frontends)->adminrate();
     }
-
 
     public function forgottenfun($status){
         if($status == 'Individual' || $status == 'Company'){
