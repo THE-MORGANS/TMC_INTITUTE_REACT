@@ -65,11 +65,12 @@ Route::get('/result/admin/{code}/{coursename}', [Frontends::class, 'result']);
 Route::patch('approvestatus', [MainConroller::class, 'approvestatus']);
 Route::get("/adminlogin", [Frontends::class, 'adminlog'])->middleware('admin');
 Route::post('/loginadmin', [AuthController::class, 'loginadmin']);
-Route::get("/listcourses", [viewsController::class, 'listcoursesfun']);
+Route::get("/listcourses", [viewsController::class, 'listcoursesfun']); 
 Route::get("/coursesdetails", [Frontends::class, 'coursesdetails']);
 Route::post('/alphabet', [MainConroller::class, 'alphabet']);
 Route::post("/arrangment", [MainConroller::class, 'arrangment']);
-Route::post("/coursesdata", [MainConroller::class, "coursesdata"]);
+Route::get("/getcoursescount", [MainConroller::class, 'getcoursescount']);
+Route::post("/coursesdata", [MainConroller::class, 'coursesdata']);
 Route::post('/categories', [MainConroller::class, 'categories']);
 Route::post('/searchcourse', [MainConroller::class, 'searchcourse']);
 Route::get('/contactus', [Frontends::class, 'contact']); 
@@ -101,12 +102,10 @@ Route::post('/purchasecourse', [MainConroller::class, 'userscoursepurcase']);
 Route::post('/userwatch', [MainConroller::class, 'userwatch']);
 Route::get('/uservideowatch/{course_id}/{video_id}', [ViewController::class, 'uservideowatch']);
 Route::post("/addcart", [MainConroller::class, 'AddCart']);
-// Route::get("/cart", [ViewController::class, 'cartfunction']);
 Route::post("/muitplepayment", [MainConroller::class, 'muitplepayment']);
 Route::delete("/deletestorage", [MainConroller::class, 'deletestorage']);
 Route::get("/main", [FrontendController::class, 'Main']);
 Route::get("/profile", [FrontendController::class, 'Profile']);
-Route::post("/coursesdata", [MainConroller::class, "coursesdata"]);
 Route::get("/contact", [FrontendController::class, "contact"]);
 Route::get("/residential", [FrontendController::class, "residential"]);
 Route::post("/additional_info", [MainConroller::class, "Additional_info"]);
@@ -125,19 +124,13 @@ Route::post("/coursecartories",[MainConroller::class, "coursecartories"]);
 
  Route::get("/shoppingcart", [Frontends::class, 'shoppingcart']);
  Route::get("/coursevideos/{word}/{num}", [viewsController::class, 'coursevideofun']);
-//  Route::get("/listcourses", [viewsController::class, 'listcoursesfun']);
-//  Route::post("/arrangment", [MainConroller::class, 'arrangment']);
-//  Route::post('/categories', [MainConroller::class, 'categories']);
-//  Route::post('/searchcourse', [MainConroller::class, 'searchcourse']);
 
 
 //  usercoursesfun
  Route::post('/usercoursesinfo', [MainConroller::class, 'usercoursesinfo']);
-//  Route::post('/alphabet', [MainConroller::class, 'alphabet']);
  Route::post('/percentcompleted', [MainConroller::class, 'percentcompleted']);
 //  Route::post('/alphabetothm',[MainConroller::class, 'alphabetothm']);
 //  Route::post('/categoriesothm', [MainConroller::class, 'categoriesothm']);
-//  Route::post('/arrangmentothm', [MainConroller::class, 'arrangmentothm']);
 //  Route::post('/searchcourseothm', [MainConroller::class, 'searchcourseothm']);
 Route::get('/usercourses', [viewsController::class, 'usercoursesfun']);
  Route::post('/downloadcetificate', [MainConroller::class, 'downloadcetificate']);

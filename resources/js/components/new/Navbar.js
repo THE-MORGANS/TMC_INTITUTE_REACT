@@ -103,7 +103,7 @@ let dataa = localStorage.getItem('Cart')?JSON.parse(localStorage.getItem('Cart')
      }
     },1000)
     return () => clearInterval(interval);
- },[])
+ },[]) 
 
  const handleLogout =()=>{
          localStorage.clear();
@@ -172,13 +172,15 @@ let dataa = localStorage.getItem('Cart')?JSON.parse(localStorage.getItem('Cart')
     const handleAcc = ()=>{
         window.location.href = `${url}/profile`
     }
-    const handleCheckout = ()=>{
+    const handleCheckout = (e)=>{
         window.location.href = `${url}/checkout`
     }
-    const handlelistcourses=()=>{
+    const handlelistcourses=(e)=>{
+        e.preventDefault();
         window.location.href= `${url}/listcourses`;
     }
-    const handleLG =()=>{
+    
+    const handleLG =(e)=>{
         window.location.href = `https://morgans.elearning.lgca.uk/index`
     }
     const handleGRC =()=>{
@@ -683,24 +685,19 @@ let dataa = localStorage.getItem('Cart')?JSON.parse(localStorage.getItem('Cart')
                             </li>
                             <li>
                                 <a
-                                    onClick={(e) => handleStudy(e)}
+                                    // onClick={(e) => handleStudy(e)}
+                                    href='studyabroad'
                                     style={{ cursor: "pointer" }}
                                 >
                                     Study Abroad
                                 </a>
                             </li>
-                            <li>
-                                <a
-                                    onClick={(e) => handlelistcourses(e)}
-                                    style={{ cursor: "pointer" }}
-                                >
-                                    TMC Courses
-                                </a>
-                            </li>
+                            <li><a href="listcourses" style={{cursor:'pointer'}}>TMC Courses</a></li>
                           
                             <li>
                                 <a
-                                    onClick={(e) => handleAboutus(e)}
+                                    // onClick={(e) => handleAboutus(e)}
+                                    href="about-us"
                                     style={{ cursor: "pointer" }}
                                 >
                                     About us
@@ -709,7 +706,8 @@ let dataa = localStorage.getItem('Cart')?JSON.parse(localStorage.getItem('Cart')
                             {/* <li><a onClick={(e)=>handleHowtoAppy(e)} style={{cursor:'pointer'}}>How to Apply</a></li> */}
                             <li>
                                 <a
-                                    onClick={(e) => handleContact(e)}
+                                    // onClick={(e) => handleContact(e)}
+                                    href="contactus"
                                     style={{ cursor: "pointer" }}
                                 >
                                     Contact

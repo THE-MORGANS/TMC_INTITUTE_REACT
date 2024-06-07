@@ -34,12 +34,6 @@ class Frontends extends Controller
     } 
 
       public function newdashboard($featured, $popular,  $recent, $cart, $allcourse,  $currencysymbol, $currencyex,  $additionalpic){
-        //
-        // $encrypted = 'U2FsdGVkX18nNvBWNy+rnyQyRS/kF8E69nv2OuceoUCSxh6lYviAIw4BZP18LYqB';
-        // $password = "123456";
-        // $decrypted = CryptoJsAes::decrypt($encrypted, $password);
-        // dd($decrypted);
-
         $poundton =  $this->poundtonaira();
         $othermoney =    $this->frompoundtoother();
         $toptitle = 'TMC Institute-Home';
@@ -94,12 +88,12 @@ class Frontends extends Controller
         return view('newdesign.conditions', [ 'coursesdata'=>$pagdata, 'currencysymbol'=>$currencysymbol, 'currencyex'=>$currencyex, 'othermoney'=>$othermoney, 'toptitle'=>$toptitle, 'additionalpic'=> $additionalpic]);
       }
 
-      public function listcourses($uni, $pagdata, $currencysymbol, $currencyex, $additionalpic){
+      public function listcourses($uni, $totalCourse, $pagdata, $currencysymbol, $currencyex, $additionalpic){
         $poundton =  $this->poundtonaira();
         $othermoney =    $this->frompoundtoother(); 
         $toptitle = 'TMC Institute-TMC Courses';
-        return view('newdesign.listcouses',['unihead'=>$uni, 'coursesdata'=>$pagdata, 'currencysymbol'=>$currencysymbol, 'currencyex'=>$currencyex, 'poundton'=>$poundton, 'othermoney'=>$othermoney, 'toptitle'=>$toptitle, 'additionalpic'=>$additionalpic]);
-      }
+        return view('newdesign.listcouses',['unihead'=>$uni, 'totalCourse'=>$totalCourse,'coursesdata'=>$pagdata, 'currencysymbol'=>$currencysymbol, 'currencyex'=>$currencyex, 'poundton'=>$poundton, 'othermoney'=>$othermoney, 'toptitle'=>$toptitle, 'additionalpic'=>$additionalpic]);
+      } 
 
       public function about(CourseInfo $courseInfo){
         $toptitle = 'TMC Institute-About';

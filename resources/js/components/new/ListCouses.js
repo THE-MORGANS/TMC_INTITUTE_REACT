@@ -2,62 +2,71 @@ import React,{useEffect, useState} from 'react'
 import ReactDOM from 'react-dom';
 import Navbar from './Navbar'; 
 import Footer from './Footer';
-import ReactPaginate from 'react-paginate';
 import {AiOutlineArrowLeft, AiOutlineArrowRight, AiOutlineShopping} from 'react-icons/ai';
 import CurrencyFormat from 'react-currency-format';
 import axios from 'axios';
+import ReactPaginate from 'react-paginate';
+
 
 function ListCouses() {
     let url = window.location.origin;
     let uniarr = Object.values(unique)
+    const [totalCourseCount, setTotalCourseCount] = useState(null);
+
     const [currentPage, setCurrentPage] = useState(1)
-    const[postPerPage, setPostsperPage] = useState(12)
+    const[postPerPage, setPostsperPage] = useState(20)
+
     const [hover, Sethover] = useState(0)
     const [data, Setdata] = useState(coursesdata.data.length > 0?coursesdata.data:[]);
     const [Cart, SetCart] = useState(localStorage.getItem('Cart')?JSON.parse(localStorage.getItem('Cart')):[])
     const [last, Setlast] = useState(coursesdata.last_page?coursesdata.last_page:0)
     const [orderbystat, setorderbystat] = useState('')
     const [categories, setcategories] = useState('')
-    
-    const [numbercourse, senumbercourse] = useState('')
     const [search, setsearch] = useState('')
     const indexofLastPost = currentPage * postPerPage
     const indexofFirstPost = indexofLastPost - postPerPage
     const Post = uniarr?.slice(indexofFirstPost, indexofLastPost)
-    let numberofcourse = data.length ;
+
     let num = [];
     for (let i = 1; i <= Math.ceil(uniarr.length / postPerPage); i++) {
         num.push(i);
 
     }
-    // let numberofpages = num.length;
-    //    console.log(Post)
+    let numberofpages = num.length;
+    useEffect(() => {
+        let getCourseCount = `${url}/getcoursescount`;
+        axios.get(getCourseCount)
+            .then(res => {
+                setTotalCourseCount(res.data.totalCourseCount);
+                }
+            )
+            .catch(err => console.error(err));
+
+    }, []);
 
     const handlemouse =(num, word)=>{
-     setorderbystat(word)
-      Sethover(num)
-      let formData = new FormData();
-      formData.append('categories', word)
-      formData.append('page', 1)
-      let urltwo = `${url}/categories`;
-      axios.post(urltwo, formData).then(res=>{
-         if(res.data){
-          Setdata(res.data.data)
-          Setlast(res.data.last_page)
-         }
+        setorderbystat(word)
+        Sethover(num)
+        let formData = new FormData();
+        formData.append('categories', word)
+        formData.append('page', 1)
+        let urltwo = `${url}/categories`;
+        axios.post(urltwo, formData).then(res=>{
+        if(res.data){
+            Setdata(res.data.data)
+            Setlast(res.data.last_page)
+        }
         })
     }
 
     const apiClient = axios.create({
         baseURL: `${url}/`,
         withCredentials: true
-    });
+        });
+   
 
     
-    // const handlePag =(data)=>{
-    // let Answer = data.selected + 1;
-    // setCurrentPage(Answer)
-    // }
+        
     const handleNext = (data)=>{
         if(orderbystat == ''){
             let Answer = data.selected + 1;
@@ -108,7 +117,8 @@ function ListCouses() {
               })
         }
 
-    }
+       }
+
 
        const handleArrange =(e)=>{
             setorderbystat(e.target.dataset.name)
@@ -176,30 +186,56 @@ function ListCouses() {
      },[])
 
 
+     const fetchAllData = () => {
+        let Answer = 1;
+        let formData = new FormData();
+        formData.append('page', Answer);
+        let urltwo = `${url}/coursesdata`;
+        axios.post(urltwo, formData)
+            .then(res => {
+                if (res.data) {
+                    Setdata(res.data.data);
+                    Setlast(res.data.last_page);
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+    };
+     const handleAlphabetical = (e) => {
+        const letter = e.target.dataset.name;
+        const isChecked = e.target.checked;
+        if (!isChecked) {
+            setorderbystat('');
+            fetchAllData();
+            return; // Exit the function early
+        }
 
-  
-
-   const handleAlphabetical = (e)=>{
-     let letter = e.target.dataset.name
-     setorderbystat(letter)
-    let Answer = 1;
-    // alphabet
-    let formData = new FormData();
-    formData.append('letter', letter)
-    formData.append('page', Answer)
-    let urltwo = `${url}/alphabet`;
-    axios.post(urltwo, formData).then(res=>{
-       if(res.data){
-        Setdata(res.data.data)
-        Setlast(res.data.last_page)
-       }
-      })
-   }
+        setorderbystat(letter);
+        
+        let Answer = 1;
+        let formData = new FormData();
+        formData.append('letter', letter);
+        formData.append('page', Answer);
+        let urltwo = `${url}/alphabet`;
+        axios.post(urltwo, formData)
+            .then(res => {
+                if (res.data) {
+                    Setdata(res.data.data);
+                    Setlast(res.data.last_page);
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+    };
+    
 
    let symbol = currencysymbol.currency.symbol
    let moneyname = currencysymbol.currency.name
    let converted = JSON.parse(currencyex)
    let convertnaira = converted.result.NGN
+   
 
   function moneyTalks(converted, price){
    if(converted){
@@ -294,6 +330,8 @@ function ListCouses() {
         let Answer = pageNumber.selected + 1;
         setCurrentPage(Answer);
     };
+    
+    
 
   return (
     <div>
@@ -350,9 +388,10 @@ function ListCouses() {
                             <div class="widget widget_time_duration style2">
                                 <h4 class="widget_title">Group Order</h4>
                                 <ul>
-                                   
+    
                                     <li>
-                                        <input  checked={orderbystat === 'a,b,c,d,e,f'} id="timecheck1" name="alpha" type="checkbox" data-name="a,b,c,d,e,f" onChange={(e) => handleAlphabetical(e)} />
+                                        <input  checked={orderbystat === 'a,b,c,d,e,f'} id="timecheck1" name="alpha" type="checkbox" data-name="a,b,c,d,e,f" 
+                                        onChange={(e) => handleAlphabetical(e)} />
                                         <label htmlFor="timecheck1">A-F <span className="checkmark"></span></label>
                                     </li>
 
@@ -392,7 +431,7 @@ function ListCouses() {
                             <div class="th-sort-bar">
                                 <div class="row justify-content-between align-items-center">
                                     <div class="col-md-auto">
-                                        <span class="course-result-count">We found <span class="text-theme">{data.length} courses</span> available for you</span>
+                                        <span class="course-result-count">We found <span class="text-theme"> {totalCourseCount} courses</span> available for you</span>
                                     </div>
                                     
                                 </div>
@@ -414,7 +453,7 @@ function ListCouses() {
                                         <div class="course-content">
                                             
                                             <h4 class="course-title">
-                                                <a  key={item.id} onClick={()=>handleLink('TMC', item.id)} style={{ cursor: 'pointer' }}> {item.coursename} </a>
+                                                <a  key={item.id} onClick={()=>handleLink('TMC', item.id)} style={{ cursor: 'pointer', textTransform: 'capitalize'  }}> {item.coursename} </a>
                                             </h4>
                                             <div class="course-meta">
                                                 <div class="author-info">
@@ -455,40 +494,31 @@ function ListCouses() {
                
                 {/* Pagination */}
                 <div class="th-pagination text-center pt-20">
-                    {/* <ReactPaginate
-                        style={{ margin:"3px" }}
-                        previousLabel={'<'}
-                        nextLabel={'>'}
-                        pageCount={numberofpages}
-                        // breakLabel={"..."}
-                        //marginPagesDisplayed={2}
-                        //  pageRangeDisplayed={1}
-                        onPageChange={handlePag}
-                        containerClassName={'inline-flex items-center justify-center m-auto space-x-3'}
-                        // pageClassName={'m-2 hidden'}
-                        pageLinkClassName={`page-item active`} 
-                        // pageLinkClassName={'py-1 px-1 text-md text-center rounded-lg bg-[#A32926] text-white hidden'}
-                        previousClassName={'py-1 px-1 text-md text-center rounded-l-lg bg-[#A32926] text-white text-lg h-8 w-8 grid place-content-center'}
-                        nextClass
-                    /> */}
                    
-                    {/* {Array.from({ length: Math.ceil(data.length / postsPerPage) }).map((_, index) => (
-                        <li key={index + 1} className={`page-item ${currentPage === index + 1 ? 'active' : ''}`}>
-                        <button className="page-link" onClick={() => paginate(index + 1)}>
-                            {index + 1}
-                        </button>
-                        </li>
-                    ))} */}
-                    {/* Pagination controls */}
-                    {/* <div className="pagination">
-                        <button onClick={() => handlePageChange(currentPage - 1)} disabled={currentPage === 1}>
-                            Previous
-                        </button>
-                        <span>Page {currentPage}</span>
-                        <button onClick={() => handlePageChange(currentPage + 1)} disabled={data.length < postPerPage}>
-                            Next
-                        </button>
-                    </div> */}
+                   <ReactPaginate
+                    previousLabel={<AiOutlineArrowLeft />}
+                    nextLabel={<AiOutlineArrowRight />}
+                    breakLabel={'...'}
+                    breakClassName={'break-me'}
+                    pageCount={last}
+                    marginPagesDisplayed={2}
+                    pageRangeDisplayed={5}
+                    onPageChange={handleNext}
+                    containerClassName={'inline-flex items-center justify-center m-auto '}
+                    subContainerClassName={'pages pagination'}
+                    activeClassName={'py-2 px-3 text-md text-center rounded-r-lg bg-white text-[#A32926]'}
+                />
+                  
+                    {/* <nav className="cd-secondary-nav border-b md:m-0 -mx-4 nav-small">
+                        <ul className="space-x-1 overflow-x-scroll sm:overflow-x-scroll sm:space-x-1 md:overflow-x-scroll md:space-x-1 lg:overflow-x-hidden lg:space-x-2">
+                            {Post.map((item, index)=>{
+                            return<li className={hover == index?"active tip relative":"tip"} key={index} onMouseLeave={()=>handleLeave()} onMouseOver={()=>handleOver(index)} onClick={()=>handlemouse(index, item)}>
+                                <a className="lg:px-2 tip">{item.substr(0, 12)}</a>
+                                <span className={overon == index?"top-[-45px] h-32 absolute text-white text-xs bg-[#A32926]  grid place-content-center   sm:top-[-45px] sm:h-32 sm:absolute sm:text-xs sm:bg-[#A32926]  sm:grid sm:place-content-center  sm:text-white sm:z-30    md:grid md:place-content-center md:top-[-45px]  md:absolute md:text-xs md:bg-[#A32926]  md:text-white md:z-30  lg:mt-[-10px]  lg:grid lg:place-content-center lg:top-[-25px] lg:absolute lg:text-xs lg:bg-[#A32926]  lg:text-white lg:z-30":'hidden'} >{item.substr(0, 30)}</span>
+                            </li>
+                            })}
+                        </ul>
+                    </nav> */}
                     
                 </div>
                 

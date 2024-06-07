@@ -48,27 +48,27 @@ class viewsController extends Controller
     }
 
 
- 
+  
     public function listcoursesfun(CourseInfo $courseInfo, UserCart $usercart){
         $user = $this->getuser();
         // $cart =  UserCart::where(['user_id'=>auth()->user()->id])->first();
         $additionalpic =  Auth::check() && Additional::where(['user_id'=>auth()->user()->id])->first() != null?Additional::where(['user_id'=>auth()->user()->id])->first()->image:'https://res.cloudinary.com/the-morgans-consortium/image/upload/v1658329437/Tmc%20institute/blank-profile-picture-gae268b379_1280_gtgqxr.png';
         $info = $courseInfo->orderBy('id', 'asc')->get();
         $data =  CourseInfomation::collection($info)->resolve();
-        $page= 12;
-        $numbercourse = $courseInfo->get();
-        $pagdata =  $this->paginate($data, $page);
+        $totalCourse = 80;
+        $page= 1;
+        $pagdata =  $this->paginate($data, 20, $page);
         $unique = $courseInfo->get(['MainHead']);
         $convet = $unique->toArray();
         $unique_data = [];
         foreach ($convet as $value) {
             array_push($unique_data,  $value['MainHead']);
-      }
+        }
         $uni = array_unique($unique_data);
         $help = new Help();
         $currencysymbol =  (new Help)->getplace();
-        $currencyex =  (new Help)->moneyconvert(); 
-       return    (new Frontends)->listcourses( $uni, $pagdata, $currencysymbol, $currencyex,  $additionalpic);
+        $currencyex =  (new Help)->moneyconvert();
+       return    (new Frontends)->listcourses($uni, $totalCourse, $pagdata, $currencysymbol, $currencyex,  $additionalpic);
     }
     // Pagination function
   

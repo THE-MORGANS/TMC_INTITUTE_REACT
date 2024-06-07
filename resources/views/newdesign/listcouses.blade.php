@@ -2,5 +2,5 @@
 @section('content')
 <div id="listcourses">
  
-</div>
+</div> 
 @endsection

@@ -46,7 +46,7 @@ use Illuminate\Http\Response;
 use Symfony\Component\HttpFoundation\Cookie;
 class MainConroller extends Controller
 {
-
+ 
 
     public function userscoursepurcase(userscourse $userpurcase, purchase $request){
        $user = $this->getuser();
@@ -172,19 +172,27 @@ class MainConroller extends Controller
         return response()->json($pagdata);
      }
 
+     public function getcoursescount()
+    {
+        $courseCount = CourseInfo::count(); 
+        
+        return response()->json(['totalCourseCount' => $courseCount]);
+    }
+
+
      public function coursesdata(CourseInfo $courseInfo, Request $request){
         $info = $courseInfo->orderBy('id', 'asc')->get();
             $data =  CourseInfomation::collection($info)->resolve();
-            $pagdata =  $this->paginate($data, $request->page);
+            $pagdata =  $this->paginate($data, 20, $request->page);
             return response()->json($pagdata);
-     }
+    }
 
      public function arrangment(CourseInfo $courseInfo,  Request $request){
       $order =  $request->orderby?$request->orderby:'ASC';
        $page =  $request->page?$request->page:1;
         $info = $courseInfo->orderBy('id', $order)->get();
         $data =  CourseInfomation::collection($info)->resolve();
-        $pagdata =  $this->paginate($data, 6, $page);
+        $pagdata =  $this->paginate($data, 20, $page);
         return response()->json($pagdata);
     }
 
@@ -193,7 +201,7 @@ class MainConroller extends Controller
        $page =  $request->page?$request->page:1;
        $info = $courseInfo->whereIn('firstletter', $arr)->get();
        $data =  CourseInfomation::collection($info)->resolve();
-       $pagdata =  $this->paginate($data, 6, $page);
+       $pagdata =  $this->paginate($data, 20, $page);
        return response()->json($pagdata);
     }
 

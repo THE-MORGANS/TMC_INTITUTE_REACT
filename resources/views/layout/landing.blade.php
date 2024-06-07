@@ -82,15 +82,17 @@
     var img3 = "{{ asset('image/Image (6).png') }}"
      var hype =    "{{ Request::url() }}";
      var fetchdata = @json($nibble??"");
-       var usersemail = {{ Js::from(auth()->user()->email??"") }}
-       var purchasecourse =@json($coursepurshase??"");
-       var coursesdata = @json($coursesdata??"");
-       var cart = {{ Js::from(json_decode($cart->usercartdetails??'')) }};
-          var money = @js($money??"");
-        var unique  = {{ Js::from($unihead??"") }};
-        var videos = {{ Js::from($videos??'') }};
-         var coursedetail = @json($coursedetail??"");
-         var captchaimg = {{ Js::from(captcha_src()) }}
+    var usersemail = {{ Js::from(auth()->user()->email??"") }}
+    var purchasecourse =@json($coursepurshase??"");
+    var coursesdata = @json($coursesdata??"");
+    var cart = {{ Js::from(json_decode($cart->usercartdetails??'')) }};
+        var money = @js($money??""); 
+    var unique  = {{ Js::from($unihead??"") }};
+    var totalCourse = {{ Js::from($totalCourse)}};
+
+    var videos = {{ Js::from($videos??'') }};
+        var coursedetail = @json($coursedetail??"");
+        var captchaimg = {{ Js::from(captcha_src()) }}
 
          {{--  var pdffile = "{{  asset('images/ujpverxbylo7jozxnacs.pdf') }}";  --}}
 </script>

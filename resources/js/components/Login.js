@@ -42,7 +42,7 @@ import Navbar from './new/Navbar';
                setloader(false)
                setTimeout(()=>{
                 window.location.href = `${url}/newdashboard`;
-               },1500)
+               },1500) 
              }else if(res.data.error){
                 setloader(false)
                 SetAlert(res.data.error)
