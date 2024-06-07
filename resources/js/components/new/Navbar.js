@@ -731,7 +731,7 @@ let dataa = localStorage.getItem('Cart')?JSON.parse(localStorage.getItem('Cart')
                             <div class="col-auto d-none d-lg-block">
                                 <div class="header-links">
                                     <ul>
-                                        {/* <li>
+                                        <li>
                                             <i class="far fa-phone"></i>
                                             <a href="tel:+234915-341-4314">
                                                 +234 (0) 915-341-4314
@@ -742,7 +742,7 @@ let dataa = localStorage.getItem('Cart')?JSON.parse(localStorage.getItem('Cart')
                                             <a href="mailto:enquiries@tmcinstitute.com">
                                                 enquiries@tmcinstitute.com
                                             </a>
-                                        </li> */}
+                                        </li>
                                         {/* <li>
                                             <i class="far fa-clock"></i>Mon -
                                             Sat: 8:00 - 15:00
