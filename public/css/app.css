@@ -14900,10 +14900,6 @@ variables above and don't change anything in the actual loader code
     display: grid;
   }
 
-  .md\:hidden {
-    display: none;
-  }
-
   .md\:h-16 {
     height: 4rem;
   }
@@ -15583,10 +15579,6 @@ variables above and don't change anything in the actual loader code
 
   .lg\:grid {
     display: grid;
-  }
-
-  .lg\:hidden {
-    display: none;
   }
 
   .lg\:h-24 {

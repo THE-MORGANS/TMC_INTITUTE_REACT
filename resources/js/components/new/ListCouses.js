@@ -505,7 +505,8 @@ function ListCouses() {
                     pageRangeDisplayed={5}
                     onPageChange={handleNext}
                     containerClassName={'inline-flex items-center justify-center m-auto '}
-                    subContainerClassName={'pages pagination'}
+                    // subContainerClassName={'pages pagination'}
+                    subContainerClassName={'py-2 px-3 text-md text-center rounded-r-lg bg-white text-[#A32926]'}
                     activeClassName={'py-2 px-3 text-md text-center rounded-r-lg bg-white text-[#A32926]'}
                 />
                   

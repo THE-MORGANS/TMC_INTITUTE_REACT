@@ -43,8 +43,7 @@ class FrontendController extends Controller
     public static function dashboard($data, $cart, $uni){
 
         return view('dashboard', ['coursesdata'=>$data, 'cart'=>$cart, 'unihead'=>$uni]);
-      }
-
+    }
     public function login(){
         $toptitle = 'TMC Institute-User-login';
         $currencysymbol =  (new Help)->getplace();
@@ -74,21 +73,17 @@ class FrontendController extends Controller
         $toptitle = 'TMC Institute-Activation Mail';
         return view('activationmail', ['toptitle'=>$toptitle]);
     }
-
     public static function verified(){
         $toptitle = 'TMC Institute-User Verify';
         return view('verified', ['toptitle'=>$toptitle]);
 
     }
 
-
     public  function companyverified(){
         $toptitle = 'TMC Institute-Company Verify';
         return view('verifiedcompany', ['toptitle'=>$toptitle]);
 
     }
-
-
 
     public static  function coursedetails($data, $coursepurshase, $money){
         return view('coursedetails',['nibble'=>$data, 'coursepurshase'=>$coursepurshase, 'money'=>$money]);
@@ -98,9 +93,6 @@ class FrontendController extends Controller
         return view('cart', ['cart'=>$cart, 'money'=>$money]);
     }
 
-    
-
-   
     public function Main(){
         return view('mainpage');
     }
