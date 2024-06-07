@@ -32,7 +32,7 @@ class viewsController extends Controller
         $allcourse = CourseInfo::all();
         $allcollection = $user?CourseResource::collection($allcourse):CourseResourcee::collection($allcourse);
         //   CourseResourcee
-        $featured =  CourseInfo::get()->take(2);
+        $featured =  CourseInfo::inRandomOrder()->get()->take(5);
         $featuredcollect = $user?CourseResource::collection($featured):CourseResourcee::collection($featured);
         $popular =  CourseInfo::where(['price'=>150000.00, 'price'=>180000.00])->orderBy('id', 'desc')->get()->random(5);
         $popularcollect =  $user?CourseResource::collection($popular):CourseResourcee::collection($popular);
