@@ -211,7 +211,7 @@ export default function Home() {
         <div class="th-hero-wrapper hero-1" id="hero">
           <div class="hero-slider-1 th-carousel" data-fade="true" data-slide-show="1" data-md-slide-show="1" data-dots="true">
             <div class="th-hero-slide">
-                {/* <div class="th-hero-bg" data-overlay="title" data-opacity="8" data-bg-src="assets/img/hero/hero_bg_1_1.jpg"></div>
+                <div class="th-hero-bg" data-overlay="title" data-opacity="8" data-bg-src="assets/img/hero/hero_bg_1_1.jpg"></div>
                     <div class="container">
                         <div class="row align-items-center justify-content-center">
                           <div class="col-md-6">
@@ -229,7 +229,7 @@ export default function Home() {
                         </div>
                         <div class="col-md-6 text-lg-end text-center"><div class="hero-img1"><img src="assets/img/hero/hero_thumb_1_1.jpg" alt="hero"/></div></div>
                     </div>
-                </div> */}
+                </div>
                 <div class="hero-shape shape1">
                     <img src="assets/img/hero/shape_1_1.png" alt="shape"/>
                 </div>
