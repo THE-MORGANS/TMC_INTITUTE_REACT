@@ -6,7 +6,7 @@ use App\Models\userscourse;
 class Help{
 
 
-    public static function Helps($model, $row, $length = 4, $prefix){
+    public static function Helps($model, $row, $prefix, $length = 4){
 
         $data =  $model::orderBy('id', 'desc')->first();
 
@@ -59,8 +59,8 @@ class Help{
     // 96.158.226.150 - U.S.A
     // 175.200.244.203 - South Korea
     // 92.119.176.178 - United Kingdom
-    $ip = '175.200.244.203';
-    // $ip = $this->get_client_ip();
+    // $ip = '175.200.244.203';
+    $ip = $this->get_client_ip();
 
     curl_setopt_array($curl, array(
       CURLOPT_URL => "https://api.ipgeolocation.io/ipgeo?apiKey=ed5d8ccaca8d4e05a822b127ee2b5bea&ip=$ip",
