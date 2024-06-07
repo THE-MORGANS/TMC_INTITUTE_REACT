@@ -831,7 +831,7 @@ let dataa = localStorage.getItem('Cart')?JSON.parse(localStorage.getItem('Cart')
                                                             cursor: "pointer",
                                                         }}
                                                     >
-                                                        Coroperate
+                                                        Corporate
                                                     </a>
                                                 </li>
                                             </>
