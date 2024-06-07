@@ -227,7 +227,6 @@ let dataa = localStorage.getItem('Cart')?JSON.parse(localStorage.getItem('Cart')
                     </div>
                 </div>
             </div>
-
             <div className="popup-search-box d-none d-lg-block">
                 <button className="searchClose">
                     <i className="fal fa-times"></i>
