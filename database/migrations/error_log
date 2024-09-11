@@ -1,0 +1,556 @@
+[21-Jun-2023 20:52:44 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2014_10_12_000000_create_users_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2014_10_12_000000_create_users_table.php on line 7
+[21-Jun-2023 21:00:17 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2014_10_12_100000_create_password_resets_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2014_10_12_100000_create_password_resets_table.php on line 7
+[21-Jun-2023 21:14:00 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2019_08_19_000000_create_failed_jobs_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2019_08_19_000000_create_failed_jobs_table.php on line 7
+[21-Jun-2023 21:43:21 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_095614_create_course_infos_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_095614_create_course_infos_table.php on line 7
+[22-Jun-2023 00:26:20 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_100130_create_course_videos_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_100130_create_course_videos_table.php on line 7
+[22-Jun-2023 05:59:42 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_150103_create_userscourses_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_150103_create_userscourses_table.php on line 7
+[23-Jun-2023 12:54:34 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_26_090636_add_picture_to_course_infos_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_26_090636_add_picture_to_course_infos_table.php on line 7
+[23-Jun-2023 13:52:48 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_28_065210_create_user_watcheds_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_28_065210_create_user_watcheds_table.php on line 7
+[23-Jun-2023 14:39:27 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_29_074846_create_user_carts_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_29_074846_create_user_carts_table.php on line 7
+[23-Jun-2023 16:14:02 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_05_02_081718_add_terms_to_userscourses_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_05_02_081718_add_terms_to_userscourses_table.php on line 7
+[23-Jun-2023 21:52:28 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_05_19_172730_create_additionals_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_05_19_172730_create_additionals_table.php on line 7
+[24-Jun-2023 03:19:43 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_05_20_120340_add__dob_additionals_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_05_20_120340_add__dob_additionals_table.php on line 7
+[25-Jun-2023 06:58:31 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_05_23_085143_create_invoices_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_05_23_085143_create_invoices_table.php on line 7
+[25-Jun-2023 07:44:35 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_05_25_094935_create_admins_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_05_25_094935_create_admins_table.php on line 7
+[25-Jun-2023 08:23:05 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_05_25_144521_create_stephens_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_05_25_144521_create_stephens_table.php on line 7
+[25-Jun-2023 09:57:36 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_06_01_113447_create_grouppurchases_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_06_01_113447_create_grouppurchases_table.php on line 7
+[25-Jun-2023 17:03:03 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_06_01_211240_add_status_grouppurchases_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_06_01_211240_add_status_grouppurchases_table.php on line 7
+[26-Jun-2023 06:12:19 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_06_07_111220_add_fullname_grouppurchases_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_06_07_111220_add_fullname_grouppurchases_table.php on line 7
+[26-Jun-2023 06:15:33 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_07_09_071427_create_percentages_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_07_09_071427_create_percentages_table.php on line 7
+[26-Jun-2023 10:31:35 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_07_10_163443_create_othms_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_07_10_163443_create_othms_table.php on line 7
+[26-Jun-2023 10:37:38 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_07_10_190350_add_to_field_othms.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_07_10_190350_add_to_field_othms.php on line 7
+[26-Jun-2023 10:50:36 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_07_12_042652_add_course_to_userscourses_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_07_12_042652_add_course_to_userscourses_table.php on line 7
+[26-Jun-2023 11:14:37 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_07_13_074733_create_studypros_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_07_13_074733_create_studypros_table.php on line 7
+[26-Jun-2023 11:58:25 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_07_18_102344_create_questions_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_07_18_102344_create_questions_table.php on line 7
+[26-Jun-2023 13:14:30 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_07_19_095021_create_questionremainers_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_07_19_095021_create_questionremainers_table.php on line 7
+[26-Jun-2023 16:23:34 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_07_23_122939_create_webhook_calls_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_07_23_122939_create_webhook_calls_table.php on line 6
+[27-Aug-2023 17:20:12 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_28_065210_create_user_watcheds_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_28_065210_create_user_watcheds_table.php on line 7
+[27-Aug-2023 17:20:14 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_28_065210_create_user_watcheds_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_28_065210_create_user_watcheds_table.php on line 7
+[28-Aug-2023 11:12:04 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_28_065210_create_user_watcheds_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_28_065210_create_user_watcheds_table.php on line 7
+[28-Aug-2023 11:12:06 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_28_065210_create_user_watcheds_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_28_065210_create_user_watcheds_table.php on line 7
+[28-Aug-2023 13:32:38 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_06_01_211240_add_status_grouppurchases_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_06_01_211240_add_status_grouppurchases_table.php on line 7
+[28-Aug-2023 13:32:39 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_06_01_211240_add_status_grouppurchases_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_06_01_211240_add_status_grouppurchases_table.php on line 7
+[28-Aug-2023 23:30:35 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_28_065210_create_user_watcheds_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_28_065210_create_user_watcheds_table.php on line 7
+[30-Aug-2023 11:51:38 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_28_065210_create_user_watcheds_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_28_065210_create_user_watcheds_table.php on line 7
+[30-Aug-2023 11:51:40 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_28_065210_create_user_watcheds_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_28_065210_create_user_watcheds_table.php on line 7
+[30-Aug-2023 12:10:33 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_06_01_211240_add_status_grouppurchases_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_06_01_211240_add_status_grouppurchases_table.php on line 7
+[30-Aug-2023 12:10:34 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_06_01_211240_add_status_grouppurchases_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_06_01_211240_add_status_grouppurchases_table.php on line 7
+[30-Aug-2023 21:58:33 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_100130_create_course_videos_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_100130_create_course_videos_table.php on line 7
+[30-Aug-2023 21:58:34 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_100130_create_course_videos_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_100130_create_course_videos_table.php on line 7
+[30-Aug-2023 23:30:34 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_100130_create_course_videos_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_100130_create_course_videos_table.php on line 7
+[31-Aug-2023 10:57:51 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_100130_create_course_videos_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_100130_create_course_videos_table.php on line 7
+[31-Aug-2023 10:57:54 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_100130_create_course_videos_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_100130_create_course_videos_table.php on line 7
+[31-Aug-2023 10:57:57 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_06_01_211240_add_status_grouppurchases_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_06_01_211240_add_status_grouppurchases_table.php on line 7
+[31-Aug-2023 10:58:00 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_06_01_211240_add_status_grouppurchases_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_06_01_211240_add_status_grouppurchases_table.php on line 7
+[31-Aug-2023 11:18:05 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_28_065210_create_user_watcheds_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_28_065210_create_user_watcheds_table.php on line 7
+[31-Aug-2023 11:18:07 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_28_065210_create_user_watcheds_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_28_065210_create_user_watcheds_table.php on line 7
+[31-Aug-2023 17:44:29 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_095614_create_course_infos_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_095614_create_course_infos_table.php on line 7
+[31-Aug-2023 17:44:31 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_095614_create_course_infos_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_095614_create_course_infos_table.php on line 7
+[31-Aug-2023 23:30:30 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_100130_create_course_videos_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_100130_create_course_videos_table.php on line 7
+[01-Sep-2023 10:40:02 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_28_065210_create_user_watcheds_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_28_065210_create_user_watcheds_table.php on line 7
+[01-Sep-2023 10:40:03 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_28_065210_create_user_watcheds_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_28_065210_create_user_watcheds_table.php on line 7
+[01-Sep-2023 10:40:09 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_095614_create_course_infos_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_095614_create_course_infos_table.php on line 7
+[01-Sep-2023 10:40:10 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_095614_create_course_infos_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_095614_create_course_infos_table.php on line 7
+[01-Sep-2023 10:58:43 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_06_01_211240_add_status_grouppurchases_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_06_01_211240_add_status_grouppurchases_table.php on line 7
+[01-Sep-2023 10:58:45 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_06_01_211240_add_status_grouppurchases_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_06_01_211240_add_status_grouppurchases_table.php on line 7
+[01-Sep-2023 10:58:47 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_100130_create_course_videos_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_100130_create_course_videos_table.php on line 7
+[01-Sep-2023 10:58:48 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_100130_create_course_videos_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_100130_create_course_videos_table.php on line 7
+[01-Sep-2023 13:11:26 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2014_10_12_000000_create_users_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2014_10_12_000000_create_users_table.php on line 7
+[01-Sep-2023 13:11:27 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2014_10_12_000000_create_users_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2014_10_12_000000_create_users_table.php on line 7
+[01-Sep-2023 23:47:28 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2014_10_12_000000_create_users_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2014_10_12_000000_create_users_table.php on line 7
+[01-Sep-2023 23:47:29 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_095614_create_course_infos_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_095614_create_course_infos_table.php on line 7
+[02-Sep-2023 11:12:59 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_100130_create_course_videos_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_100130_create_course_videos_table.php on line 7
+[02-Sep-2023 11:13:01 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_100130_create_course_videos_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_100130_create_course_videos_table.php on line 7
+[02-Sep-2023 11:13:04 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_06_01_211240_add_status_grouppurchases_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_06_01_211240_add_status_grouppurchases_table.php on line 7
+[02-Sep-2023 11:13:06 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_06_01_211240_add_status_grouppurchases_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_06_01_211240_add_status_grouppurchases_table.php on line 7
+[02-Sep-2023 11:13:43 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2014_10_12_000000_create_users_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2014_10_12_000000_create_users_table.php on line 7
+[02-Sep-2023 11:13:45 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2014_10_12_000000_create_users_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2014_10_12_000000_create_users_table.php on line 7
+[02-Sep-2023 11:31:43 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_28_065210_create_user_watcheds_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_28_065210_create_user_watcheds_table.php on line 7
+[02-Sep-2023 11:31:45 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_095614_create_course_infos_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_095614_create_course_infos_table.php on line 7
+[02-Sep-2023 11:31:45 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_28_065210_create_user_watcheds_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_28_065210_create_user_watcheds_table.php on line 7
+[02-Sep-2023 11:31:46 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_095614_create_course_infos_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_095614_create_course_infos_table.php on line 7
+[03-Sep-2023 11:24:56 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_095614_create_course_infos_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_095614_create_course_infos_table.php on line 7
+[03-Sep-2023 11:24:57 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_28_065210_create_user_watcheds_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_28_065210_create_user_watcheds_table.php on line 7
+[03-Sep-2023 11:24:57 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_095614_create_course_infos_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_095614_create_course_infos_table.php on line 7
+[03-Sep-2023 11:24:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_28_065210_create_user_watcheds_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_28_065210_create_user_watcheds_table.php on line 7
+[03-Sep-2023 11:44:07 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2014_10_12_000000_create_users_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2014_10_12_000000_create_users_table.php on line 7
+[03-Sep-2023 11:44:09 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2014_10_12_000000_create_users_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2014_10_12_000000_create_users_table.php on line 7
+[03-Sep-2023 11:44:23 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_06_01_211240_add_status_grouppurchases_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_06_01_211240_add_status_grouppurchases_table.php on line 7
+[03-Sep-2023 11:44:25 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_100130_create_course_videos_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_100130_create_course_videos_table.php on line 7
+[03-Sep-2023 11:44:26 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_06_01_211240_add_status_grouppurchases_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_06_01_211240_add_status_grouppurchases_table.php on line 7
+[03-Sep-2023 11:44:27 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_100130_create_course_videos_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_100130_create_course_videos_table.php on line 7
+[03-Sep-2023 18:48:49 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_05_19_172730_create_additionals_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_05_19_172730_create_additionals_table.php on line 7
+[03-Sep-2023 18:48:51 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_05_19_172730_create_additionals_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_05_19_172730_create_additionals_table.php on line 7
+[03-Sep-2023 23:31:09 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_05_19_172730_create_additionals_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_05_19_172730_create_additionals_table.php on line 7
+[04-Sep-2023 11:52:55 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2014_10_12_000000_create_users_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2014_10_12_000000_create_users_table.php on line 7
+[04-Sep-2023 11:52:57 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2014_10_12_000000_create_users_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2014_10_12_000000_create_users_table.php on line 7
+[04-Sep-2023 11:53:07 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_05_19_172730_create_additionals_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_05_19_172730_create_additionals_table.php on line 7
+[04-Sep-2023 11:53:08 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_05_19_172730_create_additionals_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_05_19_172730_create_additionals_table.php on line 7
+[04-Sep-2023 11:53:17 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_06_01_211240_add_status_grouppurchases_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_06_01_211240_add_status_grouppurchases_table.php on line 7
+[04-Sep-2023 11:53:19 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_06_01_211240_add_status_grouppurchases_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_06_01_211240_add_status_grouppurchases_table.php on line 7
+[04-Sep-2023 11:53:56 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_100130_create_course_videos_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_100130_create_course_videos_table.php on line 7
+[04-Sep-2023 11:53:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_100130_create_course_videos_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_100130_create_course_videos_table.php on line 7
+[04-Sep-2023 12:12:36 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_28_065210_create_user_watcheds_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_28_065210_create_user_watcheds_table.php on line 7
+[04-Sep-2023 12:12:38 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_28_065210_create_user_watcheds_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_28_065210_create_user_watcheds_table.php on line 7
+[04-Sep-2023 12:13:25 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_095614_create_course_infos_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_095614_create_course_infos_table.php on line 7
+[04-Sep-2023 12:13:30 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_095614_create_course_infos_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_095614_create_course_infos_table.php on line 7
+[04-Sep-2023 14:50:07 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_07_10_163443_create_othms_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_07_10_163443_create_othms_table.php on line 7
+[04-Sep-2023 14:50:08 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_07_10_163443_create_othms_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_07_10_163443_create_othms_table.php on line 7
+[04-Sep-2023 23:30:53 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_07_10_163443_create_othms_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_07_10_163443_create_othms_table.php on line 7
+[04-Sep-2023 23:30:53 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_05_19_172730_create_additionals_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_05_19_172730_create_additionals_table.php on line 7
+[05-Sep-2023 11:11:25 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_095614_create_course_infos_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_095614_create_course_infos_table.php on line 7
+[05-Sep-2023 11:11:28 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_095614_create_course_infos_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_095614_create_course_infos_table.php on line 7
+[05-Sep-2023 11:11:37 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_28_065210_create_user_watcheds_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_28_065210_create_user_watcheds_table.php on line 7
+[05-Sep-2023 11:11:38 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_28_065210_create_user_watcheds_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_28_065210_create_user_watcheds_table.php on line 7
+[05-Sep-2023 11:11:47 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_07_10_163443_create_othms_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_07_10_163443_create_othms_table.php on line 7
+[05-Sep-2023 11:11:50 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_07_10_163443_create_othms_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_07_10_163443_create_othms_table.php on line 7
+[05-Sep-2023 11:32:48 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_05_19_172730_create_additionals_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_05_19_172730_create_additionals_table.php on line 7
+[05-Sep-2023 11:32:50 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_05_19_172730_create_additionals_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_05_19_172730_create_additionals_table.php on line 7
+[05-Sep-2023 11:32:59 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2014_10_12_000000_create_users_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2014_10_12_000000_create_users_table.php on line 7
+[05-Sep-2023 11:33:01 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2014_10_12_000000_create_users_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2014_10_12_000000_create_users_table.php on line 7
+[05-Sep-2023 11:33:27 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_100130_create_course_videos_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_100130_create_course_videos_table.php on line 7
+[05-Sep-2023 11:33:28 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_100130_create_course_videos_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_100130_create_course_videos_table.php on line 7
+[05-Sep-2023 11:33:34 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_06_01_211240_add_status_grouppurchases_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_06_01_211240_add_status_grouppurchases_table.php on line 7
+[05-Sep-2023 11:33:36 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_06_01_211240_add_status_grouppurchases_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_06_01_211240_add_status_grouppurchases_table.php on line 7
+[05-Sep-2023 13:12:00 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_05_25_094935_create_admins_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_05_25_094935_create_admins_table.php on line 7
+[05-Sep-2023 13:12:02 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_05_25_094935_create_admins_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_05_25_094935_create_admins_table.php on line 7
+[05-Sep-2023 23:30:54 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_07_10_163443_create_othms_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_07_10_163443_create_othms_table.php on line 7
+[05-Sep-2023 23:30:54 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_05_25_094935_create_admins_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_05_25_094935_create_admins_table.php on line 7
+[06-Sep-2023 11:09:10 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_05_19_172730_create_additionals_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_05_19_172730_create_additionals_table.php on line 7
+[06-Sep-2023 11:09:12 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_05_19_172730_create_additionals_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_05_19_172730_create_additionals_table.php on line 7
+[06-Sep-2023 11:09:22 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2014_10_12_000000_create_users_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2014_10_12_000000_create_users_table.php on line 7
+[06-Sep-2023 11:09:22 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_05_25_094935_create_admins_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_05_25_094935_create_admins_table.php on line 7
+[06-Sep-2023 11:09:23 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2014_10_12_000000_create_users_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2014_10_12_000000_create_users_table.php on line 7
+[06-Sep-2023 11:09:24 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_05_25_094935_create_admins_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_05_25_094935_create_admins_table.php on line 7
+[06-Sep-2023 11:09:45 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_100130_create_course_videos_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_100130_create_course_videos_table.php on line 7
+[06-Sep-2023 11:09:47 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_100130_create_course_videos_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_100130_create_course_videos_table.php on line 7
+[06-Sep-2023 11:10:03 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_06_01_211240_add_status_grouppurchases_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_06_01_211240_add_status_grouppurchases_table.php on line 7
+[06-Sep-2023 11:10:05 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_06_01_211240_add_status_grouppurchases_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_06_01_211240_add_status_grouppurchases_table.php on line 7
+[06-Sep-2023 11:27:56 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_28_065210_create_user_watcheds_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_28_065210_create_user_watcheds_table.php on line 7
+[06-Sep-2023 11:27:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_28_065210_create_user_watcheds_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_28_065210_create_user_watcheds_table.php on line 7
+[06-Sep-2023 11:28:14 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_07_10_163443_create_othms_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_07_10_163443_create_othms_table.php on line 7
+[06-Sep-2023 11:28:16 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_07_10_163443_create_othms_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_07_10_163443_create_othms_table.php on line 7
+[06-Sep-2023 11:28:36 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_095614_create_course_infos_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_095614_create_course_infos_table.php on line 7
+[06-Sep-2023 11:28:37 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_095614_create_course_infos_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_095614_create_course_infos_table.php on line 7
+[06-Sep-2023 13:11:43 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_100130_create_course_videos_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_100130_create_course_videos_table.php on line 7
+[06-Sep-2023 13:11:45 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_100130_create_course_videos_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_04_25_100130_create_course_videos_table.php on line 7
+[06-Sep-2023 17:12:31 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_10_25_072423_create_currncyrates_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_10_25_072423_create_currncyrates_table.php on line 7
+[06-Sep-2023 17:12:32 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_10_25_072423_create_currncyrates_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_10_25_072423_create_currncyrates_table.php on line 7
+[06-Sep-2023 23:30:24 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_10_25_072423_create_currncyrates_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/morgaqb3/public_html/tmcinstitute/database/migrations/2022_10_25_072423_create_currncyrates_table.php on line 7
