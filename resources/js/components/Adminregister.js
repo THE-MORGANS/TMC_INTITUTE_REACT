@@ -8,21 +8,18 @@ import {AiOutlineEye, AiOutlineEyeInvisible} from 'react-icons/ai'
 import PasswordChecklist  from  'react-password-checklist';
 import Footer from './new/Footer';
 import Navbar from './new/Navbar'; 
-// import 'toastr/build/toastr.min.css';
-// import toastr from './toastr';
 
 export default function Adminregister() {
     let url = `${window.location.origin}/`;
     const handleClick =(e)=>{
       e.preventDefault();
       let data = e.target.dataset.name
-      window.location.href = url+data
-    //   if(data == 'companylogin'){
-    //     window.location.href = url+data
-    //   }else{
-    //  let link = `${url}authenticate`;
-    //   window.location.href = link;
-    //   }
+      if(data == 'companylogin'){
+        window.location.href = url+data
+      }else{
+     let link = `${url}authenticate`;
+      window.location.href = link;
+      }
  
      }
 
@@ -31,9 +28,10 @@ export default function Adminregister() {
     const [pasword, Setpasssword] = useState('');
     const [terms, Setterms] = useState(false);
     const [password_confirmation, Setpassword_confirmation] = useState('');
-    // const [captcha, Setcaptcha] = useState('')
-    const [loader, setloader] = useState(false)
-    const [showbtn, setShowbtn] = useState(false)
+   const [Alert, SetAlert] = useState('');
+   const [captcha, Setcaptcha] = useState('')
+   const [loader, setloader] = useState(false)
+   const [showbtn, setShowbtn] = useState(false)
 
     const handleSubmit = (e)=>{
        e.preventDefault();
@@ -42,7 +40,7 @@ export default function Adminregister() {
         let formData = new FormData();
         formData.append('fullname', fullname)
         formData.append('email', email)
-        // formData.append('captcha', captcha)
+        formData.append('captcha', captcha)
         formData.append("password", pasword)
         formData.append('password_confirmation', password_confirmation)
         formData.append("term", terms)
@@ -51,7 +49,7 @@ export default function Adminregister() {
           axios.post(urltwo, formData).then(res=>{
                //console.log(res)
              if(res.data.success){
-               toastr.success(res.data.success, 'Success');
+               SetAlert(res.data.success)
                setloader(false)
                window.scrollTo(0, 0)
                setTimeout(()=>{
@@ -59,26 +57,40 @@ export default function Adminregister() {
                },1100)
              }
 
-         }).catch(error=>{
-            if (error.response && error.response.status === 422) {
-                const errors = error.response.data.errors;
-                console.log('errors', errors);
-                if(errors.term){
-                    toastr.error(errors.term[0], 'Validation Error');
-                    setloader(false)
-                } else if(errors.fullname){
-                    toastr.error(errors.fullname[0], 'Validation Error');
-                    setloader(false)
-                }else if(errors.email){
-                    toastr.error(errors.email[0], 'Validation Error');
-                    setloader(false)
-                }else if(errors.password){
-                    toastr.error(errors.password[0], 'Validation Error');
-                    setloader(false)
-                }
-            }
-            
+         }).catch(erorr=>{
+            let error = erorr.response.data.errors
+            if(error.term){
+               SetAlert(error.term[0])
+               setloader(false)
+               window.scrollTo(0, 0)
+             } else if(error.fullname){
+               SetAlert(error.fullname[0])
+               setloader(false)
+               window.scrollTo(0, 0)
+             }else if(error.email){
+               SetAlert(error.email[0])
+               setloader(false)
+               window.scrollTo(0, 0)
+             }else if(error.password){
+               SetAlert(error.password[0])
+               setloader(false)
+               window.scrollTo(0, 0)
+             }else if(error.captcha){
+                // captcha
+                SetAlert(error.captcha[0])
+                setloader(false)
+                setTimeout(()=>{
+                    window.location.href=`${url}companyregister`
+                },1000)
+
+        }
          })
+
+
+
+
+
+
     }
 
     const handleterms = ()=>{
@@ -104,7 +116,7 @@ export default function Adminregister() {
           <div className="shape-mockup breadcumb-shape3 jump-reverse d-lg-block d-none" data-left="50px" data-bottom="80px">
               <img src="assets/img/bg/breadcumb_shape_1_3.png" alt="shape" />
           </div>
-          <div className="container"> 
+          <div className="container">
               <div className="breadcumb-content text-center">
               <h1 className="breadcumb-title">Company account</h1>
               <ul className="breadcumb-menu">
@@ -119,21 +131,21 @@ export default function Adminregister() {
             <div class="container">
             
               
-                <div class="row justify-content-center align-items-center">
-                    <div class="col-xl-5 mb-40 mb-xl-0 ml-20 ">
-                        <div class="img-box7 tilt-active ">
-                            <center>
-                                <img class="w-80 " src="assets/img/update1/normal/about_2_1.jpg" alt="About"/>
-                            </center>
+                <div class="row">
+                    <div class="col-xl-4 mb-40 mb-xl-0">
+                        <div class="img-box7 tilt-active">
+                            <img class="w-100" src="assets/img/update1/normal/about_2_1.jpg" alt="About"/>
                         </div>
                     </div>
-                    <div class="col-xl-6  align-self-start ml-20 justify-content-center align-items-center">
+                    <div class="col-xxl-7 col-xl-8 align-self-end">
                       <div class="woocommerce-form-login-toggle">
                             <div class="woocommerce-info">
-                                Sign up? <a onClick={(e)=>handleClick(e)} data-name="companylogin"  class="showlogin cursor-pointer" style={{ cursor:'pointer'}}>Already have account?  Sign in</a>
+                                Sign up? <a onClick={(e)=>handleClick(e)} data-name="companylogin"  class="showlogin cursor-pointer">Already have account?  Sign in</a>
                             </div>
                         </div>
-                        
+                        <span className={message ?'text-center text-green-400 capitalize text-lg mt-2 py-1' :'text-center text-[#E93E30] capitalize text-lg mt-2 py-1'}>{message?message:""}</span>
+                        <span className={Alert =='your account has been created'?'text-center text-green-400 capitalize text-lg mt-2 py-1':'text-center text-[#E93E30] capitalize text-lg mt-2 py-1'}>{Alert?Alert:""}</span>
+            
                         <div class="consult-form ajax-contact">
                         
                             <div class="row gx-24">
@@ -150,48 +162,51 @@ export default function Adminregister() {
                                     </div>
                                 </div>
 
-                              
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                      <input type={changepass == false?"password":"text"}  placeholder="Password"  class="form-control" onChange={(e)=>Setpasssword(e.target.value)} value={pasword} />
-                                      <i class="">
-                                          {changepass == false?<AiOutlineEye className='w-6 h-6' onClick={()=>setChangepass(true)}/>:
-                                              <AiOutlineEyeInvisible className='w-6 h-6' onClick={()=>setChangepass(false)}/>
-                                          }
-                                      </i>
+                                <div className='col-md-12'>
+                                  <div class="form-group">
+                                    <img src={captchaimg} />
+                                    <br/>
+                                    <input placeholder="Enter Recaptcha value" type="text" class="form-control" onChange={(e)=>Setcaptcha(e.target.value)} value={captcha} autoComplete="off" />
                                     </div>
                                 </div>
 
-                                <div className="col-md-12">
-                                <div className="form-group ">
-                                    <input
-                                        type={conpass ? "text" : "password"}
-                                        className="form-control"
-                                        autoSave='off'
-                                        placeholder="Confirm Password"
-                                        onChange={(e) => Setpassword_confirmation(e.target.value)}
-                                        value={password_confirmation}
-                                        />
-                                        <i className="">
-                                        {conpass ? (
-                                            <AiOutlineEyeInvisible className="w-6 h-6" onClick={() => setConpass(false)} />
-                                        ) : (
-                                            <AiOutlineEye className="w-6 h-6" onClick={() => setConpass(true)} />
-                                        )}
-                                        </i>
+                                
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                      <input type={changepass == false?"password":"text"}  placeholder="Password"  class="form-control" onChange={(e)=>Setpasssword(e.target.value)} value={pasword} />
+                                      {/* <i class="fal fa-lock"></i> */}
+                                      <span className=" absolute   top-3 right-2">
+                                          {changepass == false?<AiOutlineEye className='w-6 h-6' onClick={()=>setChangepass(true)}/>:
+                                              <AiOutlineEyeInvisible className='w-6 h-6' onClick={()=>setChangepass(false)}/>
+                                          }
+                                      </span>
                                     </div>
+                                </div>
 
-                                    <span className="w-full">
-                                        {pasword && password_confirmation ? (
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                    <input type={conpass == false?"password":"text"}  placeholder="Confirm Password" class="form-control" onChange={(e)=>Setpassword_confirmation(e.target.value)} value={password_confirmation} />
+                
+                                       <i class="fal fa-lock"></i>
+                                    </div>
+                                    <span className="absolute   top-3 right-2">
+                                      {conpass == false?<AiOutlineEye className='w-6 h-6' onClick={()=>setConpass(true)}/>:
+                                      <AiOutlineEyeInvisible className='w-6 h-6' onClick={()=>setConpass(false)}/>}
+                                  </span>
+                                  <span className='w-full '>
+                                    {pasword != "" || password_confirmation != ""?
                                         <PasswordChecklist
-                                            rules={["minLength", "specialChar", "number", "lowercase", "match"]}
-                                            minLength={8}
-                                            value={pasword}
-                                            valueAgain={password_confirmation}
-                                            onChange={(isValid) => setShowbtn(isValid)}
-                                        />
-                                        ) : null}
-                                    </span>
+                                        rules={["minLength","specialChar","number", "lowercase", "match"]}
+                                        minLength={8}
+                                        value={pasword}
+                                        valueAgain={password_confirmation}
+                                        onChange={(isValid) => {
+                                            setShowbtn(isValid)
+                                        }}
+                                            />
+                                    :""}
+
+                                  </span> 
                                 </div>
                                 <div class="form-group">
                                     <div class="custom-checkbox">
@@ -212,10 +227,7 @@ export default function Adminregister() {
                                     </button>
                                     }
                                     <p class="fs-xs mt-2 mb-0">
-                                        
-                                        <a class="text-reset cursor-pointer" onClick={handleForget}>
-                                            <snap  style={{ cursor:'pointer'}}>Lost your password?</snap>
-                                        </a>
+                                        <a class="text-reset cursor-pointer" onClick={handleForget}>Lost your password?</a>
                                     </p>
                                 </div>
                                 

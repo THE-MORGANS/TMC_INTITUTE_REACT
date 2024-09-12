@@ -13,7 +13,7 @@
 <meta name="author" content="TMC Institute"/>
 
 <link rel="canonical" href="https://tmcinstitute.com/" />
- 
+
 <!-- Favicon -->
 <link rel="shortcut icon" type="image/x-icon" href="https://res.cloudinary.com/the-morgans-consortium/image/upload/v1667831345/Tmc%20institute/fav_dmznt6.jpg">
 <link rel="apple-touch-icon" sizes="180x180" type="image/x-icon" href="https://res.cloudinary.com/the-morgans-consortium/image/upload/v1667831345/Tmc%20institute/fav_dmznt6.jpg">

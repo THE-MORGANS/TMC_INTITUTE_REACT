@@ -132,17 +132,6 @@ class Frontends extends Controller
         $toptitle = 'TMC Institute-Order';
         return view('newdesign.order', ['toptitle'=>$toptitle]);
     }
-    
-    public function snatika(){
-      $toptitle = 'TMC Institute-Snatika';
-      $currencysymbol =  (new Help)->getplace();
-      $currencyex =  (new Help)->moneyconvert();
-      $info = CourseInfo::orderBy('id', 'asc')->get();
-      $data =  CourseInfomation::collection($info)->resolve();
-      $page= 1;
-      $pagdata =  $this->paginate($data, 6, $page); 
-      return view('newdesign.snatika',['toptitle'=>$toptitle, 'currencysymbol'=>$currencysymbol,   'coursesdata'=>$pagdata, 'currencyex'=>$currencyex]);
-    }
 
     public function privacy(){
         $toptitle = 'TMC Institute-Privacy';
@@ -340,12 +329,10 @@ class Frontends extends Controller
     'poundton'=>$poundton, 'othermoney'=>$othermoney, 'additionalpic'=>$additionalpic]);
    }
 
-  public function forgotten($status){
-    $toptitle = 'TMC Institute-forgotten'; 
-    $currencysymbol =  (new Help)->getplace();
-    $currencyex =  (new Help)->moneyconvert();
-    return view('newdesign.forgotten',['toptitle'=>$toptitle,'status'=>$status, 'currencysymbol'=>$currencysymbol, 'currencyex'=>$currencyex,]);
-  }
+   public function forgotten($status){
+    $toptitle = 'TMC Institute-forgotten';
+    return view('newdesign.forgotten',['toptitle'=>$toptitle,'status'=>$status]);
+   }
 
    public function reset($code, $status){
      $user = User::where(['verification_code'=>$code, 'is_verfield'=> 0])->first();

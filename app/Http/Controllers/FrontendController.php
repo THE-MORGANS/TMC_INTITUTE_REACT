@@ -17,6 +17,7 @@ use Illuminate\Http\Response;
 use Symfony\Component\HttpFoundation\Cookie;
 class FrontendController extends Controller
 {
+
     public function __construct(){
 
     }
@@ -49,10 +50,13 @@ class FrontendController extends Controller
         $currencyex =  (new Help)->moneyconvert();
         $info = CourseInfo::orderBy('id', 'asc')->get();
         $data =  CourseInfomation::collection($info)->resolve();
-        $page= 1; 
+        $page= 1;
         $pagdata =  $this->paginate($data, 6, $page); 
- 
+
         return view('login', ['toptitle'=>$toptitle,  'currencysymbol'=>$currencysymbol,   'coursesdata'=>$pagdata, 'currencyex'=>$currencyex,]);
+
+
+
     }
 
     public function companylogin(){
@@ -65,9 +69,9 @@ class FrontendController extends Controller
         $pagdata =  $this->paginate($data, 6, $page); 
         return view('companylogin', ['toptitle'=>$toptitle, 'currencysymbol'=>$currencysymbol,   'coursesdata'=>$pagdata, 'currencyex'=>$currencyex]);
     }
-    public function activationmail(){ 
+    public function activationmail(){
         $toptitle = 'TMC Institute-Activation Mail';
-        return view('activationmail', ['toptitle'=>$toptitle]); 
+        return view('activationmail', ['toptitle'=>$toptitle]);
     }
     public static function verified(){
         $toptitle = 'TMC Institute-User Verify';
@@ -133,19 +137,8 @@ class FrontendController extends Controller
         return view('invoice');
     }
 
-    public function snatika(Additional $add){
-        $countries = $this->list_countries();
-        $additional = $add->where(['user_id'=>auth()->user()->id])->first();
-         $help = new Help();
-         $currencysymbol =  (new Help)->getplace(); 
-         $userinfoma = $help->getplace();
-        $toptitle = 'TMC Institute-User Details';
-        $currencyex =  (new Help)->moneyconvert();
-        $info = CourseInfo::orderBy('id', 'asc')->get();
-        $data =  CourseInfomation::collection($info)->resolve();
-        $page= 1;
-        $coursesdata =  $this->paginate($data, 6, $page);
-        return view('newdesign.snatika', compact('countries', 'currencyex', 'additional', 'coursesdata','currencysymbol', 'toptitle', 'userinfoma'));
+    public function snatika(){
+        return view('snatika');
     }
 
     public function question(){

@@ -34,6 +34,7 @@ import Navbar from './new/Navbar';
       const [showbtn, setShowbtn] = useState(false)
   
        const handleSubmit = (e)=>{
+  
           e.preventDefault();
           setloader(true)
           let company = 'user'
@@ -223,14 +224,14 @@ import Navbar from './new/Navbar';
                                
                                 <div class="form-group">
                                     <div class="custom-checkbox">
-                                        <input type="checkbox" id="remembermylogin" onChange={(e)=>Setterms(e.target.checked)} value={terms}  />
+                                        <input type="checkbox"  onChange={(e)=>Setterms(e.target.checked)} value={terms}  />
                                         <label for="remembermylogin">I agreed to the <snap style={{color:'#A32926'}} onClick={handleterms}>Terms & Conditions</snap></label>
                                     </div>
                                 </div>
                                 <div class="form-btn  col-12">
                                     {showbtn == false?
                                     
-                                        <button  class="th-btn style6 opacity-25" disabled onClick={(e)=>handleSubmit(e)}>
+                                        <button  class="th-btn style6" disabled onClick={(e)=>handleSubmit(e)}>
                                         {loader?'please wait...':'Sign up'}
                                         </button>
                                      

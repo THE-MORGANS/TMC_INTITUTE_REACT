@@ -7,15 +7,9 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import {AiOutlineEye, AiOutlineEyeInvisible} from 'react-icons/ai'
 import Footer from './new/Footer';
 import Navbar from './new/Navbar';
-// import 'toastr/build/toastr.min.css';
-// import toastr from 'toastr';
- 
+
  function Login() {
     let url = window.location.origin;
-    const handleSignup =(e)=>{
-        e.preventDefault();
-        window.location.href = `${url}/signup`;
-    }
     const handleClick =(e)=>{
         e.preventDefault();
         let data = e.target.dataset.name
@@ -27,16 +21,14 @@ import Navbar from './new/Navbar';
         window.location.href = link;
         }
 
-    }
-    
-    const [email, setemail] = useState('');
-    const [pasword, Setpasssword] = useState('');
-    const [loader, setloader] = useState(false);
-    const [showbtn, setShowbtn] = useState(false)
-    //const [captcha, Setcaptcha] = useState('')
+       }
+       const [Alert, SetAlert] = useState('');
+       const [email, setemail] = useState('');
+       const [pasword, Setpasssword] = useState('');
+       const [loader, setloader] = useState(false);
+       //const [captcha, Setcaptcha] = useState('')
 
-    const handleSubmit = (e)=>{
-       
+       const handleSubmit = (e)=>{
         setloader(true)
         let formData = new FormData();
         formData.append('email', email)
@@ -44,42 +36,43 @@ import Navbar from './new/Navbar';
         formData.append("password", pasword)
           let urltwo = `${url}/loginusers`;
           axios.post(urltwo, formData).then(res=>{
-            console.log(res)
-            if(res.data.success){
-                toastr.success(res.data.success, 'Success');
-                setloader(false)
+              console.log(res)
+             if(res.data.success){
+               SetAlert(res.data.success)
+               setloader(false)
                setTimeout(()=>{
                 window.location.href = `${url}/newdashboard`;
                },1500) 
              }else if(res.data.error){
                 setloader(false)
-                toastr.error(res.data.error, 'Error');
+                SetAlert(res.data.error)
              }
 
-            }).catch(error=>{
-                if (error.response && error.response.status === 422) {
-                    const errors = error.response.data.errors;
-                    console.log('errors', errors);
-                    if (errors.password) {
-                        toastr.error(errors.password[0], 'Validation Error');
-                        setloader(false);
-                    }
-                    if(errors.email){
-                        toastr.error(errors.email[0], 'Validation Error');
-                        setloader(false)
-                    }
-                }
-                
+            }).catch(erorr=>{
+                let error = erorr.response.data.errors
+                if(error.email){
+                    SetAlert(error.email[0])
+                    setloader(false)
+                 }else if(error.password){
+                  SetAlert(error.password[0])
+                  setloader(false)
+                 }
+            //      else if(error.captcha){
+            //         // captcha
+            //         SetAlert(error.captcha[0])
+            //         setloader(false)
+            //         setTimeout(()=>{
+            //             window.location.href = `${url}/login`;
+
+            //         })
+            // }
             })
        }
 
-    const [changepass, setChangepass] = useState(false)
-    const handlehome = ()=>{
+       const [changepass, setChangepass] = useState(false)
+       const handlehome = ()=>{
         window.location.href = ` ${url}`;
-    }
-    const handleForget = ()=>{
-        window.location.href = `${url}/forgotten/Individual`;
-    }
+      }
 
   return (
     <div >
@@ -104,24 +97,21 @@ import Navbar from './new/Navbar';
         </div>
 
         <div class="space-bottom space-top about-sec bg-bottom-right" data-bg-src="assets/img/update1/bg/about_bg_1.jpg" id="about-sec">
-            
             <div class="container">
-                <div class="row justify-content-center align-items-center">
-                    <div class="col-xl-5 mb-40 mb-xl-0 ml-20">
+                <div class="row">
+                    <div class="col-xl-4 mb-40 mb-xl-0">
                         <div class="img-box7 tilt-active">
-                            <center>
-                            <img class="w-80" src="assets/img/update1/normal/about_2_1.jpg" alt="About"/>
-                            </center>
+                            <img class="w-100" src="assets/img/update1/normal/about_2_1.jpg" alt="About"/>
                         </div>
-
                     </div>
-                    <div class="col-xl-6  align-self-start ml-20">
+                    <div class="col-xxl-7 col-xl-8 align-self-start">
                       <div class="woocommerce-form-login-toggle">
                             <div class="woocommerce-info">
-                                <a className='mt-2' data-name="signup" style={{ cursor:'pointer'}} onClick={(e)=>handleLogin(e)} class="showlogin cursor-pointer">Do not have an account? <snap style={{cursor:'pointer'}}>Sign up</snap> </a>
+                                <a data-name="signup" onClick={(e)=>handleClick(e)}class="showlogin cursor-pointer">Do not have an account? Sign up</a>
                             </div>
                         </div>
-                       
+                        <span className={Alert =='you have logged in successfully'?'text-center text-green-400 capitalize text-lg mt-2 py-1':'text-center text-[#E93E30] capitalize text-lg mt-2 py-1'}>{Alert?Alert:""}</span>
+
                         <div class="consult-form ajax-contact">
                            
                             <div class="row gx-24">
@@ -136,28 +126,24 @@ import Navbar from './new/Navbar';
                                 <div class="col-md-12">
                                     <div class="form-group">
                                       <input type={changepass == false?"password":"text"}  placeholder="Password"  class="form-control" onChange={(e)=>Setpasssword(e.target.value)} value={pasword} />
-                                      <i >
+                                      {/* <i class="fal fa-lock"></i> */}
+                                      <span className=" absolute   top-3 right-2">
                                           {changepass == false?<AiOutlineEye className='w-6 h-6' onClick={()=>setChangepass(true)}/>:
                                               <AiOutlineEyeInvisible className='w-6 h-6' onClick={()=>setChangepass(false)}/>
                                           }
-                                     </i>
+                                      </span>
                                     </div>
                                 </div>
+
                                 
                                 <div class="form-btn  col-12">
                                     <button className='th-btn cursor-pointer' onClick={(e)=>handleSubmit(e)}>
                                     {   loader?'please wait...':'login'}
                                     </button>
-                                   
+                                    <p class="fs-xs mt-2 mb-0">
+                                        <a class="text-reset cursor-pointer" data-name="signup" onClick={(e)=>handleClick(e)}>Do not have an account? Sign up</a>
+                                    </p>
                                 </div>
-                                <p class="fs-xs mt-2 mb-0">
-                                    <a class="text-reset cursor-pointer" style={{ cursor:'pointer'}} data-name="signup" onClick={(e)=>handleSignup(e)}>Do not have an account? <snap style={{ color:'#A32926', cursor:'pointer'}}>Sign up</snap>  </a>
-                                </p>
-                                <p className="fs-xs mt-2 mb-0">
-                                    <a className="text-reset cursor-pointer"  onClick={(e) => handleForget(e)}>
-                                    <snap  style={{ cursor:'pointer'}}>Lost your password?</snap>
-                                    </a>
-                                </p>
                                 
                                 
                             </div>

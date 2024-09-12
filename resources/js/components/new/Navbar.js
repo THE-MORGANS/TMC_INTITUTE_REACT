@@ -15,11 +15,9 @@ import CurrencyFormat from 'react-currency-format';
 export default function Navbar() {
     let url = ` ${window.location.origin}`;
     const [Cart, SetCart] = useState([]); 
-    const [additionalpic, setAdditionalpic] = useState('');
     const [poundsnaira, setPoundsnaira] = useState(0)
-    
+ 
     useEffect(()=>{
-        setAdditionalpic(''); 
         let urlthree = `${url}/allcurrency`;
         axios.get(urlthree).then(res=>{
             if(res.data){
@@ -1079,7 +1077,7 @@ let dataa = localStorage.getItem('Cart')?JSON.parse(localStorage.getItem('Cart')
                                                     </>
                                                 }
                                                 {username ?
-                                                    <> 
+                                                    <>
                                                     <div class="col-auto d-none d-xl-block d-none d-lg-inline-block">
                                                         <div class="category-menu-wrap">
                                                             <a class="menu-expand" href="#">

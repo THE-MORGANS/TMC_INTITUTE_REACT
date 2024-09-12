@@ -9,7 +9,7 @@
     <meta name="description" content="We Are The Leading And Specialist Provider Of Specialized Corporate Training Including Governance, Risk & Compliance, Financial Crime, And Leadership Training Focused On Cultivating The Right Attitude And Skills In Your Teams."/>
     <meta name="keyword" content="TMC Institute, Best Learning Management System, Affordable Price For E-Learning Platform, Learn at your comfort, Fast Track your Career, "/>
     <meta name="author" content="TMC Institute"/>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet"/>
+ 
     <link rel="canonical" href="https://tmcinstitute.com/" />
 
     <!-- Favicon -->
@@ -30,6 +30,8 @@
     <meta property="og:image:width" content="1600">
     <meta property="og:image:height" content="863">
 
+
+
     <meta name="msapplication-TileColor" content="#004281">
     <meta name="theme-color" content="#ffffff">
     <meta name="mobile-web-app-capable" content="yes">
@@ -45,17 +47,17 @@
 
 </head>
 <body>
-    <article class=''>
-        <div class="preloader grid place-content-center">
-            <div class="w-60">
-                <img src="https://res.cloudinary.com/the-morgans-consortium/image/upload/v1659435270/Tmc%20institute/TMC_Institute_logo_kpv3d4.jpg" alt="preloader" class="preloader__item" />
-            </div>
-
+<article class=''>
+    <div class="preloader grid place-content-center">
+        <div class="w-60">
+            <img src="https://res.cloudinary.com/the-morgans-consortium/image/upload/v1659435270/Tmc%20institute/TMC_Institute_logo_kpv3d4.jpg" alt="preloader" class="preloader__item" />
         </div>
-    {{--  @include('partials.navbar')  --}}
-    @yield('content')
-    {{--  @include('partials.footer')  --}}
-    </article>
+
+      </div>
+{{--  @include('partials.navbar')  --}}
+@yield('content')
+{{--  @include('partials.footer')  --}}
+</article>
 </body>
 <script>
 

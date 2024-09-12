@@ -26,7 +26,7 @@ class forgottens extends FormRequest
         return [
             'email'=>'required|email',
             'fullname'=>'required|regex:/^[a-zA-Z0-9- ]*$/',
-            // 'status_type' =>'required|regex:/^[a-zA-Z ]*$/',
+            'status_type' =>'required|regex:/^[a-zA-Z ]*$/',
         ];
     }
 }

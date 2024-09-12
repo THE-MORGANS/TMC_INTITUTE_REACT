@@ -1,7 +1,5 @@
-
-@extends('newdesign.layout.newindex')
+@extends('layout.landing')
 @section('content')
 <div id="snatika">
-
 </div>
 @endsection

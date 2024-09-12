@@ -121,7 +121,6 @@ export default function Home() {
     let moneyname = currencysymbol.currency.name
     let converted = JSON.parse(currencyex)
     //let other =  Object.values(othersmoneys.result);
-    console.log('converted', converted);
     let convertnaira = converted.result.NGN
 
     function moneyTalks(converted, price){
