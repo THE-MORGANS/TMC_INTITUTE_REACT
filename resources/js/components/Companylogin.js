@@ -7,8 +7,8 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import {AiOutlineEye, AiOutlineEyeInvisible} from 'react-icons/ai'
 import Footer from './new/Footer';
 import Navbar from './new/Navbar'; 
-import 'toastr/build/toastr.min.css';
-import toastr from 'toastr';
+// import 'toastr/build/toastr.min.css';
+// import toastr from 'toastr';
 
 export default function Companylogin() {
     let url = window.location.origin;

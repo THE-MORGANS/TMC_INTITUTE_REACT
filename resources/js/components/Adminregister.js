@@ -8,8 +8,8 @@ import {AiOutlineEye, AiOutlineEyeInvisible} from 'react-icons/ai'
 import PasswordChecklist  from  'react-password-checklist';
 import Footer from './new/Footer';
 import Navbar from './new/Navbar'; 
-import 'toastr/build/toastr.min.css';
-import toastr from 'toastr';
+// import 'toastr/build/toastr.min.css';
+// import toastr from './toastr';
 
 export default function Adminregister() {
     let url = `${window.location.origin}/`;

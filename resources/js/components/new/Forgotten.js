@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 import axios from 'axios';
-import 'toastr/build/toastr.min.css';
-import toastr from 'toastr';
+// import 'toastr/build/toastr.min.css';
+// import toastr from 'toastr';
 import Footer from './Footer';
 import Navbar from './Navbar';
 
