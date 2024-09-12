@@ -85,8 +85,7 @@ Route::get("/checkout", [Frontends::class, 'checkout']);
 Route::get("/order", [Frontends::class, 'order']);
 Route::get('/privacy', [Frontends::class, 'privacy']);
 Route::get('/othmcourses', [Frontends::class, 'othmcourses']);
-
-
+  
 Route::get('/allcurrency', [Frontends::class, 'allcurrency']);
 Route::get('/about-us', [Frontends::class, 'about']);
 Route::get('/snatika', [Frontends::class, 'snatika']);

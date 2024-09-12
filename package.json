@@ -9,7 +9,7 @@
         "production": "mix --production",
         "build": "webpack --mode production"
     },
-    "devDependencies": {
+    "devDependencies": { 
         "@babel/preset-react": "^7.17.12",
         "@popperjs/core": "^2.10.2",
         "autoprefixer": "10.4.5",
