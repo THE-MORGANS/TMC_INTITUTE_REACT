@@ -7,18 +7,21 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import {AiOutlineEye, AiOutlineEyeInvisible} from 'react-icons/ai'
 import Footer from './new/Footer';
 import Navbar from './new/Navbar'; 
+import 'toastr/build/toastr.min.css';
+import toastr from 'toastr';
 
 export default function Companylogin() {
     let url = window.location.origin;
     const handleClick =(e)=>{
         e.preventDefault();
         let data = e.target.dataset.name
-        if(data == 'companyregister'){
-          window.location.href = url+'/'+data
-        }else{
-        let link = `${url}/authenticate`;
-        window.location.href = link;
-        }
+        window.location.href = url+'/'+data
+        // if(data == 'companyregister'){
+          
+        // }else{
+        // let link = `${url}/authenticate`;
+        // window.location.href = link;
+        // }
 
        }
        const [Alert, SetAlert] = useState('');
@@ -38,34 +41,28 @@ export default function Companylogin() {
           axios.post(urltwo, formData).then(res=>{
             //   console.log(res)
              if(res.data.success){
-               SetAlert(res.data.success)
-               setloader(false)
+                toastr.success(res.data.success, 'Success');
+                setloader(false)
 
                setTimeout(()=>{
                 window.location.href = `${url}/newdashboard`;
                },1500)
              }else if(res.data.error){
-                SetAlert(res.data.error)
+                toastr.error(res.data.error, 'Error');
                 setloader(false)
              }
 
-            }).catch(erorr=>{
-                let error = erorr.response.data.errors
-                if(error.email){
-                    SetAlert(error.email[0])
-                    setloader(false)
-                 }else if(error.password){
-                  SetAlert(error.password[0])
-                  setloader(false)
-                 }else if(error.captcha){
-                    // captcha
-                    SetAlert(error.captcha[0])
-                    setloader(false)
-                    setTimeout(()=>{
-                        window.location.href = `${url}/companylogin`;
-
-                    })
-            }
+            }).catch(error=>{
+                if (error.response && error.response.status === 422) {
+                    const errors = error.response.data.errors;
+                    if(errors.email){
+                        toastr.error(errors.email[0], 'Validation Error');
+                        setloader(false)
+                    }else if(errors.password){
+                        toastr.error(errors.password[0], 'Validation Error');
+                        setloader(false)
+                    }
+                }
             })
 
        }
@@ -96,20 +93,21 @@ export default function Companylogin() {
 
       <div class="space-bottom space-top about-sec bg-bottom-right" data-bg-src="assets/img/update1/bg/about_bg_1.jpg" id="about-sec">
             <div class="container">
-                <div class="row">
-                    <div class="col-xl-4 mb-40 mb-xl-0">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-xl-5 mb-40 mb-xl-0">
                         <div class="img-box7 tilt-active">
-                            <img class="w-100" src="assets/img/update1/normal/about_2_1.jpg" alt="About"/>
+                            <center>
+                            <img class="w-80" src="assets/img/update1/normal/about_2_1.jpg" alt="About"/>
+                            </center>
                         </div>
                     </div>
-                    <div class="col-xxl-7 col-xl-8 align-self-start">
+                    <div class="col-xl-7 align-self-start">
                       <div class="woocommerce-form-login-toggle">
                             <div class="woocommerce-info">
-                                <a data-name="signup" onClick={(e)=>handleClick(e)}class="showlogin cursor-pointer">Do not have an account? Sign up</a>
+                                <a data-name="signup" onClick={(e)=>handleClick(e)}class="showlogin cursor-pointer">Do not have an account? <snap style={{ cursor:'pointer'}}>Sign up</snap></a>
                             </div>
                         </div>
-                        <span className={Alert =='you have login successfully'?'text-center text-green-400 capitalize text-lg mt-2 py-1':'text-center text-[#E93E30] capitalize text-lg mt-2 py-1'}>{Alert?Alert:""}</span>
-
+        
                         <div class="consult-form ajax-contact">
                            
                             <div class="row gx-24">
@@ -124,12 +122,11 @@ export default function Companylogin() {
                                 <div class="col-md-12">
                                     <div class="form-group">
                                       <input type={changepass == false?"password":"text"}  placeholder="Password"  class="form-control" onChange={(e)=>Setpasssword(e.target.value)} value={pasword} />
-                                      {/* <i class="fal fa-lock"></i> */}
-                                      <span className=" absolute   top-3 right-2">
+                                      <i class="">
                                           {changepass == false?<AiOutlineEye className='w-6 h-6' onClick={()=>setChangepass(true)}/>:
                                               <AiOutlineEyeInvisible className='w-6 h-6' onClick={()=>setChangepass(false)}/>
                                           }
-                                      </span>
+                                      </i>
                                     </div>
                                 </div>
 
@@ -139,7 +136,7 @@ export default function Companylogin() {
                                     {   loader?'please wait...':'login'}
                                     </button>
                                     <p class="fs-xs mt-2 mb-0">
-                                        <a class="text-reset cursor-pointer" data-name="companyregister" onClick={(e)=>handleClick(e)}>I do not have an account? Sign up</a>
+                                        <a class="text-reset cursor-pointer" data-name="companyregister" onClick={(e)=>handleClick(e)}>I do not have an account? <snap style={{ color:'#A32926', cursor:'pointer'}}>Sign up</snap> </a>
                                     </p>
                                 </div>
                                 

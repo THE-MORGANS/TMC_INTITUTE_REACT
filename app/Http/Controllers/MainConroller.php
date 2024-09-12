@@ -6,7 +6,7 @@ use App\Events\Adminevent;
 use App\Events\Approvedevent;
 use App\Events\candidateevent;
 use App\Events\existinguserevnt;
-use App\Events\forgotevent;
+use App\Events\forgotevent; 
 use App\Events\groupevent;
 use App\Events\Notexiting;
 use App\Events\studyevent;
@@ -711,20 +711,20 @@ return response()->download($output, $output, ['Content-Description: File Transf
           return $encryption;
       }
 
-     public function fogotten(forgottens $request){
-        $user = User::where(['email'=>$request->email, 'fullname'=>$request->fullname])->first();
-        if($user){
-           $user->update([
-             "verification_code"=>sha1(time()),
-             'is_verfield'=>0
-           ]);
-           event(new forgotevent($request->status_type, $user->verification_code, $user->fullname, $user->email));
-           return response()->json(['success'=>'please check your email']);
-        }else{
-            return response()->json(['error'=>'please insert the correct full name or email']);
-        }
-
-     }
+    public function forgotten(forgottens $request){
+      $validated = $request->validated();
+      $user = User::where(['email'=>$request->email, 'fullname'=>$request->fullname])->first();
+      if($user){
+          $user->update([
+            "verification_code"=>sha1(time()),
+            'is_verfield'=>0
+          ]);
+        //  event(new forgotevent($request->status_type, $user->verification_code, $user->fullname, $user->email));
+          return response()->json(['success'=>'Please check your email']);
+      }else{
+          return response()->json(['error'=>'Please insert the correct full name or email']);
+      }
+    }
 
      public function reset(resetpas $request){
         $user = User::where(['verification_code'=>$request->code, 'is_verfield'=>0])->first();

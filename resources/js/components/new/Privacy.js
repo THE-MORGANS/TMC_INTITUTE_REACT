@@ -38,7 +38,9 @@ function Privacy() {
 				<div className="col-xxl-12 col-lg-12">
 					<div className="event-details-wrap">
 					<div className="event-img">
+						<center>
 						<img src="assets/img/event/event_details.png" alt="Event Image" />
+						</center>
 					</div>
 					<h3 className="h3 mt-n2">Welcome to TMC Institute Privacy Policy</h3>
 					<p className="mb-30">
@@ -90,7 +92,7 @@ function Privacy() {
 					</p>
 					<h3 className="h3 mt-n2">Use Of Your Personal Data</h3>
 					<p className="mb-40">The TMC Institute will process personal data to Provide its services or enter into discussions for the provision of services to you or a Client Entity.</p>
-
+ 
 					<div className="checklist mb-20">
 						<ul>
 							<li>

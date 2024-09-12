@@ -27,7 +27,7 @@ require('./components/new/Profile');
 // require('./components/Input');
 require('./components/Contactdetails');
 require('./components/Residential');
-// require('./components/Snatika');
+require('./components/new/Snatika');
 require('./components/Question');
 require('./components/Adminregister');
 require('./components/Companyemail');

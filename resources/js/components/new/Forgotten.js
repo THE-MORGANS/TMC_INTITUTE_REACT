@@ -1,111 +1,136 @@
-import React, {useState, useEffect} from 'react';
-import ReactDOM from 'react-dom'
+import React, { useState } from 'react';
+import ReactDOM from 'react-dom';
 import axios from 'axios';
+import 'toastr/build/toastr.min.css';
+import toastr from 'toastr';
+import Footer from './Footer';
+import Navbar from './Navbar';
+
 export default function Forgotten() {
-    let url = ` ${window.location.origin}/`;
+  let url = `${window.location.origin}`;
+  const [fullname, setFullname] = useState('');
+  const [email, setEmail] = useState('');
+  const [loader, setLoader] = useState(false);
+  
 
+  const handleHome = () => {
+    window.location.href = `${url}`;
+  };
 
-    const [fullname, setfullname] = useState('');
-    const [email, setemail] = useState('');
-    const [Alert, SetAlert] = useState('');
-    const [loader, setloader] = useState(false)
+  const handleLogin =(e)=>{
+    e.preventDefault();
+    window.location.href = `${url}/login`;
+}
 
-    const handleSubmit = (e)=>{
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoader(true);
 
-       e.preventDefault();
-       setloader(true)
-        let formData = new FormData();
-        formData.append('fullname', fullname)
-        formData.append('email', email)
-        formData.append('status_type', status_type)
-          let urltwo = `${url}fogotten`;
-          axios.post(urltwo, formData).then(res=>{
-               console.log(res)
-             if(res.data.success){
-               SetAlert(res.data.success)
-               setloader(false)
-               window.scrollTo(0, 0)
-             }else if(res.data.error){
-                SetAlert(res.data.error)
-               setloader(false)
-               window.scrollTo(0, 0)
-             }
+    let formData = new FormData();
+    formData.append('fullname', fullname);
+    formData.append('email', email);
 
-         }).catch(erorr=>{
-            let error = erorr.response.data.errors
-            if(error.email){
-                SetAlert(error.email[0])
-                setloader(false)
-            }else if(error.fullname){
-                SetAlert(error.fullname[0])
-                setloader(false)
-            }else if(error.status_type){
-                SetAlert(error.status_type[0])
-                setloader(false)
-            }
-         })
+    let urltwo = `${url}/forgotten`;
+
+    axios.post(urltwo, formData)
+      .then(res => {
+        console.log(res);
+        if (res.data.success) {
+          toastr.success(res.data.success, 'Success');
+          setLoader(false);
+          setTimeout(()=>{
+            window.location.href = `${url}/forgotten/Individual`;
+           },1500) 
+        } else if (res.data.error) {
+          toastr.error(res.data.error, 'Error');
         }
-
+        setLoader(false);
+      })
+      .catch(error => {
+        if (error.response && error.response.status === 422) {
+          const errors = error.response.data.errors;
+          console.log('errors', errors);
+          
+          if (errors.email) {
+            toastr.error(errors.email[0], 'Validation Error');
+            setLoader(false);
+          }
+          if (errors.fullname) {
+            toastr.error(errors.fullname[0], 'Validation Error');
+            setLoader(false);
+          }
+        }
+        setLoader(false);
+      });
+  };
 
   return (
-    <div className='w-full py-16 sm:py-16  md:py-6 lg:py-6'>
-    <section className='  m-auto  w-11/12 flex flex-row items-center  shadow-md rounded-md    sm:m-auto sm:w-10/12 sm:flex sm:flex-row sm:items-center sm:shadow-md sm:rounded-md        md:m-auto md:w-10/12 md:flex md:flex-row md:items-center  md:shadow-md md:rounded-md   lg:m-auto lg:w-3/4 lg:flex lg:flex-row lg:items-center  lg:shadow-md lg:rounded-md'>
-     <div className='hidden sm:hidden  md:w-1/2 md:block  lg:w-1/2 lg:block' >
+    <div>
+      <Navbar/>
+      <div className="breadcumb-wrapper" data-bg-src="/assets/img/bg/breadcumb-bg.jpg" data-overlay="title" data-opacity="8">
+        <div className="container">
+          <div className="breadcumb-content text-center">
+            <h1 className="breadcumb-title">My Account</h1>
+            <ul className="breadcumb-menu">
+              <li><a onClick={handleHome} style={{ cursor: 'pointer' }}>Home</a></li>
+              <li>Forgotten Password</li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
-     <div className="w-full">
-
-     <div className='h-[40rem] imgthree'>
+      <div className="space-bottom space-top about-sec bg-bottom-right" data-bg-src="/assets/img/update1/bg/about_bg_1.jpg" id="about-sec">
+        <div className="container">
+          <div className="row justify-content-center align-items-center">
+            <div className="col-xl-5 mb-40 mb-xl-0 d-flex justify-content-center align-items-center">
+              <div className="img-box7 tilt-active text-center">
+                <center>
+                <img className="w-80" src="/assets/img/update1/normal/about_2_1.jpg" alt="About" />
+                </center>
+              </div>
             </div>
-       </div>
-     </div>
-     <div className='w-full grid grid-cols-1 place-content-center      sm:w-full sm:grid sm:grid-cols-1 sm:place-content-center  md:w-1/2 md:grid md:grid-cols-1 md:place-content-center lg:w-1/2 lg:grid lg:grid-cols-1 lg:place-content-center'>
 
-        <article className='w-full flex flex-col items-center justify-center mt-4'>
-            <div className='w-10/12 flex flex-row items-center m-auto'>
-                <span className='w-1/5 border m-0 border-black'></span>
-                <span className='w-3/5 capitalize text-xs sm:text-sm md:text-base lg:text-base px-3'>Forgotten Password</span>
-                <span className='w-1/5 border m-0 border-black'></span>
+            <div className="col-xl-6 align-self-start ml-20">
+              <div className="woocommerce-form-login-toggle">
+                <h4>Forgotten Password</h4>
+              </div>
+
+              <div className="consult-form ajax-contact">
+                <div className="row gx-24">
+                  <div className="col-md-12">
+                    <div className="form-group">
+                      <input required type="text" className="form-control" placeholder="Full Name" onChange={(e) => setFullname(e.target.value)} value={fullname} autoComplete="off" />
+                      <i className="fal fa-user"></i>
+                    </div>
+                  </div>
+
+                  <div className="col-md-12">
+                    <div className="form-group">
+                      <input required type="email" className="form-control" placeholder="Email Address" onChange={(e) => setEmail(e.target.value)} value={email} autoComplete="off" />
+                      <i className="fal fa-envelope"></i>
+                    </div>
+                  </div>
+
+                  <div className="form-btn col-12">
+                    <button className='th-btn cursor-pointer' onClick={handleSubmit} disabled={loader}>
+                      {loader ? 'Please wait...' : 'Submit'}
+                    </button>
+                  </div>
+                  <p class="fs-xs mt-2 mb-0">
+                      <a class=" cursor-pointer" style={{ cursor:'pointer'}} data-name="signup" onClick={(e)=>handleLogin(e)}> <snap style={{ color:'#A32926', cursor:'pointer'}}>Login</snap>  </a>
+                  </p>
+                 
+                                
+                </div>
+              </div>
             </div>
-              <span className={Alert =='please check your email'?'text-center text-green-400 capitalize text-lg mt-2 py-1':'text-center text-[#E93E30] capitalize text-lg mt-2 py-1'}>{Alert?Alert:""}</span>
-            <article className='w-3/4 flex flex-col items-center'>
-                <span className='w-full text-left capitalize text-lg'>full name</span>
-                <input type="text" className="w-full border py-2 rounded-md p-3" onChange={(e)=>setfullname(e.target.value)} value={fullname} autoComplete="off" />
-            </article>
-
-            <article className='w-3/4 flex flex-col items-center mt-4'>
-                <span className='w-full text-left capitalize text-lg'>email</span>
-                <input type="text" className="w-full border py-2 rounded-md p-3" onChange={(e)=>setemail(e.target.value)} value={email} autoComplete="off"/>
-            </article>
-
-
-
-
-
-
-
-
-            <article className='w-3/4 flex flex-col items-center mt-4'>
-               <button className='text-2xl w-60 rounded-md bg-[#A32926] capitalize text-white cursor-pointer' onClick={(e)=>handleSubmit(e)}>
-               {loader?'please wait...':'Submit'}
-               </button>
-                </article>
-
-
-        </article>
-     </div>
-    </section>
-   </div>
-  )
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }
 
-
-if(document.getElementById("forgot")){
-ReactDOM.render(<Forgotten/>, document.getElementById("forgot"));
+if (document.getElementById("forgot")) {
+  ReactDOM.render(<Forgotten />, document.getElementById("forgot"));
 }
-
-
-
-
-
-
-

@@ -45,30 +45,30 @@ This privacy notice tells you about your privacy rights and how the Data Protect
         The TMC Institute may process personal data where obliged to do so under the law (e.g., employment records, company records, tax reporting obligations, AML Laws).
       </div>
       <div className='w-10/12 px-2 text-sm sm:text-sm md:text-base lg:text-base  mt-1 text-black tracking-wide justify-center text-justify m-auto'>
-      Information collected during the registration for an event or conference organised by the TMC Institute:
-TMC Institute may organise different kind of events or conferences either for promoting and marketing its services to existing and potential clients, for networking purposes, or for finding potential members or professionals interested in its different products or services.
-In this respect, the TMC Institute may process personal data e.g. name, surname, contact details and if relevant details in regard to academic and/or professional qualifications (including, but not limited to, name of University, subject of study, year of study) for efficient organisation and management of an event or conference. This information may be used for future contact, only with your consent, in order to market the Entity's services to you or in order to inform you for similar events. This information will be held by the TMC Institute until you choose to unsubscribe/withdraw your consent, in accordance with article 7(3) of the General Data Protection Regulation (Regulation EU 2016/679).
-Photographs/pictures, presentations, audio and video recording of speakers and participants and live web streaming of the events or conferences may be taken. They may be reproduced in various media including the TMC Institute's publications, the TMC Institute website, social networks, TV channels and the press, in connection with the event or conference as well as for promotional activities of the TMC Institute.
-If you wish that your image or voice is not recorded and published, for compelling and legitimate grounds relating to your particular situation, please follow the procedure described below at paragraph 11 for making a request.
-We do not collect any Special Categories of Personal Data about you (this includes details about your race or ethnicity, religious or philosophical beliefs, sex life, sexual orientation, political opinions, trade union membership, information about your health and genetic and biometric data). Nor do we collect any information about criminal convictions and offences.
+              Information collected during the registration for an event or conference organised by the TMC Institute:
+        TMC Institute may organise different kind of events or conferences either for promoting and marketing its services to existing and potential clients, for networking purposes, or for finding potential members or professionals interested in its different products or services.
+        In this respect, the TMC Institute may process personal data e.g. name, surname, contact details and if relevant details in regard to academic and/or professional qualifications (including, but not limited to, name of University, subject of study, year of study) for efficient organisation and management of an event or conference. This information may be used for future contact, only with your consent, in order to market the Entity's services to you or in order to inform you for similar events. This information will be held by the TMC Institute until you choose to unsubscribe/withdraw your consent, in accordance with article 7(3) of the General Data Protection Regulation (Regulation EU 2016/679).
+        Photographs/pictures, presentations, audio and video recording of speakers and participants and live web streaming of the events or conferences may be taken. They may be reproduced in various media including the TMC Institute's publications, the TMC Institute website, social networks, TV channels and the press, in connection with the event or conference as well as for promotional activities of the TMC Institute.
+        If you wish that your image or voice is not recorded and published, for compelling and legitimate grounds relating to your particular situation, please follow the procedure described below at paragraph 11 for making a request.
+        We do not collect any Special Categories of Personal Data about you (this includes details about your race or ethnicity, religious or philosophical beliefs, sex life, sexual orientation, political opinions, trade union membership, information about your health and genetic and biometric data). Nor do we collect any information about criminal convictions and offences.
       </div>
 
 
       <div className="w-full  px-14">
-      <span className=" text-base sm:text-base md:text-base lg:text-lg text-left capitalize text-[#37226C] font-bold px-2 py-2 mt-8">Time of collection of personal data</span>
-</div>
+            <span className=" text-base sm:text-base md:text-base lg:text-lg text-left capitalize text-[#37226C] font-bold px-2 py-2 mt-8">Time of collection of personal data</span>
+      </div>
       <div className='w-10/12 px-2 text-sm sm:text-sm md:text-base lg:text-base  mt-1 text-black tracking-wide text-justify m-auto'>
-      Personal data may be collected by the TMC Institute where you or an organisation with which you are related in any capacity
-      (e.g. employee, officer, representative) (the "Client Entity") contact the TMC Institute in relation to any services that it may provide.
-      Your personal data may also come to our possession in case you express any interest to and/or become an employee of the TMC Institute.
-      Your personal data may also be collected through our website when you express an interest for the services of the TMC Institute.
-       personal data may also be processed if you sign up to participate in an event or conference organised by the TMC Institute.
-       Your data may also be collected when an organisation engages the TMC Institute to provide services and you are engaged in the organisation in any capacity that is relevant
-      (for example, director, representative, employee of such entity with which the TMC Institute deals in providing any services.)
+        Personal data may be collected by the TMC Institute where you or an organisation with which you are related in any capacity
+        (e.g. employee, officer, representative) (the "Client Entity") contact the TMC Institute in relation to any services that it may provide.
+        Your personal data may also come to our possession in case you express any interest to and/or become an employee of the TMC Institute.
+        Your personal data may also be collected through our website when you express an interest for the services of the TMC Institute.
+        personal data may also be processed if you sign up to participate in an event or conference organised by the TMC Institute.
+        Your data may also be collected when an organisation engages the TMC Institute to provide services and you are engaged in the organisation in any capacity that is relevant
+        (for example, director, representative, employee of such entity with which the TMC Institute deals in providing any services.)
       </div>
       <div className="w-full  px-14">
-      <span className="text-base sm:text-base md:text-base lg:text-lg text-left capitalize text-[#37226C] font-bold px-2 py-2 mt-8">Use of your personal data</span>
-</div>
+            <span className="text-base sm:text-base md:text-base lg:text-lg text-left capitalize text-[#37226C] font-bold px-2 py-2 mt-8">Use of your personal data</span>
+      </div>
       <div className='w-10/12 px-2 text-sm sm:text-sm md:text-base lg:text-base  mt-1 text-black tracking-wide justify-center text-justify m-auto'>
       The TMC Institute will process personal data to
       Provide its services or enter into discussions for the provision of services to you or a Client Entity.

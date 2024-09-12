@@ -44,6 +44,11 @@ export default function Footer() {
         e.preventDefault(); 
         window.location.href =`${url}/about-us`
     }
+
+    const handleSnatika = (e)=>{
+        e.preventDefault(); 
+        window.location.href =`${url}/snatika`
+    }
     const handleLG =()=>{
         window.location.href = `https://morgans.elearning.lgca.uk/index`
     }
@@ -202,6 +207,7 @@ export default function Footer() {
                                             <li><a onClick={handleLG} style={{cursor:'pointer', color:'white'}}>LGCA / AGRC Certification</a></li>
                                             <li><a onClick={(e)=>handleStudy(e)} style={{cursor:'pointer', color:'white'}}>Study Abroad</a></li>
                                             <li><a onClick={(e)=>handleAboutus(e)} style={{cursor:'pointer', color:'white'}}>About us</a></li>
+                                            <li><a onClick={(e)=>handleSnatika(e)} style={{cursor:'pointer', color:'white'}}>Snatika</a></li>
                                         </ul>
                                     </div>
                                 </div>

@@ -165,12 +165,12 @@ class viewsController extends Controller
      return (new Frontends)->adminrate();
     }
 
-    public function forgottenfun($status){
+    public function forgottenfun($status){ 
         if($status == 'Individual' || $status == 'Company'){
             return (new Frontends)->forgotten($status);
         }else{
             return redirect('/');
-        }
+        } 
 
     }
 }
