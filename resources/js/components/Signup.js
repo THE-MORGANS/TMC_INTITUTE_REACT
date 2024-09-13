@@ -62,7 +62,6 @@ import toastr from 'toastr';
                     toastr.error(res.data.error, 'Error');
                     setloader(false);
                 }
-  
             }).catch(error =>{
                 if (error.response && error.response.status === 422) {
                     const errors = error.response.data.errors;
