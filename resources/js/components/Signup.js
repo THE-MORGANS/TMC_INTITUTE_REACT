@@ -56,7 +56,7 @@ import toastr from 'toastr';
                   toastr.success(res.data.success, 'Success');
                   setloader(false)
                   setTimeout(()=>{
-                   window.location.href = `${url}activationmail`;
+                   window.location.href = `${url}/activationmail`;
                   },1100)
                 }else if(res.data.error){
                     toastr.error(res.data.error, 'Error');
