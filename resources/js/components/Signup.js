@@ -52,7 +52,7 @@ import toastr from 'toastr';
             console.log('register');
             axios.post(urltwo, formData).then(res=>{
                 console.log('success', res.data)
-                if(res.data.success){
+                if(res.data.success){ 
                   toastr.success(res.data.success, 'Success');
                   setloader(false)
                   setTimeout(()=>{
