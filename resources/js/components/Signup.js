@@ -57,11 +57,11 @@ import toastr from 'toastr';
                   setloader(false)
                   setTimeout(()=>{
                    window.location.href = `${url}/activationmail`;
-                  },1100)
+                  },1100) 
                 }else if(res.data.error){
                     toastr.error(res.data.error, 'Error');
                     setloader(false);
-                }
+                } 
             }).catch(error =>{
                 if (error.response && error.response.status === 422) {
                     const errors = error.response.data.errors;
