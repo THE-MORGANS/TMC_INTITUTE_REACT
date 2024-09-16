@@ -67,7 +67,7 @@ class Controller extends BaseController
     $ip = '175.200.244.203';
     // $ip = $this->get_client_ip();
     curl_setopt_array($curl, array(
-      CURLOPT_URL => "https://api.ipgeolocation.io/ipgeo?apiKey=ed5d8ccaca8d4e05a822b127ee2b5bea&ip=$ip",
+      CURLOPT_URL => "https://api.ipgeolocation.io/ipgeo?apiKey=2ef0e7a8c2014e9dabf6c73c1325d8b9&ip=$ip",
       CURLOPT_RETURNTRANSFER => true,
     ));
 
@@ -97,7 +97,7 @@ class Controller extends BaseController
         $amount = 1;
        $curl = curl_init();
        curl_setopt_array($curl, array(
-         CURLOPT_URL => "https://api.fastforex.io/fetch-one?from=$from&to=$to&api_key=048e0e2ecb-197b5f38ed-sjm7dc",
+         CURLOPT_URL => "https://api.fastforex.io/fetch-one?from=$from&to=$to&api_key=1637f81400-5e8e2b186e-sjxdi8",
          CURLOPT_HTTPHEADER => array(
         "Accept: application/json"
          ),
@@ -407,7 +407,7 @@ class Controller extends BaseController
         $amount = 1;
        $curl = curl_init();
        curl_setopt_array($curl, array(
-         CURLOPT_URL => "https://api.fastforex.io/fetch-one?from=$from&to=$to&api_key=048e0e2ecb-197b5f38ed-sjm7dc",
+         CURLOPT_URL => "https://api.fastforex.io/fetch-one?from=$from&to=$to&api_key=1637f81400-5e8e2b186e-sjxdi8",
          CURLOPT_HTTPHEADER => array(
         "Accept: application/json"
          ),
@@ -436,7 +436,7 @@ class Controller extends BaseController
         $amount = 1;
        $curl = curl_init();
        curl_setopt_array($curl, array(
-         CURLOPT_URL => "https://api.fastforex.io/fetch-one?from=$from&to=$to&api_key=048e0e2ecb-197b5f38ed-sjm7dc",
+         CURLOPT_URL => "https://api.fastforex.io/fetch-one?from=$from&to=$to&api_key=1637f81400-5e8e2b186e-sjxdi8",
          CURLOPT_HTTPHEADER => array(
         "Accept: application/json"
          ),

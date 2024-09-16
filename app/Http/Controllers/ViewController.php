@@ -15,17 +15,16 @@ use Illuminate\Http\Request;
 
 class ViewController extends Controller
 {
-    public function verifiedemail($data){
+    public function verifiedemail($data){ 
         $code =   $this->userinfo->where('verification_code', $data)->first();
         if($code && $code->is_verfield == 0){
             $code->update([
-                'is_verfield'=>1
+                'is_verfield'=>1 
             ]);
             return  FrontendController::verified();
-             }else{
-                return redirect('signup');
-             }
-
+        }else{
+            return redirect('signup');
+        }
     }
 
     public function company_email($data){

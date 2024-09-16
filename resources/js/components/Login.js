@@ -28,6 +28,8 @@ import toastr from 'toastr';
         }
 
     }
+
+   
     
     const [email, setemail] = useState('');
     const [pasword, Setpasssword] = useState('');
@@ -118,7 +120,7 @@ import toastr from 'toastr';
                     <div class="col-xl-6  align-self-start ml-20">
                       <div class="woocommerce-form-login-toggle">
                             <div class="woocommerce-info">
-                                <a className='mt-2' data-name="signup" style={{ cursor:'pointer'}} onClick={(e)=>handleLogin(e)} class="showlogin cursor-pointer">Do not have an account? <snap style={{cursor:'pointer'}}>Sign up</snap> </a>
+                                <a className='mt-2' data-name="signup" style={{ cursor:'pointer'}} onClick={(e)=>handleSignup(e)} class="showlogin cursor-pointer">Do not have an account? <snap style={{cursor:'pointer'}}>Sign up</snap> </a>
                             </div>
                         </div>
                        

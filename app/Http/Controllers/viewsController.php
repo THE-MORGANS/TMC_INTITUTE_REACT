@@ -146,16 +146,16 @@ class viewsController extends Controller
 
     public function usercoursesfun(userscourse $userscourse){ 
         $user = $this->getuser();
-        $purchasedcourse = $userscourse->where(['user_id'=>$user->id])->get();
+        $purchasedcourse = $userscourse->where('user_id', $user->id)->get();
+
         $data = purchasedcourse::collection($purchasedcourse)->resolve();
+
         $page= 1;
         $pagdata =  $this->paginate($data, 6, $page);
+
         $currencysymbol =  (new Help)->getplace();
         $currencyex =  (new Help)->moneyconvert();
 
-        
-
-            
         $additionalpic =  Auth::check() && Additional::where(['user_id'=>auth()->user()->id])->first() != null?Additional::where(['user_id'=>auth()->user()->id])->first()->image:'https://res.cloudinary.com/the-morgans-consortium/image/upload/v1658329437/Tmc%20institute/blank-profile-picture-gae268b379_1280_gtgqxr.png';         
         
         return (new Frontends)->usercourses($pagdata, $currencysymbol, $currencyex,  $additionalpic);

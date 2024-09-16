@@ -6,7 +6,7 @@ use App\Models\CourseInfo;
 use App\Models\othm;
 use App\Models\Studentresult;
 use Illuminate\Http\Resources\Json\JsonResource;
-
+ 
 class purchasedcourse extends JsonResource
 {
     /**

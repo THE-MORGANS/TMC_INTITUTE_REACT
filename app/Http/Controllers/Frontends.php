@@ -157,15 +157,33 @@ class Frontends extends Controller
     }
 
       public function usercourses($pagdata, $currencysymbol, $currencyex, $additionalpic){
+        
         $poundton =  $this->poundtonaira(); 
         $othermoney =    $this->frompoundtoother();
         $toptitle = 'TMC Institute-User courses';
-        $info = CourseInfo::orderBy('id', 'asc')->get();
-        $data =  CourseInfomation::collection($info)->resolve();
-        $page= 1;
-        $pagdata =  $this->paginate($data, 6, $page); 
-        return view('newdesign.usercourse',['coursesdata'=>$pagdata, 'purchasedcourse'=>$pagdata, 'currencysymbol'=>$currencysymbol, 'currencyex'=>$currencyex, 'poundton'=>$poundton, 'othermoney'=>$othermoney, 'toptitle'=>$toptitle, 'additionalpic'=>$additionalpic]);
+
+        // $info = CourseInfo::orderBy('id', 'asc')->get();
+        // $data =  CourseInfomation::collection($info)->resolve();
+        // $page= 1;
+        // $pagdata =  $this->paginate($data, 6, $page);  
+
+         $infoFooter = CourseInfo::orderBy('id', 'asc')->get();
+         $dataFooter =  CourseInfomation::collection($infoFooter)->resolve();
+         $pageFooter= 1;
+         $pagdataFooter =  $this->paginate($dataFooter, 6, $pageFooter);  
+
+        return view('newdesign.usercourse',[
+          'coursesdata'=>$pagdataFooter, 
+          'purchasedcourse'=>$pagdata, 
+          'currencysymbol'=>$currencysymbol, 'currencyex'=>$currencyex, 
+          'poundton'=>$poundton, 'othermoney'=>$othermoney, 'toptitle'=>$toptitle, 
+          'additionalpic'=>$additionalpic
+        ]);
       }
+
+     
+    
+
 
       public function studyabroad(){ 
         $additionalpic =  Auth::check() && Additional::where(['user_id'=>auth()->user()->id])->first() != null?Additional::where(['user_id'=>auth()->user()->id])->first()->image:'https://res.cloudinary.com/the-morgans-consortium/image/upload/v1658329437/Tmc%20institute/blank-profile-picture-gae268b379_1280_gtgqxr.png';        $currencysymbol =  (new Help)->getplace();

@@ -14,7 +14,7 @@ class SendEmails extends Mailable
     /**
      * Create a new message instance.
      *
-     * @return void
+     * @return void 
      */
 
     public function __construct($data)
@@ -31,4 +31,4 @@ class SendEmails extends Mailable
     {
         return $this->from(env('MAIL_FROM_ADDRESS'), 'TMC INSTITUTE')->subject('Email Verification')->view('mail.index', ['data'=>$this->data]);
     }
-}
+} 

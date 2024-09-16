@@ -55,14 +55,15 @@ class Help{
       $curl = curl_init();
       // $ip = $this->get_client_ip();
       $ip = '102.89.63.255';
+    //   $ip = '175.200.244.203';
       // 102.89.43.175 - Nigeria
       // 96.158.226.150 - U.S.A
       // 175.200.244.203 - South Korea
       // 92.119.176.178 - United Kingdom
-      // $ip = '175.200.244.203';
-      // dd($ip);
+    //   $ip = '175.200.244.203';
+    //   dd($ip);
       curl_setopt_array($curl, array(
-        CURLOPT_URL => "https://api.ipgeolocation.io/ipgeo?apiKey=ed5d8ccaca8d4e05a822b127ee2b5bea&ip=$ip",
+        CURLOPT_URL => "https://api.ipgeolocation.io/ipgeo?apiKey=2ef0e7a8c2014e9dabf6c73c1325d8b9&ip=$ip",
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_MAXREDIRS => 10,
         CURLOPT_TIMEOUT => 0,
@@ -72,6 +73,8 @@ class Help{
       $response = curl_exec($curl);
       curl_close($curl);
       $answer = json_decode($response);
+    //   dd($answer);
+
       return $answer;
     }
 
@@ -83,7 +86,7 @@ class Help{
         $amount = 1;
        $curl = curl_init();
        curl_setopt_array($curl, array(
-        CURLOPT_URL => "https://api.fastforex.io/fetch-one?from=$from&to=$to&api_key=048e0e2ecb-197b5f38ed-sjm7dc",
+        CURLOPT_URL => "https://api.fastforex.io/fetch-one?from=$from&to=$to&api_key=1637f81400-5e8e2b186e-sjxdi8",
         CURLOPT_HTTPHEADER => array(
        "Accept: application/json"
         ),
@@ -120,7 +123,7 @@ class Help{
         $amount = 1;
        $curl = curl_init();
        curl_setopt_array($curl, array(
-        CURLOPT_URL => "https://api.fastforex.io/fetch-one?from=$from&to=$to&api_key=048e0e2ecb-197b5f38ed-sjm7dc",
+        CURLOPT_URL => "https://api.fastforex.io/fetch-one?from=$from&to=$to&api_key=1637f81400-5e8e2b186e-sjxdi8",
         CURLOPT_HTTPHEADER => array(
        //    "Content-Type: text/plain",
        //    "apikey: j4L2ULOPUCFCzuU6iyBoBH7c949ZQoCd"

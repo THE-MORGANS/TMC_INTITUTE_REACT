@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>{{ $toptitle?$toptitle:'Document' }}</title>
+    <title><?php echo e($toptitle?$toptitle:'Document'); ?></title>
     <link rel="stylesheet" href="https://video-react.github.io/assets/video-react.css"/>
-    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <meta name="csrf-token" content="<?php echo e(csrf_token()); ?>">
     <link rel="stylesheet" href="//cdn.quilljs.com/1.2.6/quill.snow.css">
-    {{--  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">  --}}
+    
     <meta charset="utf-8">
     <meta name="language" content="en"/>
     <meta name="description" content="We Are The Leading And Specialist Provider Of Specialized Corporate Training Including Governance, Risk & Compliance, Financial Crime, And Leadership Training Focused On Cultivating The Right Attitude And Skills In Your Teams."/>
@@ -38,53 +38,65 @@
     <meta name="apple-mobile-web-app-title" content="TMC Institute">
     <meta name="msapplication-TileImage" content="https://res.cloudinary.com/the-morgans-consortium/image/upload/v1667831345/Tmc%20institute/fav_dmznt6.jpg">
 
-    <link rel="stylesheet" href="{{ asset('assets/css/app.min.css')}}">
-    <link rel="stylesheet" href="{{ asset('assets/css/fontawesome.min.css')}}">
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css')}}">
+    <link rel="stylesheet" href="<?php echo e(asset('assets/css/app.min.css')); ?>">
+    <link rel="stylesheet" href="<?php echo e(asset('assets/css/fontawesome.min.css')); ?>">
+    <link rel="stylesheet" href="<?php echo e(asset('assets/css/style.css')); ?>">
 
 </head>
 <body>
-    @yield('content') 
+    <?php echo $__env->yieldContent('content'); ?> 
 <script>
-    var layout = "{{ asset('image/Layer7.svg') }}";
-    var lay = "{{ asset('assets/img/normal/emailVerify.png') }}";
-    var img1 = "{{ asset('assets/img/normal/about_1_shape1.png') }}";
-    var img2 = "{{ asset('assets/img/normal/wcu_1_shape2.png') }}";
-    var image = "{{ asset('image/Images.png') }}";
-    var left = "{{ asset('image/Left.png') }}";
-    var next = "{{ asset('images/bg.png') }}";
-    var message = " {{ session()->get('message')??"" }} ";
+    var layout = "<?php echo e(asset('image/Layer7.svg')); ?>";
+    var lay = "<?php echo e(asset('assets/img/normal/emailVerify.png')); ?>";
+    var img1 = "<?php echo e(asset('assets/img/normal/about_1_shape1.png')); ?>";
+    var img2 = "<?php echo e(asset('assets/img/normal/wcu_1_shape2.png')); ?>";
+    var image = "<?php echo e(asset('image/Images.png')); ?>";
+    var left = "<?php echo e(asset('image/Left.png')); ?>";
+    var next = "<?php echo e(asset('images/bg.png')); ?>";
+    var message = " <?php echo e(session()->get('message')??""); ?> ";
     var  token = document.querySelector('meta[name="csrf-token"]').getAttribute('content');
-    var hype =    "{{ Request::url() }}";
-    var cart = {{ Js::from(json_decode($cart->usercartdetails??'')) }}
-    var money = @js($money??"");
-    var email = @js(auth()->user()->email??"");
-    var picture = "{{ asset('image/TMC-Institute-Logo2 1 (1).png') }}";
-    var userimage = @js(auth()->user()->picture??"");
-    var username =  {{ Js::from(auth()->user()->fullname??"") }}
-    var usersemail = {{ Js::from(auth()->user()->email??"") }}
-    var userpic = {{ Js::from(auth()->user()->picture??"") }};
-    var Cris = "{{ asset('image/Cris 1.png') }}";
-    var Dusig = "{{  asset('image/Dusig 1.png') }}";
-    var Exra  = "{{ asset('image/Exra 1.png') }}";
-    var J0ne = "{{ asset('image/J 1.png') }}"
-    var countries = @js($countries??"");
-    var additional = {{ Js::from(json_decode($additional??"")) }}
-    var gifted_email = {{ JS::from($gifted_email??"") }}
-    var code  = {{ JS::from($code??"") }}
-    var personname = {{ JS::from($fullname??"") }}
-    var captchaimg = {{ Js::from(captcha_src()) }}
-    var userinfoma = {{ Js::from($userinfoma??"") }}
-    var currencysymbol = {{ Js::from($currencysymbol??"") }}
-    var currencyex = {{ Js::from($currencyex??"") }}
-    var coursesdata = {{ Js::from($coursesdata??"") }}
-    {{--  var pdffile = "{{  asset('images/ujpverxbylo7jozxnacs.pdf') }}";  --}}
+    var hype =    "<?php echo e(Request::url()); ?>";
+    var cart = <?php echo e(Js::from(json_decode($cart->usercartdetails??''))); ?>
+
+    var money = <?php echo \Illuminate\Support\Js::from($money??"")->toHtml() ?>;
+    var email = <?php echo \Illuminate\Support\Js::from(auth()->user()->email??"")->toHtml() ?>;
+    var picture = "<?php echo e(asset('image/TMC-Institute-Logo2 1 (1).png')); ?>";
+    var userimage = <?php echo \Illuminate\Support\Js::from(auth()->user()->picture??"")->toHtml() ?>;
+    var username =  <?php echo e(Js::from(auth()->user()->fullname??"")); ?>
+
+    var usersemail = <?php echo e(Js::from(auth()->user()->email??"")); ?>
+
+    var userpic = <?php echo e(Js::from(auth()->user()->picture??"")); ?>;
+    var Cris = "<?php echo e(asset('image/Cris 1.png')); ?>";
+    var Dusig = "<?php echo e(asset('image/Dusig 1.png')); ?>";
+    var Exra  = "<?php echo e(asset('image/Exra 1.png')); ?>";
+    var J0ne = "<?php echo e(asset('image/J 1.png')); ?>"
+    var countries = <?php echo \Illuminate\Support\Js::from($countries??"")->toHtml() ?>;
+    var additional = <?php echo e(Js::from(json_decode($additional??""))); ?>
+
+    var gifted_email = <?php echo e(JS::from($gifted_email??"")); ?>
+
+    var code  = <?php echo e(JS::from($code??"")); ?>
+
+    var personname = <?php echo e(JS::from($fullname??"")); ?>
+
+    var captchaimg = <?php echo e(Js::from(captcha_src())); ?>
+
+    var userinfoma = <?php echo e(Js::from($userinfoma??"")); ?>
+
+    var currencysymbol = <?php echo e(Js::from($currencysymbol??"")); ?>
+
+    var currencyex = <?php echo e(Js::from($currencyex??"")); ?>
+
+    var coursesdata = <?php echo e(Js::from($coursesdata??"")); ?>
+
+    
 </script>
  
-    <script src="{{ mix('js/app.js') }}"></script>
-    <script src="{{ asset('assets/js/vendor/jquery-3.6.0.min.js')}}"> </script>
-    <script src="{{ asset('assets/js/app.min.js')}}"></script>
-    <script src="{{ asset('assets/js/main.js')}}"></script>
+    <script src="<?php echo e(mix('js/app.js')); ?>"></script>
+    <script src="<?php echo e(asset('assets/js/vendor/jquery-3.6.0.min.js')); ?>"> </script>
+    <script src="<?php echo e(asset('assets/js/app.min.js')); ?>"></script>
+    <script src="<?php echo e(asset('assets/js/main.js')); ?>"></script>
        
 
     <script type="text/javascript">
@@ -99,3 +111,4 @@
     })();
     </script> 
 </html>
+<?php /**PATH /Users/infosert/Documents/laravel_projects/TMC_INTITUTE_REACT/resources/views/layout/seclanding.blade.php ENDPATH**/ ?>

@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Footer from './new/Footer';
-import Navbar from './new/Navbar';
+// import Footer from './new/Footer';
+// import Navbar from './new/Navbar';
 
 export default function Activation() {
   let url = ` ${window.location.origin}`;
@@ -31,7 +31,7 @@ export default function Activation() {
           <div className="container">
             <div className="row align-items-center">
               <div className="col-xl-6">
-                <div className="wcu-img-1">
+                <div className="wcu-img-1 emailVerify">
                   <div className="img1">
                     <img src="assets/img/normal/wcu_1_1.png" alt="img" />
                   </div>

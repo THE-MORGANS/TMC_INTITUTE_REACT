@@ -7,7 +7,7 @@ import {AiFillLock, AiFillUnlock} from 'react-icons/ai';
 import {BsFillPlayFill} from 'react-icons/bs';
 import axios from 'axios';
 import CurrencyFormat from 'react-currency-format';
-
+ 
 export default function Course_info() {
     let url = window.location.origin;
     const [Cart, SetCart] = useState(localStorage.getItem('Cart')?JSON.parse(localStorage.getItem('Cart')):[])

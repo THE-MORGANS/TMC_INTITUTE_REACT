@@ -697,7 +697,7 @@ return response()->download($output, $output, ['Content-Description: File Transf
         $pagunAproved =  $this->paginate($dataunApproved, 6, $page);
         return response()->json(['code'=>200, 'success'=>$pagunAproved]);
 
-      }
+      } 
 
       public function encrypt(Request $request){
         $ciphering = "AES-128-CTR";

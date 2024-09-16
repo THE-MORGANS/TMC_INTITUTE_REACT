@@ -10524,7 +10524,7 @@ blockquote.has-very-dark-gray-color {
 
 .th-comments-wrap li {
    margin: 0;
-   margin-bottom: 30px
+   margin-bottom: 10px
 }
 
 .th-comments-wrap .th-post-comment {
@@ -10535,7 +10535,7 @@ blockquote.has-very-dark-gray-color {
    display: -ms-flexbox;
    display: flex;
    margin-bottom: 30px;
-   padding: 30px;
+   padding: 10px;
    position: relative;
    background: var(--smoke-color);
    border-radius: 10px
@@ -10568,7 +10568,7 @@ blockquote.has-very-dark-gray-color {
 }
 
 .th-comments-wrap>.comment-list {
-   margin-bottom: -30px !important
+   margin-bottom: 1px !important
 }
 
 .th-comments-wrap .comment-avater {

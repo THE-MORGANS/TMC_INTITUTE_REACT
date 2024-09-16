@@ -176,20 +176,20 @@ class AuthController extends Controller
     public function Register(RegisterValidate $request, Admin $admin, grouppurchase $grouppurchase)
     {
         $request->validated();
-        DB::beginTransaction(); 
+        // DB::beginTransaction(); 
         try{
-        $user = $this->userinfo->create([
-            "fullname"=>$request->fullname,
-            "email"=>$request->email,
-            "password"=>Hash::make($request->password),
-            "termsandcondition"=>1,
-            "verification_code"=>sha1(time()),
-            "user_login"=>'normal'
-        ]);
-        $admin->create([
-            'user_id'=>$user->id,
-            'has_organisation'=>false
-        ]);
+            $user = $this->userinfo->create([
+                "fullname"=>$request->fullname,
+                "email"=>$request->email,
+                "password"=>Hash::make($request->password),
+                "termsandcondition"=>1,
+                "verification_code"=>sha1(time()),
+                "user_login"=>'normal'
+            ]);
+            $admin->create([
+                'user_id'=>$user->id,
+                'has_organisation'=>false
+            ]);
 
          if($request->code){
             $group = $grouppurchase->where(['email'=>$request->email, 'code'=>$request->code])->get();
@@ -207,7 +207,7 @@ class AuthController extends Controller
              }
 
             $this->SendMail($user->fullname, $user->email, $user->verification_code, $request->company);
-            DB::commit(); 
+            // DB::commit(); 
             return response()->json([
                 "code"=>200,
                 "success"=>'Your account has been created'
@@ -219,17 +219,17 @@ class AuthController extends Controller
                 "code"=>200,
                 "success"=>'Your account has been created'
             ]);
-         }
+         } 
        
         return response()->json([
             "code"=> 200,
             "success"=>'Your account has been created'
         ]);
     } catch (\Exception $e) {
-            DB::rollBack();
+            // DB::rollBack();
             return response()->json([
             "code" => 500,
-            "error" => 'An error occurred during registration. Please try again later. ' . $e->getMessage()
+            "error" => 'An error occurred during registration. Please try again later. '
         ]);
     }
     }
@@ -302,7 +302,7 @@ class AuthController extends Controller
 
     public function companyregister(RegisterValidate $request, Admin $admin){
         $request->validated(); 
-        DB::beginTransaction(); // Start the transaction
+        // DB::beginTransaction();
 
         try {
             $user = $this->userinfo->create([
@@ -318,13 +318,13 @@ class AuthController extends Controller
                 'has_organisation'=>true
             ]);
             $this->SendMail($user->fullname, $user->email, $user->verification_code,  $request->company);
-            DB::commit();
+            // DB::commit();
             return response()->json([
                 "code"=>200,
                 "success"=>'Your account has been created'
             ]);
         } catch (\Exception $e) {
-            DB::rollBack(); 
+            // DB::rollBack(); 
             return response()->json([
                 "code" => 500,
                 "error" => 'An error occurred during registration. Please try again later.' . $e->getMessage()
@@ -343,7 +343,7 @@ public function companyloginusers(LoginValidate $request, User $user, Admin $adm
         return response()->json([
             'code'=>200,
             'success'=>'You have login successfully',
-        ]);
+        ]); 
     }elseif (Auth::attempt(['email' => $request->email, 'password' => $request->password, 'is_verfield'=>0])) {
         return response()->json(['error' => 'Your account has not been verified. Please verify your account to proceed.']);
     }

@@ -1014,23 +1014,14 @@ let dataa = localStorage.getItem('Cart')?JSON.parse(localStorage.getItem('Cart')
                                                     
                                                 </ul>
                                             </nav>
-                                            <button
-                                                type="button"
-                                                class="th-menu-toggle d-block d-lg-none"
-                                            >
-                                                <i class="far fa-bars"></i>
-                                            </button>
+                                           
                                         </div>
                                         <div class="col-auto d-none d-xl-block">
                                             <div class="header-button">
-                                                {/* <button type="button" class="simple-icon me-3 searchBoxToggler">
-                                                    <i class="far fa-search"></i>
-                                                </button> */}
-                                                <button type="button" class="simple-icon me-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                                                 <i class="far fa-search"></i>
-                                                </button>
+                                                
+                                                
 
-                                                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                                {/* <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                                                     <div class="modal-dialog modal-dialog-centered">
                                                         <div class="modal-content">
                                                             <div class="modal-header">
@@ -1050,24 +1041,17 @@ let dataa = localStorage.getItem('Cart')?JSON.parse(localStorage.getItem('Cart')
                                                        
                                                         </div>
                                                     </div>
-                                                </div>
-                                                {/* <div class="category-menu-wrap mr-5 mb-5">
-                                                    <form class="search-form">
-                                                        <input type="text" placeholder="Search For Course...."/>
-                                                        <button type="submit">
-                                                            <i class="far fa-search"></i>
-                                                        </button>
-                                                    </form>
                                                 </div> */}
+                                               
                                             
                                                 {username ?
                                                     <>
                                                         <div class="col-auto d-none d-xl-block">
                                                             <div class="header-button">
-                                                                <button type="button" class="icon-btn ">
+                                                                {/* <button type="button" class="icon-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                                                                     <i class="far fa-search"></i>
-                                                                </button>
-                                                                <a onClick={(e) => handleCart(e)} class="icon-btn ">
+                                                                </button> */}
+                                                                <a style={{cursor:'pointer'}} onClick={(e) => handleCart(e)} class="icon-btn ">
                                                                     <i class="far fa-shopping-cart"></i>
                                                                     <span class="badge">{Cart.length}</span>
                                                                 </a>
@@ -1084,8 +1068,7 @@ let dataa = localStorage.getItem('Cart')?JSON.parse(localStorage.getItem('Cart')
                                                         <div class="category-menu-wrap">
                                                             <a class="menu-expand" href="#">
                                                             <i class="far fa-user"></i> 
-                                                            {/* <img width="20" height="20" style={{borderRadius:'20'}}  src={username?additionalpic?additionalpic:userpic?userpic:'https://res.cloudinary.com/the-morgans-consortium/image/upload/v1658329437/Tmc%20institute/blank-profile-picture-gae268b379_1280_gtgqxr.png':'https://res.cloudinary.com/the-morgans-consortium/image/upload/v1658329437/Tmc%20institute/blank-profile-picture-gae268b379_1280_gtgqxr.png'} className="header_widgets_avatar" alt="image" /> */}
-
+                      
                                                             {' '} Welcome, {username},  <i class="fa-solid fa-angle-down ms-auto"></i>
                                                             </a>
                                                             <nav class="category-menu">

@@ -7,6 +7,7 @@ import Footer from './new/Footer';
 import Navbar from './new/Navbar';
 import 'toastr/build/toastr.min.css';
 import toastr from 'toastr';
+import ReCAPTCHA from 'react-google-recaptcha';
 
 
  function Signup() {
@@ -26,33 +27,39 @@ import toastr from 'toastr';
         // }
   
        }
-       const [fullname, setfullname] = useState('');
-       const [email, setemail] = useState('');
-       const [pasword, Setpasssword] = useState('');
-       const [terms, Setterms] = useState(false);
-       const [password_confirmation, Setpassword_confirmation] = useState('');
-    //    const [captcha, Setcaptcha] = useState('')
-        const [loader, setloader] = useState(false)
-        // const [captimg, setcaptimg] = useState(captchaimg)
-        const [showbtn, setShowbtn] = useState(false)
+   
+    const [fullname, setfullname] = useState('');
+    const [email, setemail] = useState('');
+    const [pasword, Setpasssword] = useState('');
+    const [terms, Setterms] = useState(false);
+    const [password_confirmation, Setpassword_confirmation] = useState('');
+    const [loader, setloader] = useState(false)
+    const [recaptchaValue, setRecaptchaValue] = useState(null);
+    const [showbtn, setShowbtn] = useState(false)
   
         const handleSubmit = (e)=>{
             e.preventDefault();
+            if (!recaptchaValue) {
+                toastr.error('Please complete the reCAPTCHA', 'Error');
+                return;
+            }
             setloader(true)
             let company = 'user'
             let formData = new FormData();
             formData.append('fullname', fullname)
             formData.append('email', email)
-        //    formData.append('captcha', captcha)
+            formData.append('recaptcha', recaptchaValue);
             formData.append("password", pasword)
             formData.append('password_confirmation', password_confirmation)
             formData.append("term", terms)
             formData.append('company', company)
+
             let urltwo = `${url}/register`;
             console.log('register');
+
             axios.post(urltwo, formData).then(res=>{
                 console.log('success', res.data)
-                if(res.data.success){ 
+                if(res.data.success){  
                   toastr.success(res.data.success, 'Success');
                   setloader(false)
                   setTimeout(()=>{
@@ -93,11 +100,9 @@ import toastr from 'toastr';
     const handleterms = ()=>{
         window.location.href = ` ${url}/terms`;
     }
-     const [changepass, setChangepass] = useState(false)
-     const [conpass, setConpass] = useState(false)
-    // const handlepassch = ()=>{
-
-    // }
+    const [changepass, setChangepass] = useState(false)
+    const [conpass, setConpass] = useState(false)
+    
   
     const handleForget = ()=>{
         window.location.href = `${url}/forgotten/Individual`;
@@ -105,6 +110,10 @@ import toastr from 'toastr';
     const handlehome = ()=>{
         window.location.href = `${url}`;
     }
+
+    // const handleRecaptcha = (token) => {
+    //     setRecaptchaToken(token);
+    // };
     
   return (
     
@@ -238,6 +247,12 @@ import toastr from 'toastr';
                                 />
                                 ) : null}
                             </span>
+                        </div>
+                        <div className="col-md-12">
+                        {/* <ReCAPTCHA
+                            sitekey="your-site-key-here"
+                            onChange={handleRecaptcha}
+                        /> */}
                         </div>
 
                         <div className="form-group">
