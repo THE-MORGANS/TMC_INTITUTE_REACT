@@ -34,21 +34,21 @@ import ReCAPTCHA from 'react-google-recaptcha';
     const [terms, Setterms] = useState(false);
     const [password_confirmation, Setpassword_confirmation] = useState('');
     const [loader, setloader] = useState(false)
-    const [recaptchaValue, setRecaptchaValue] = useState(null);
+    // const [recaptchaValue, setRecaptchaValue] = useState(null);
     const [showbtn, setShowbtn] = useState(false)
   
         const handleSubmit = (e)=>{
             e.preventDefault();
-            if (!recaptchaValue) {
-                toastr.error('Please complete the reCAPTCHA', 'Error');
-                return;
-            }
+            // if (!recaptchaValue) {
+            //     toastr.error('Please complete the reCAPTCHA', 'Error');
+            //     return;
+            // }
             setloader(true)
             let company = 'user'
             let formData = new FormData();
             formData.append('fullname', fullname)
             formData.append('email', email)
-            formData.append('recaptcha', recaptchaValue);
+            // formData.append('recaptcha', recaptchaValue);
             formData.append("password", pasword)
             formData.append('password_confirmation', password_confirmation)
             formData.append("term", terms)

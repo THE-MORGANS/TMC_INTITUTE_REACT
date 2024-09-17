@@ -12,12 +12,12 @@ export default function Usercourse() {
     const apiClient = axios.create({
      baseURL: `${url}/`,
      withCredentials: true
-   });
-    const numberOfData = data.length;
+   });    
+    const numberOfData = purchasedcourse.data.length;
 
     const handlePage = (id,course)=>{
         let formData = new FormData();
-        let myHeader = new Headers();
+        let myHeader = new Headers();  
         myHeader.append('Content-Type', 'application/json')
         formData.append("id", id)
         apiClient.get('/sanctum/csrf-cookie').then( ()=> {
@@ -88,7 +88,7 @@ export default function Usercourse() {
         <div class="container">
    
             <div class="th-sort-bar ">
-             
+                <br/><br/>
                 <div class="row justify-content-between align-items-center">
                     <div class="col-md-auto">
                         <span class="course-result-count">We found <span class="text-theme"> {numberOfData} courses</span> available for you</span>

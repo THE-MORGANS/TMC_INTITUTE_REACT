@@ -281,12 +281,21 @@ function ListCouses() {
     }
 
   
+    const getBtnTextt =(id)=>{
+        let cart = Cart.find((item)=>item.id == id);
+        if(cart){
+          return 'icon-btn';
+        }else{
+            return 'icon-btn text-[#A32926]';
+        }
+    }
+
     const getBtnText =(id)=>{
         let cart = Cart.find((item)=>item.id == id);
         if(cart){
-          return 'icon-btn'
+          return 'text-2xl text-green-400'
         }else{
-            return 'icon-btn  text-[#A32926]'
+            return 'text-2xl text-[#A32926]'
         }
     }
     
@@ -463,19 +472,32 @@ function ListCouses() {
                                                 </span>
                                                 {' '}
                                                 </div>
+
+                                                { item.purchased?'':username?
+                                                    <div  >
+                                                            {
+                                                            getBtnText(item.id) == 'text-2xl text-green-400' ? 
+                                                            <a class="th-btn style4"  onClick={()=>handleCart(item.id)} style={{cursor:'pointer'}}>In Cart</a> :
+                                                            <a className='th-btn style5' onClick={()=>handleCart(item.id)} style={{cursor:'pointer'}}>Add to Cart</a> 
+                                                            }
+                                                            
+                                                        <div>·</div>
+                                                        {/* <div> {item.lesson} lectures </div> */}
+                                                    </div>:""
+                                                } 
                                                 
-                                                
-                                                {
+                                                {/* {
                                                     (
                                                     username ? 
+                                                   
                                                     <a  onClick={()=>handleCart(item.id)}  class="th-btn style6 mt-10" style={{cursor:'pointer'}}>
-                                                    {getBtnText(item.id) == 'icon-btn'? 'In Cart': 'Add to Cart'} 
-                                                    </a> 
+                                                    {getBtnText(item.id) == 'icon-btn' ? 'In Cart': 'Add to Cart'} 
+                                                     </a> 
                                                     
                                                     : null
                                                     )
-                                                }
-                                                {/* <CurrencyFormat value={moneyTalks(item.converted, item.price)} displayType={'text'} thousandSeparator={true} prefix={symbol} />  */}
+                                                } */}
+
                                             </div>
                                         </div> 
                                     </div>

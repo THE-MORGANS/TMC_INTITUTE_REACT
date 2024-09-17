@@ -424,16 +424,18 @@ export default function Home() {
                                   {' '}
                                 </div>
                                 
-                                {
-                                    (
-                                    username ? 
-                                    <a  onClick={()=>handleCart(item.id)}  class="th-btn style6 mt-10" style={{cursor:'pointer'}}>
-                                    {getBtnText(item.id) == 'text-2xl text-green-400'? 'In Cart': 'Add to Cart'} 
-                                    </a> 
-                                    
-                                    : null
-                                    )
-                                }
+                                { item.purchased?'':username?
+                                      <div  >
+                                              {
+                                              getBtnText(item.id) == 'text-2xl text-green-400' ? 
+                                              <a class="th-btn style4"  onClick={()=>handleCart(item.id)} style={{cursor:'pointer'}}>In Cart</a> :
+                                              <a className='th-btn style5' onClick={()=>handleCart(item.id)} style={{cursor:'pointer'}}>Add to Cart</a> 
+                                              }
+                                              
+                                          <div>·</div>
+                                          {/* <div> {item.lesson} lectures </div> */}
+                                      </div>:""
+                                  } 
                             </div>
                            
 
@@ -494,16 +496,18 @@ export default function Home() {
                                   </span>
                                   {' '}
                               </div>
-                              {
-                                (
-                                  username ? 
-                                  <a  onClick={()=>handleCart(item.id)}  class="th-btn style6 mt-10" style={{cursor:'pointer'}}>
-                                  {getBtnText(item.id) == 'text-2xl text-green-400'? 'In Cart': 'Add to Cart'} 
-                                  </a> 
-                                
-                                  : null
-                                )
-                              }
+                              { item.purchased?'':username?
+                                    <div  >
+                                            {
+                                            getBtnText(item.id) == 'text-2xl text-green-400' ? 
+                                            <a class="th-btn style4"  onClick={()=>handleCart(item.id)} style={{cursor:'pointer'}}>In Cart</a> :
+                                            <a className='th-btn style5' onClick={()=>handleCart(item.id)} style={{cursor:'pointer'}}>Add to Cart</a> 
+                                            }
+                                            
+                                        <div>·</div>
+                                        {/* <div> {item.lesson} lectures </div> */}
+                                    </div>:""
+                                } 
                                
                             </div>
                           </div>
