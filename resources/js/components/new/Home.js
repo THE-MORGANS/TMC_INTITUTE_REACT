@@ -55,7 +55,7 @@ export default function Home() {
      let currencycode = currencysymbol.currency.code
 
 
-    const getBtnText =(id)=>{
+    const getBtnText =(id)=>{ 
        let cart = Cart.find((item)=>item.id == id);
 
         if(cart){
