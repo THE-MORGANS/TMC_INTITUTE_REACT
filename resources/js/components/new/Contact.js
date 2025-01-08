@@ -73,11 +73,17 @@ function Contact() {
                     <p className="contact-feature_label">Our Address</p>
                     <p className="contact-feature_label">Office in United Kingdom</p>
                     <a href="" className="contact-feature_link mb-20">
-                      4 Holborn Viaduct London EC1A 2BN United Kingdom
+                      International House 24 Holborn Viaduct, London, EC1A 2BN, United Kingdom
                     </a>
+
                     <p className="contact-feature_label">Office in Nigeria</p>
-                    <a href="" className="contact-feature_link">
+                    <a href="" className="contact-feature_link mb-20">
                       2nd Floor 1, Adeola Adeoye Street Off Toyin Street ikeja, Lagos Nigeria.
+                    </a>
+
+                    <p className="contact-feature_label">Office in Asia</p>
+                    <a href="" className="contact-feature_link">
+                      21 Gillabbey Terrace, Gillabbey Street, Cork, T12 KPN4, Republic of Ireland
                     </a>
                   </div>
                 </div>
@@ -86,10 +92,10 @@ function Contact() {
                   <div className="media-body">
                     <p className="contact-feature_label">Phone Number</p>
                     <a href="tel:+447466588324" className="contact-feature_link">
-                      United Kingdom: <span>(+44) 7466588324</span>
+                      United Kingdom: <span>+234 (1) 700-1770</span>
                     </a>
                     <a href="tel:+2349153414314" className="contact-feature_link">
-                      Nigeria: <span>(+234) 91 534 14314,</span>
+                      Nigeria: <span>(+234) 91 534 14314</span>
                     </a>
                   </div>
                 </div>
