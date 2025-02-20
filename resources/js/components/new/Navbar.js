@@ -1019,31 +1019,6 @@ let dataa = localStorage.getItem('Cart')?JSON.parse(localStorage.getItem('Cart')
                                         <div class="col-auto d-none d-xl-block">
                                             <div class="header-button">
                                                 
-                                                
-
-                                                {/* <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                                    <div class="modal-dialog modal-dialog-centered">
-                                                        <div class="modal-content">
-                                                            <div class="modal-header">
-                                                                <h1 class="modal-title fs-5" id="staticBackdropLabel">What are you looking for?</h1>
-                                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                                            </div>
-                                                            <div class="modal-body">
-                                                                <form action="" method='POST' class="search-form">
-                                                                    <input type="text" placeholder="Search For Course...."/> 
-                                                                
-                                                                    <div class="modal-footer">
-                                                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                                                        <button type="submit" class="th-btn">Search <i class="far fa-search"></i></button>
-                                                                    </div>
-                                                                </form>
-                                                            </div>
-                                                       
-                                                        </div>
-                                                    </div>
-                                                </div> */}
-                                               
-                                            
                                                 {username ?
                                                     <>
                                                         <div class="col-auto d-none d-xl-block">
