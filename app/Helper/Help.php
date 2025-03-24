@@ -86,7 +86,7 @@ class Help{
         $amount = 1;
        $curl = curl_init();
        curl_setopt_array($curl, array(
-        CURLOPT_URL => "https://api.fastforex.io/fetch-one?from=$from&to=$to&api_key=5c785d530d-927def0015-srzh1u",
+        CURLOPT_URL => "https://api.fastforex.io/fetch-one?from=$from&to=$to&api_key=89263951a0-97a924f125-stmm2a",
         CURLOPT_HTTPHEADER => array(
        "Accept: application/json"
         ),
@@ -123,7 +123,7 @@ class Help{
         $amount = 1;
        $curl = curl_init();
        curl_setopt_array($curl, array(
-        CURLOPT_URL => "https://api.fastforex.io/fetch-one?from=$from&to=$to&api_key=5c785d530d-927def0015-srzh1u",
+        CURLOPT_URL => "https://api.fastforex.io/fetch-one?from=$from&to=$to&api_key=89263951a0-97a924f125-stmm2a",
         CURLOPT_HTTPHEADER => array(
        //    "Content-Type: text/plain",
        //    "apikey: j4L2ULOPUCFCzuU6iyBoBH7c949ZQoCd"
