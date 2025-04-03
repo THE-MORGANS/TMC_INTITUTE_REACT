@@ -156,12 +156,24 @@ export default function Footer() {
                                         <p className="about-text">
                                             TMC Institute is a registered trademark of TMC
                                         </p>
-                                        <b>Conact Address</b>
+                                        <p>
+                                            <b>Conact Address</b>
+                                        </p>
+                                       
                                         <p className="about-text">
-                                            <b>EUROPE:</b><br/>
+                                            <b>HQ United Kingdom:</b><br/>
+                                            85 Great Portland Street First Floor London W1W 7LT
+                                            United Kingdom
+                                        </p>
+
+                                        <p className="about-text">
+                                             <b>EUROPE:</b><br/>
+                                           
                                             International House 24 Holborn Viaduct, London, EC1A 2BN, United Kingdom
                                         </p>
                                         <p className="about-text">
+                                            <b>ASIA:</b><br/>
+
                                             21 Gillabbey Terrace, Gillabbey Street, Cork, T12 KPN4, Republic of Ireland
                                         </p>
                                         <div className="th-social">
