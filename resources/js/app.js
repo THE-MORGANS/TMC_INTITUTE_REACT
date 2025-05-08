@@ -19,7 +19,7 @@ require('./components/Login');
 // require('./components/Home');
 // require('./components/Footer');
 require('./components/new/Activation');
-require('./components/new/EmailVerified');
+require('./components/new/EmailVerified'); 
 // require('./components/CourseDetail');
 // require('./components/Cart');
 // require('./components/Mainpage');

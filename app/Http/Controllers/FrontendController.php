@@ -136,7 +136,7 @@ class FrontendController extends Controller
     public function snatika(Additional $add){
         $countries = $this->list_countries();
         $additional = $add->where(['user_id'=>auth()->user()->id])->first();
-         $help = new Help();
+         $help = new Help(); 
          $currencysymbol =  (new Help)->getplace(); 
          $userinfoma = $help->getplace();
         $toptitle = 'TMC Institute-User Details';

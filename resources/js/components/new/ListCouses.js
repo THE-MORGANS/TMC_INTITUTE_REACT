@@ -231,30 +231,30 @@ function ListCouses() {
     };
     
 
-   let symbol = currencysymbol.currency.symbol
-   let moneyname = currencysymbol.currency.name
-   let converted = JSON.parse(currencyex)
-   let convertnaira = converted.result.NGN
+//    let symbol = currencysymbol.currency.symbol
+//    let moneyname = currencysymbol.currency.name
+//    let converted = JSON.parse(currencyex)
+//    let convertnaira = converted.result.NGN
    
 
-  function moneyTalks(converted, price){
-   if(converted){
-    if(moneyname != 'NGN'){
-        return Math.round(price / convertnaira) ;
-    }else{
-        return Math.round(price);
-    }
-   }
-   else{
-    if(moneyname != 'NGN'){
-        return Math.round(price / convertnaira) ;
-    }else{
-        return Math.round(price) ;
+//   function moneyTalks(converted, price){
+//    if(converted){
+//     if(moneyname != 'NGN'){
+//         return Math.round(price / convertnaira) ;
+//     }else{
+//         return Math.round(price);
+//     }
+//    }
+//    else{
+//     if(moneyname != 'NGN'){
+//         return Math.round(price / convertnaira) ;
+//     }else{
+//         return Math.round(price) ;
 
-    }
+//     }
 
-   }
-  }
+//    }
+//   }
 
     const handleLink =(word, id)=>{
         let formData = new FormData();
@@ -301,24 +301,24 @@ function ListCouses() {
     
     
    
-    function moneyTalks(converted, price){
-        if(converted){
-         if(moneyname != 'NGN'){
-             return Math.round(price / convertnaira) ;
-         }else{
-             return Math.round(price);
-         }
-        }
-        else{
-         if(moneyname != 'NGN'){
-             return Math.round(price / convertnaira) ;
-         }else{
-             return Math.round(price) ;
+    // function moneyTalks(converted, price){
+    //     if(converted){
+    //      if(moneyname != 'NGN'){
+    //          return Math.round(price / convertnaira) ;
+    //      }else{
+    //          return Math.round(price);
+    //      }
+    //     }
+    //     else{
+    //      if(moneyname != 'NGN'){
+    //          return Math.round(price / convertnaira) ;
+    //      }else{
+    //          return Math.round(price) ;
      
-         }
+    //      }
      
-        }
-    }
+    //     }
+    // }
     const handlehome = ()=>{
         window.location.href = ` ${url}`;
     }
@@ -456,7 +456,7 @@ function ListCouses() {
                                             {/* <span class="tag"> { item.price}</span> */}
                                             
                                             <span class="tag">
-                                                <CurrencyFormat value={moneyTalks(item.converted, item.price, item.currency_name)} displayType={'text'} thousandSeparator={true} prefix={symbol} /> 
+                                                <CurrencyFormat value={item.price} displayType={'text'} thousandSeparator={true} prefix='₦' /> 
                                             </span>
                                         </div>
                                         <div class="course-content">

@@ -42,10 +42,10 @@ export default function Navbar() {
         }
     },[])
 
-    let symbol = currencysymbol.currency.symbol
-    let converted = JSON.parse(currencyex)
-    let convertnaira = converted.result.NGN
-    let moneyname = currencysymbol.currency.name
+    // let symbol = currencysymbol.currency.symbol
+    // let converted = JSON.parse(currencyex)
+    // let convertnaira = converted.result.NGN
+    // let moneyname = currencysymbol.currency.name
    // let other =  Object.values(othersmoneys.result);
     //let poundtonaira = poundton.result.NGN
      
@@ -58,19 +58,18 @@ export default function Navbar() {
         return sum?sum:0;
        }
 
-     function gettotal(){
-      const sum = subtotal.reduce((accumulator, current) =>{return accumulator + current }, 0);
+    //  function gettotal(){
+    //   const sum = subtotal.reduce((accumulator, current) =>{return accumulator + current }, 0);
     
-    if(currencysymbol.currency.code != 'NGN'){
-        let ans =   parseInt(sum?sum:0)
-        let quest = ans + (onedollar/convertnaira);
-         return Math.round(quest);
-      }else{
-        let ans =   parseInt(sum?sum:0)
-        return ans;
-      }
-
-     }
+    //     if(currencysymbol.currency.code != 'NGN'){
+    //         let ans =   parseInt(sum?sum:0)
+    //         let quest = ans + (onedollar/convertnaira);
+    //         return Math.round(quest);
+    //     }else{
+    //         let ans =   parseInt(sum?sum:0)
+    //         return ans;
+    //     }
+    //  }
 
      const handleClick = (id)=>{
         let add = Cart.filter((item)=>item.id != id)

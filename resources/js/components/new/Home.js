@@ -14,7 +14,6 @@ import Cart from './Cart';
 import Navbar from './Navbar';
 import Footer from './Footer'; 
 import { AES, enc } from 'crypto-js';
-// https://github.com/brainfoolong/cryptojs-aes-php
 import {FiArrowRight, FiArrowLeft} from 'react-icons/fi';
 import {AiOutlineArrowLeft, AiOutlineArrowRight, AiOutlineShopping} from 'react-icons/ai';
 import { Markup } from 'interweave';
@@ -117,31 +116,15 @@ export default function Home() {
       window.location.href = ` ${url}/listcourses`;
     }
 
-    let symbol = currencysymbol.currency.symbol
-    let moneyname = currencysymbol.currency.name
-    let converted = JSON.parse(currencyex)
-    //let other =  Object.values(othersmoneys.result);
-    console.log('converted', converted);
-    let convertnaira = converted.result.NGN
-
-    function moneyTalks(converted, price){
-      if(converted){
-       if(moneyname != 'NGN'){
-           return Math.round(price / convertnaira) ;
-       }else{
-           return Math.round(price);
-       }
-      }
-      else{
-       if(moneyname != 'NGN'){
-           return Math.round(price / convertnaira) ;
-       }else{
-           return Math.round(price) ;
-   
-       }
-   
-      }
-  }
+    // let symbol = currencysymbol.currency.symbol
+    // let moneyname = currencysymbol.currency.name
+    // let converted = JSON.parse(currencyex)
+    // console.log('converted', converted);
+    // let convertnaira = converted.result.NGN
+ 
+    function moneyTalks(price){
+      return Math.round(price);
+    }
 
     const handleCookie =(e)=>{
         if(e.target.innerText == 'Yes'){
@@ -399,7 +382,9 @@ export default function Home() {
                           <div className="course-img">
                             <img src={item.picture} alt={item.coursename} style={{ width: '327px', height: '250px' }} />
                             <span className="tag">
-                              <CurrencyFormat value={moneyTalks(item.converted, item.price)} displayType={'text'} thousandSeparator={true} prefix={symbol} /> 
+                              <CurrencyFormat value={item.price} displayType={'text'} thousandSeparator={true} prefix='₦' /> 
+                            
+                              {/* <CurrencyFormat value={moneyTalks(item.converted, item.price)} displayType={'text'} thousandSeparator={true} prefix={symbol} />  */}
                             </span>
                           </div>
                           
@@ -472,7 +457,7 @@ export default function Home() {
                           <div className="course-img">
                             <img  src={item.picture} alt={item.coursename} style={{ width: '327px', height: '250px' }} />
                             <span className="tag">
-                              <CurrencyFormat value={moneyTalks(item.converted, item.price, item.currency_name)} displayType={'text'} thousandSeparator={true} prefix={symbol} /> 
+                              <CurrencyFormat value={( item.price)} displayType={'text'} thousandSeparator={true} prefix='₦' /> 
                             </span>
                           </div>
                           <div className="course-content">
