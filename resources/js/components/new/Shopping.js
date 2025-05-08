@@ -69,15 +69,16 @@ export default function Shopping() {
     }
 
     
-    let symbol = currencysymbol.currency.symbol
-    let moneyname = currencysymbol.currency.name
-    let converted = JSON.parse(currencyex)
-    let convertnaira = converted.result.NGN
-    let currencycode = currencysymbol.currency.code
-    let poundtodollar =  todollar.result.USD
-    let other =  Object.values(othersmoneys.result);
-    let poundtonaira = poundton.result.NGN
-    const [convertdollar, setconvertdollar] = useState(poundtodollar)
+    // let symbol = currencysymbol.currency.symbol
+    let moneyname = 'Nigerian Naira'
+    // let moneyname = currencysymbol.currency.name Nigerian Naira
+    // let converted = JSON.parse(currencyex)
+    // let convertnaira = converted.result.NGN
+    let currencycode = 'NGN'
+    // let poundtodollar =  todollar.result.USD
+    // let other =  Object.values(othersmoneys.result);
+    // let poundtonaira = poundton.result.NGN
+    // const [convertdollar, setconvertdollar] = useState(poundtodollar)
 
     let subtotal = useMemo(()=>Cart.map((item)=>{
     if(moneyname == 'Nigerian Naira' && item.coursetype == 'OTHM'){
@@ -149,7 +150,6 @@ export default function Shopping() {
         amount:gettotal() * 100,
         // 2000 * 100,
         currency:'NGN',
-        // currencycode == 'NGN'?'NGN':'USD',
         callback: function(response){
             let ref = response.reference
             if(ref){
@@ -412,9 +412,7 @@ export default function Shopping() {
         key: 'pk_live_1cdc09bd2d33d7063a0e628325d43c0cd289ecf1',
         email:usersemail,
         amount:totalgroup() * 100,
-        // 2000  *100.00,
         currency:'NGN',
-        // currencycode == 'NGN'?'NGN':'USD',
         callback: function(response){
         let ref = response.reference
         if(ref){
@@ -491,26 +489,26 @@ export default function Shopping() {
          }
       },[datacollect])
 
-    function moneyTalks(converted, price, coursetype){
-        // console.log(converted, price);
-        if(moneyname == 'Nigerian Naira' && coursetype == 'OTHM'){
-            return Math.round(price * poundsnaira);
+    // function moneyTalks(converted, price, coursetype){
+    //     // console.log(converted, price);
+    //     if(moneyname == 'Nigerian Naira' && coursetype == 'OTHM'){
+    //         return Math.round(price * poundsnaira);
 
-        }else{
-            if(converted){
-                return Math.round(price);
-            }
-            else{
-                if(currencycode != 'NGN'){
-                    return Math.round(price / convertnaira) ;
-                }else{
-                    return Math.round(price);
+    //     }else{
+    //         if(converted){
+    //             return Math.round(price);
+    //         }
+    //         else{
+    //             if(currencycode != 'NGN'){
+    //                 return Math.round(price / convertnaira) ;
+    //             }else{
+    //                 return Math.round(price);
 
-                }
+    //             }
 
-            }
-        }
-    }
+    //         }
+    //     }
+    // }
 
    function popTalks(converted, price){
         // console.log(converted, price);
@@ -639,7 +637,7 @@ useEffect(()=>{
 
                                         <span className="amount">
                                             <bdi>
-                                                <CurrencyFormat value={popTalks(item.converted, item.price, item.coursetype)} displayType={'text'} thousandSeparator={true} prefix={symbol} />
+                                                <CurrencyFormat value={popTalks(item.converted, item.price, item.coursetype)} displayType={'text'} thousandSeparator={true} prefix='₦' />
                                             </bdi>
                                         </span>
                                     </td>
@@ -671,7 +669,7 @@ useEffect(()=>{
                                             <span className="amount">
                                                 <bdi>
                                                     <div className="font-semibold text-black text-xl"> 
-                                                        <CurrencyFormat value={gettotal()} displayType={'text'} thousandSeparator={true} prefix={symbol} />
+                                                        <CurrencyFormat value={gettotal()} displayType={'text'} thousandSeparator={true} prefix='₦' />
                                                     </div>
                                                 </bdi>
                                             </span>
@@ -789,7 +787,7 @@ useEffect(()=>{
                                                 <td>Amount</td>
                                                 <td>
                                                     <span className="w-32 capitalize text-base">
-                                                        <CurrencyFormat value={gettotal()} displayType={'text'} thousandSeparator={true} prefix={symbol} />
+                                                        <CurrencyFormat value={gettotal()} displayType={'text'} thousandSeparator={true} prefix='₦' />
                                                     </span>
                                                 </td>
                                             </tr>
@@ -804,7 +802,7 @@ useEffect(()=>{
                                             <tr>
                                                 <td>Total</td>
                                                 <td>
-                                                    <CurrencyFormat value={totalgroup()} displayType={'text'} thousandSeparator={true} prefix={symbol} />
+                                                    <CurrencyFormat value={totalgroup()} displayType={'text'} thousandSeparator={true} prefix='₦' />
                                                 </td>
                                             </tr>
                                         </tbody>

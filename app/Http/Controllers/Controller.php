@@ -97,7 +97,7 @@ class Controller extends BaseController
         $amount = 1;
        $curl = curl_init();
        curl_setopt_array($curl, array(
-         CURLOPT_URL => "https://api.fastforex.io/fetch-one?from=$from&to=$to&api_key=5c785d530d-927def0015-srzh1u",
+         CURLOPT_URL => "https://api.fastforex.io/fetch-one?from=$from&to=$to&api_key=a8ccc0a8f0-4aa0b803d2-svy0xu",
          CURLOPT_HTTPHEADER => array(
         "Accept: application/json"
          ),
@@ -407,7 +407,7 @@ class Controller extends BaseController
         $amount = 1;
        $curl = curl_init();
        curl_setopt_array($curl, array(
-         CURLOPT_URL => "https://api.fastforex.io/fetch-one?from=$from&to=$to&api_key=5c785d530d-927def0015-srzh1u",
+         CURLOPT_URL => "https://api.fastforex.io/fetch-one?from=$from&to=$to&api_key=a8ccc0a8f0-4aa0b803d2-svy0xu",
          CURLOPT_HTTPHEADER => array(
         "Accept: application/json"
          ),
@@ -436,7 +436,7 @@ class Controller extends BaseController
         $amount = 1;
        $curl = curl_init();
        curl_setopt_array($curl, array(
-         CURLOPT_URL => "https://api.fastforex.io/fetch-one?from=$from&to=$to&api_key=b0e665585a-c819488f23-su51v0",
+         CURLOPT_URL => "https://api.fastforex.io/fetch-one?from=$from&to=$to&api_key=a8ccc0a8f0-4aa0b803d2-svy0xu",
          CURLOPT_HTTPHEADER => array(
         "Accept: application/json"
          ),

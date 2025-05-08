@@ -21,9 +21,6 @@ export default function Course_info() {
     const indexOfFirstPost = indexOfLastPost - postsPerPage;
     const currentPosts = data2.slice(indexOfFirstPost, indexOfLastPost);
 
-
-
-
     const handleCart = (id)=>{
             let cart = data2.find((item)=>item.id == id)
             // console.log(cart)
@@ -155,30 +152,29 @@ export default function Course_info() {
 
         return `${day} ${month} ${year}`;
     }
-    let symbol = currencysymbol.currency.symbol
-    let moneyname = currencysymbol.currency.name
-    let converted = JSON.parse(currencyex)
-    let convertnaira = converted.result.NGN
-    function moneyTalks(converted, price){
-        if(converted){
-         if(moneyname != 'NGN'){
-             return Math.round(price / convertnaira) ;
-         }else{
-             return Math.round(price);
-         }
-        }
-        else{
-         if(moneyname != 'NGN'){
-             return Math.round(price / convertnaira) ;
-         }else{
-             return Math.round(price) ;
-     
-         }
-     
-        }
-    }
-// dhdghdg 
-  return (
+    // let symbol = currencysymbol.currency.symbol
+    // let moneyname = currencysymbol.currency.name
+    // let converted = JSON.parse(currencyex)
+    // let convertnaira = converted.result.NGN
+    // function moneyTalks(converted, price){
+    //     if(converted){
+    //         if(moneyname != 'NGN'){
+    //             return Math.round(price / convertnaira) ;
+    //         }else{
+    //             return Math.round(price);
+    //         }
+    //     }else{
+    //         if(moneyname != 'NGN'){
+    //             return Math.round(price / convertnaira) ;
+    //         }else{
+    //             return Math.round(price) ;
+    //         }
+    //     }
+    // }
+
+
+  
+return (
     <div >
        <Navbar/>
 
@@ -314,7 +310,7 @@ export default function Course_info() {
                             ></a> */}
                             </div>
                             <span class="h4 course-price">
-                                <CurrencyFormat value={moneyTalks(single.converted, single.price, single.currency_name)} displayType={'text'} thousandSeparator={true} prefix={symbol} /> 
+                                <CurrencyFormat value={single.price} displayType={'text'} thousandSeparator={true} prefix='₦' /> 
                             </span>
                             {/* <span className='h4 course-price'>
                                 <CurrencyFormat value={moneyTalks(single.converted, single.price, single.currency_name)} displayType={'text'} thousandSeparator={true} prefix={symbol} /> 
@@ -385,7 +381,7 @@ export default function Course_info() {
                                 <div class="course-img">
                                     <img style={{ width: '350px', height: '250px' }} src={item.picture} alt={item.coursename} />
                                     <span class="tag">
-                                        <CurrencyFormat value={moneyTalks(item.converted, item.price, item.currency_name)} displayType={'text'} thousandSeparator={true} prefix={symbol} /> 
+                                        <CurrencyFormat value={item.price} displayType={'text'} thousandSeparator={true} prefix='₦' /> 
                                     </span>
                                     
                                 </div> 
