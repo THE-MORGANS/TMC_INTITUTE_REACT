@@ -17,10 +17,10 @@ function Contact() {
       withCredentials: true
   });
  
-  let symbol = currencysymbol.currency.symbol
-  let converted = JSON.parse(currencyex)
-  let convertnaira = converted.result.NGN
-  let moneyname = currencysymbol.currency.name
+  // let symbol = currencysymbol.currency.symbol
+  // let converted = JSON.parse(currencyex)
+  // let convertnaira = converted.result.NGN
+  // let moneyname = currencysymbol.currency.name
   //let other =  Object.values(othersmoneys.result);
 
 

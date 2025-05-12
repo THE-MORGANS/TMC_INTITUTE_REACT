@@ -208,20 +208,20 @@ return (
                             
                             <h2 className="course-title">{single.coursename}</h2>
                             <ul className="course-single-meta">
-                                <li>
+                                {/* <li>
                                     <span className="meta-title">Lesson: </span><a href="course.html">
                                        
                                       <i className="fal fa-file"></i>{' '}
                                       {single.lesson !== null ? single.lesson : '0'} Lesson
                                   
                                     </a>
-                                </li>
+                                </li> */}
                                 <li><span className="meta-title">Category: </span><a href="course.html">{single.coursename}</a></li>
                                 <li>
                                     <span className="meta-title">Last Update: </span><a href="course.html">{convertDate(single.created_at)}</a>
                                    
                                 </li>
-                                <li>
+                                {/* <li>
                                     <span className="meta-title">Review:</span>
                                     <div className="course-rating">
                                     <div className="star-rating" role="img" aria-label={`Rated ${single.rating} out of 5`}>
@@ -231,7 +231,7 @@ return (
                                     
 
                                     </div>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
 

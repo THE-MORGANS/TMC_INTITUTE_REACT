@@ -41,7 +41,8 @@ class viewsController extends Controller
         $show = new Frontends();
         $help = new Help();
         $currencysymbol =(new Help())->getplace();
-        $currencyex = (new Help)->moneyconvert();
+        $currencyex = '';
+        // $currencyex = (new Help)->moneyconvert();
       //return view('welcome');
       return $show->newdashboard($featuredcollect, $popularcollect,  $recentcollect,  $cart, $allcollection, $currencysymbol, $currencyex,  $additionalpic);
  
@@ -65,7 +66,8 @@ class viewsController extends Controller
         $uni = array_unique($unique_data);
         $help = new Help();
         $currencysymbol =  (new Help)->getplace();
-        $currencyex =  (new Help)->moneyconvert();
+        // $currencyex =  (new Help)->moneyconvert();
+        $currencyex =  '';
        return    (new Frontends)->listcourses($uni, $totalCourse, $pagdata, $currencysymbol, $currencyex,  $additionalpic);
     }
     // Pagination function
@@ -154,7 +156,8 @@ class viewsController extends Controller
         $pagdata =  $this->paginate($data, 6, $page);
 
         $currencysymbol =  (new Help)->getplace();
-        $currencyex =  (new Help)->moneyconvert();
+        // $currencyex =  (new Help)->moneyconvert();
+        $currencyex =  '';
 
         $additionalpic =  Auth::check() && Additional::where(['user_id'=>auth()->user()->id])->first() != null?Additional::where(['user_id'=>auth()->user()->id])->first()->image:'https://res.cloudinary.com/the-morgans-consortium/image/upload/v1658329437/Tmc%20institute/blank-profile-picture-gae268b379_1280_gtgqxr.png';         
         

@@ -30,7 +30,8 @@ class FrontendController extends Controller
     public function signup(){ 
         $toptitle = 'TMC Institute-User-Sign-Up'; 
         $currencysymbol =  (new Help)->getplace();
-        $currencyex =  (new Help)->moneyconvert();
+        // $currencyex =  (new Help)->moneyconvert();
+        $currencyex =  '';
         $info = CourseInfo::orderBy('id', 'asc')->get();
         $data =  CourseInfomation::collection($info)->resolve();
         $page= 1;
@@ -46,7 +47,8 @@ class FrontendController extends Controller
     public function login(){
         $toptitle = 'TMC Institute-User-login';
         $currencysymbol =  (new Help)->getplace();
-        $currencyex =  (new Help)->moneyconvert();
+        // $currencyex =  (new Help)->moneyconvert();
+        $currencyex =  '';
         $info = CourseInfo::orderBy('id', 'asc')->get();
         $data =  CourseInfomation::collection($info)->resolve();
         $page= 1; 
@@ -58,7 +60,8 @@ class FrontendController extends Controller
     public function companylogin(){
         $toptitle = 'TMC Institute-Company-Login';
         $currencysymbol =  (new Help)->getplace();
-        $currencyex =  (new Help)->moneyconvert();
+        // $currencyex =  (new Help)->moneyconvert();
+        $currencyex =  '';
         $info = CourseInfo::orderBy('id', 'asc')->get();
         $data =  CourseInfomation::collection($info)->resolve();
         $page= 1;
@@ -97,7 +100,8 @@ class FrontendController extends Controller
         $toptitle = 'TMC Institute-User Profile';
        $additional = $add->where(['user_id'=>auth()->user()->id])->first();
        $currencysymbol =  (new Help)->getplace();
-        $currencyex =  (new Help)->moneyconvert();
+        // $currencyex =  (new Help)->moneyconvert();
+        $currencyex =  '';
         $info = CourseInfo::orderBy('id', 'asc')->get();
         $data =  CourseInfomation::collection($info)->resolve();
         $page= 1;
@@ -117,7 +121,8 @@ class FrontendController extends Controller
          $currencysymbol =  (new Help)->getplace(); 
          $userinfoma = $help->getplace();
         $toptitle = 'TMC Institute-User Details';
-        $currencyex =  (new Help)->moneyconvert();
+        // $currencyex =  (new Help)->moneyconvert();
+        $currencyex =  '';
         $info = CourseInfo::orderBy('id', 'asc')->get();
         $data =  CourseInfomation::collection($info)->resolve();
         $page= 1;
@@ -140,7 +145,8 @@ class FrontendController extends Controller
          $currencysymbol =  (new Help)->getplace(); 
          $userinfoma = $help->getplace();
         $toptitle = 'TMC Institute-User Details';
-        $currencyex =  (new Help)->moneyconvert();
+        // $currencyex =  (new Help)->moneyconvert();
+        $currencyex =  '';
         $info = CourseInfo::orderBy('id', 'asc')->get();
         $data =  CourseInfomation::collection($info)->resolve();
         $page= 1;
@@ -156,7 +162,8 @@ class FrontendController extends Controller
     public function Adminreg(){
         $toptitle = 'TMC Institute-Company Registration';
         $currencysymbol =  (new Help)->getplace();
-        $currencyex =  (new Help)->moneyconvert();
+        // $currencyex =  (new Help)->moneyconvert();
+        $currencyex =  '';
         $info = CourseInfo::orderBy('id', 'asc')->get();
         $data =  CourseInfomation::collection($info)->resolve();
         $page= 1;
@@ -193,7 +200,7 @@ class FrontendController extends Controller
     public function privacy(){
         $toptitle = 'TMC Institute-Privacy';
         $currencysymbol =  (new Help)->getplace();
-        $currencyex =  (new Help)->moneyconvert();
+        $currencyex =  '';
         $info = CourseInfo::orderBy('id', 'asc')->get();
         $data =  CourseInfomation::collection($info)->resolve();
         $page= 1;

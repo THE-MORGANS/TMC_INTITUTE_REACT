@@ -44,8 +44,9 @@ class ViewController extends Controller
     public function courseinfo (CourseInfo $courseInfo, userscourse $usercourse, $num){
       $user = $this->getuser();
       $data =  $courseInfo->find($num);
-      $money = $this->moneyconvert();
-      dd($money);
+    //   $money = $this->moneyconvert();
+      $money = '';
+    //   dd($money);
       $coursepurshase = $usercourse->where(['user_id'=>$user->id, 'course_id'=>$num])->first();
      $fetchdata = new CourseData($data);
      return FrontendController::coursedetails($fetchdata, $coursepurshase, $money);
@@ -102,10 +103,11 @@ class ViewController extends Controller
 
 
         public function cartfunction(){
-         $user = $this->getuser();
-         $money = $this->moneyconvert();
-        $cart =  $this->cartadded->where(['user_id'=> $user->id])->first();
-        return FrontendController::cart($cart, $money);
+            $user = $this->getuser();
+            // $money = $this->moneyconvert();
+            $money = '';
+            $cart =  $this->cartadded->where(['user_id'=> $user->id])->first();
+            return FrontendController::cart($cart, $money);
         }
 
 

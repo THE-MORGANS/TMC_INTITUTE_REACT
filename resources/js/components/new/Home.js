@@ -51,7 +51,7 @@ export default function Home() {
      }
 
    }
-     let currencycode = currencysymbol.currency.code
+    // let currencycode = currencysymbol.currency.code
 
 
     const getBtnText =(id)=>{ 

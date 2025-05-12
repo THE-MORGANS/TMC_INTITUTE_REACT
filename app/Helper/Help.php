@@ -79,42 +79,39 @@ class Help{
     }
 
 
-    public  function moneyconvert(){
-      // dd((new Help)->getplace());
-        $from = (new Help)->getplace()->currency->code;
-        $to = 'NGN';
-        $amount = 1;
-       $curl = curl_init();
-       curl_setopt_array($curl, array(
-        CURLOPT_URL => "https://api.fastforex.io/fetch-one?from=$from&to=$to&api_key=a8ccc0a8f0-4aa0b803d2-svy0xu",
-        CURLOPT_HTTPHEADER => array(
-       "Accept: application/json"
-        ),
-         CURLOPT_RETURNTRANSFER => true,
-         CURLOPT_ENCODING => "",
-         CURLOPT_MAXREDIRS => 10,
-         CURLOPT_TIMEOUT => 0,
-         CURLOPT_FOLLOWLOCATION => true,
-         CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-         CURLOPT_CUSTOMREQUEST => "GET"
-       ));
+    // public  function moneyconvert(){
+    //   // dd((new Help)->getplace());
+    //     $from = (new Help)->getplace()->currency->code;
+    //     $to = 'NGN';
+    //     $amount = 1;
+    //    $curl = curl_init();
+    //    curl_setopt_array($curl, array(
+    //     CURLOPT_URL => "https://api.fastforex.io/fetch-one?from=$from&to=$to&api_key=a8ccc0a8f0-4aa0b803d2-svy0xu",
+    //     CURLOPT_HTTPHEADER => array(
+    //    "Accept: application/json"
+    //     ),
+    //      CURLOPT_RETURNTRANSFER => true,
+    //      CURLOPT_ENCODING => "",
+    //      CURLOPT_MAXREDIRS => 10,
+    //      CURLOPT_TIMEOUT => 0,
+    //      CURLOPT_FOLLOWLOCATION => true,
+    //      CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+    //      CURLOPT_CUSTOMREQUEST => "GET"
+    //    ));
 
-       $response = curl_exec($curl);
+    //   $response = curl_exec($curl);
+    //   $answer = json_decode($response);
+    //   $err = curl_error($curl);
+    //   if ($err) {
+    //   //   dd($err);
+    //   } else {
+    //       // sleep(10);
+    //     return  $response;
+    //   // dd($response);
+    //   }
 
-
-
-      $answer = json_decode($response);
-      $err = curl_error($curl);
-      if ($err) {
-      //   dd($err);
-      } else {
-          // sleep(10);
-        return  $response;
-      // dd($response);
-      }
-
-      curl_close($curl);
-    }
+    //   curl_close($curl);
+    // }
 
     public  function constant(){
 

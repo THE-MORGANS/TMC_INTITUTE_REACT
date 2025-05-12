@@ -430,33 +430,33 @@ class Controller extends BaseController
     }
 
 
-    public function frompoundtoother(){
-        $from= 'GBP';
-        $to = Self::getplace()->currency->code;
-        $amount = 1;
-       $curl = curl_init();
-       curl_setopt_array($curl, array(
-         CURLOPT_URL => "https://api.fastforex.io/fetch-one?from=$from&to=$to&api_key=a8ccc0a8f0-4aa0b803d2-svy0xu",
-         CURLOPT_HTTPHEADER => array(
-        "Accept: application/json"
-         ),
-         CURLOPT_RETURNTRANSFER => true,
-         CURLOPT_ENCODING => "",
-         CURLOPT_MAXREDIRS => 10,
-         CURLOPT_TIMEOUT => 0,
-         CURLOPT_FOLLOWLOCATION => true,
-         CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-         CURLOPT_CUSTOMREQUEST => "GET"
-       ));
+    // public function frompoundtoother(){
+    //     $from= 'GBP';
+    //     $to = Self::getplace()->currency->code;
+    //     $amount = 1;
+    //    $curl = curl_init();
+    //    curl_setopt_array($curl, array(
+    //      CURLOPT_URL => "https://api.fastforex.io/fetch-one?from=$from&to=$to&api_key=a8ccc0a8f0-4aa0b803d2-svy0xu",
+    //      CURLOPT_HTTPHEADER => array(
+    //     "Accept: application/json"
+    //      ),
+    //      CURLOPT_RETURNTRANSFER => true,
+    //      CURLOPT_ENCODING => "",
+    //      CURLOPT_MAXREDIRS => 10,
+    //      CURLOPT_TIMEOUT => 0,
+    //      CURLOPT_FOLLOWLOCATION => true,
+    //      CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+    //      CURLOPT_CUSTOMREQUEST => "GET"
+    //    ));
 
-       $response = curl_exec($curl);
+    //    $response = curl_exec($curl);
 
-       curl_close($curl);
+    //    curl_close($curl);
 
-       $answer = json_decode($response);
-       return $answer;
+    //    $answer = json_decode($response);
+    //    return $answer;
 
-    }
+    // }
 
     public function decrypt($encrypt_id){
         $decryption_iv = '1234567891011121';
