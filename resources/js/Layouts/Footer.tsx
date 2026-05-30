@@ -19,7 +19,7 @@ const FOOTER_LINKS = {
     "Best Practices in Operational Risk Mgmt",
     "Enterprise Risk Management",
   ],
-  "Quick Links": ["TMC Courses", "CFPA® Courses", "LICA · IARC Certification", "Study Abroad", "About Us"],
+  "Quick Links": ["TMC Courses", "IGRCFP Courses", "LICA · IARC Certification", "Study Abroad", "About Us"],
 };
 
 

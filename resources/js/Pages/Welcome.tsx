@@ -8,10 +8,11 @@ import WhatWeDoSection from '@/components/home/WhatWeDoSection';
 import WhoWeAreSection from '@/components/home/WhoWeAreSection';
 import CorePillarsSection from '@/components/home/CorePillarsSection';
 import EcosystemSection from '@/components/home/EcosystemSection';
+import OnlineCoursesSection from "@/components/contact/OnlineCoursesSection";
 
 
 
-
+ 
 
 
 
@@ -58,19 +59,6 @@ function useInView(threshold = 0.15) {
   return { ref, inView };
 }
 
-
-// CTABanner Section Component
-function CTABannerSection() {
-  return (
-    <section className="cta-banner">
-      <AnimatedSection>
-        <p className="cta-badge">Start Learning Today</p>
-        <h2 className="cta-title">Get Online Courses Now!</h2>
-        <a href="#" className="btn-primary" style={{ fontSize: 16, padding: "16px 48px" }}>Join With Us</a>
-      </AnimatedSection>
-    </section>
-  );
-}
 
 // Newsletter Section Component
 function NewsletterSection() {
@@ -125,7 +113,7 @@ export default function TMCHome() {
       <WhatWeDoSection />
       <EcosystemSection />
       <CorePillarsSection />
-      <CTABannerSection />
+      <OnlineCoursesSection/>
       <NewsletterSection />
       <Footer />
     </div>

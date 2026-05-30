@@ -59,3 +59,21 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
 npm run serve
+
+Action point - Give joseph the Summit link
+
+
+WOrk on the UI
+Work on the Nav Items
+Work on the 
+Work on the blog on the dashboard
+Work on the news on the dashboard
+work on the event on the dashboard
+Work on the Code of conduct
+Work on the Quality Assurance 
+Work on the addition of US Address
+
+
+Community & chapter still working on it
+Uploading of ccourses content
+(Scholarship June 1 - 15)

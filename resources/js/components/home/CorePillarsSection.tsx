@@ -66,11 +66,12 @@ export function CorePillarsSection() {
               <div 
                 className="pillars-visual-big"
                 style={{
-                  backgroundImage: `linear-gradient(url(${bigSquareBg})`,
+                  backgroundImage: `url(${bigSquareBg})`,
                   backgroundSize: 'cover',
                   borderRadius: '40px',
                   border: `3px solid #c0392b`,
                   backgroundPosition: 'center',
+                  backgroundRepeat: 'no-repeat',
                 }}
               >
               </div>
@@ -79,11 +80,12 @@ export function CorePillarsSection() {
               <div 
                 className="pillars-visual-small"
                 style={{
-                  backgroundImage: `linear-gradient(url(${smallSquareBg})`,
+                  backgroundImage: `url(${smallSquareBg})`,
                   borderRadius: '40px',
                   border: `3px solid #c0392b`,
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
+                  backgroundRepeat: 'no-repeat',
                 }}
               >
               </div>
