@@ -74,6 +74,7 @@ Work on the Quality Assurance
 Work on the addition of US Address
 
 
-Community & chapter still working on it
-Uploading of ccourses content
-(Scholarship June 1 - 15)
+TMC
+remove the OTM course
+replace the ARGC certicat to igrcf
+remove staica

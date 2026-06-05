@@ -48,7 +48,7 @@ export default function Register({
 
     return (
         <GuestLayout>
-            <Head title="Log in" />
+            <Head title="Register" />
 
             <div className="min-h-screen bg-gray-5  0">
                 <NavBar scrolled={scrolled} />

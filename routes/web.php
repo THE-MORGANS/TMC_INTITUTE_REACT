@@ -1,42 +1,20 @@
 <?php
 
+use App\Http\Controllers\PageController;
 use App\Http\Controllers\ProfileController;
-use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
-use Inertia\Inertia;
 
-Route::get('/', function () {
-    return Inertia::render('Welcome', [
-        'canLogin' => Route::has('login'),
-        'canRegister' => Route::has('register'),
-        'laravelVersion' => Application::VERSION,
-        'phpVersion' => PHP_VERSION,
-    ]);
-});
-
-Route::get('/programmes', function () {
-    return Inertia::render('Programmes');
-})->name('programmes');
-
-Route::get('/study-abroad', function () {
-    return Inertia::render('StudyAbroad');
-})->name('study-abroad');
-
-Route::get('/student-advisory', function () {
-    return Inertia::render('StudentAdvisory');
-})->name('student-advisory');
-
-Route::get('/about-us', function () {
-    return Inertia::render('AboutUs');
-})->name('about-us');
-
-Route::get('/contact', function () {
-    return Inertia::render('Contact');
-})->name('contact');
-
-Route::get('/dashboard', function () {
-    return Inertia::render('Dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+Route::get('/', [PageController::class, 'welcome'])->name('welcome');
+Route::get('/programmes', [PageController::class, 'programmes'])->name('programmes');
+Route::get('/study-abroad', [PageController::class, 'studyAbroad'])->name('study-abroad');
+Route::get('/student-advisory', [PageController::class, 'studentAdvisory'])->name('student-advisory');
+Route::get('/about-us', [PageController::class, 'aboutUs'])->name('about-us');
+Route::get('/contact', [PageController::class, 'contact'])->name('contact');
+Route::get('/terms', [PageController::class, 'terms'])->name('terms');
+Route::get('/privacy', [PageController::class, 'privacy'])->name('privacy');
+Route::get('/dashboard', [PageController::class, 'dashboard'])
+    ->middleware(['auth', 'verified'])
+    ->name('dashboard');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

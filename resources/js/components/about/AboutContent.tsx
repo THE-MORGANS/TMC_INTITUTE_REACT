@@ -1,13 +1,14 @@
 import aboutImg from '@/assets/images/about_img.jpg';
+import aboutImg2 from '@/assets/images/about_img2.jpg';
 
 
 // components/about/AboutContent.tsx
 export default function AboutContent() {
     return (
-        <section className="py-16 px-4 md:px-8 lg:px-16 bg-white">
+        <section className="pt-20  px-4 md:px-8 lg:px-16 bg-white">
             <div className="max-w-7xl mx-auto">
                 {/* Welcome Section */}
-                <div className="mb-16">
+                <div className="mb-8">
                     <div className="flex flex-col lg:flex-row items-center gap-12">
                         {/* Left side - Text Content - 60% */}
                         <div className="lg:w-[60%]">
@@ -49,13 +50,13 @@ export default function AboutContent() {
                 </div>
 
                  <div className="mb-16">
-                    <div className="flex flex-col lg:flex-row items-center gap-12">
+                    <div className="flex flex-col lg:flex-row  gap-12">
                       
                         {/* Right side - Image - 40% */}
                         <div className="lg:w-[40%] group">
-                            <div className="rounded-3xl overflow-hidden shadow-lg relative h-80 border-t-2 border-l-2 border-r-2 border-[#c0392b]">
+                            <div className="rounded-3xl overflow-hidden shadow-lg relative h-80  border-2 border-[#c0392b]">
                                 <img 
-                                    src={aboutImg} 
+                                    src={aboutImg2} 
                                     alt="TMC Institute Campus" 
                                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                                 />
@@ -65,18 +66,18 @@ export default function AboutContent() {
                           {/* Left side - Text Content - 60% */}
                         <div className="lg:w-[60%]">
                            
-                            <div className="space-y-4 text-gray-600 leading-relaxed">
+                            <div className="space-y-2 text-gray-600 leading-relaxed">
                                 
                                 <p>
                                     For over a decade, we have been providing training to a wide range of organizations in the region, with a special emphasis on financial institutions as our primary clientele. Our certified and experienced team possesses an in-depth understanding and knowledge of the region’s financial services. We provide world-class training packed with practical examples and top-notch case studies.
                                 </p>
                                 {/* Education Options Section */}
-                                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
+                                <div className="grid grid-cols-1 md:grid-cols-2 mt-12 gap-2">
                                     {/* Undergraduate Education */}
-                                    <div className="bg-gray-50 rounded-2xl p-8 border-2 border-[#c0392b]/20 hover:shadow-lg transition-shadow">
-                                        <h3 className="text-2xl font-bold text-gray-800 mb-3">Undergraduate Education</h3>
-                                        <p className="text-[#c0392b] font-semibold mb-6">With flexible courses</p>
-                                        <ul className="space-y-3">
+                                    <div className=" rounded-2xl p-0  ">
+                                        <h3 className="text-2xl font-bold text-gray-800 mb-0">Undergraduate Education</h3>
+                                        <p className="text-[#c0392b] font-semibold mb-3">With flexible courses</p>
+                                        <ul className="space-y-2">
                                             <li className="flex items-center gap-3 text-gray-600">
                                                 <svg className="w-5 h-5 text-[#c0392b]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
@@ -99,9 +100,9 @@ export default function AboutContent() {
                                     </div>
 
                                     {/* Postgraduate Education */}
-                                    <div className="bg-gray-50 rounded-2xl p-8 border-2 border-[#c0392b]/20 hover:shadow-lg transition-shadow">
-                                        <h3 className="text-2xl font-bold text-gray-800 mb-3">Postgraduate Education</h3>
-                                        <p className="text-[#c0392b] font-semibold mb-6">Study flexibly online</p>
+                                    <div className=" rounded-2xl p-0  ">
+                                        <h3 className="text-2xl font-bold text-gray-800 mb-0">Postgraduate Education</h3>
+                                        <p className="text-[#c0392b] font-semibold mb-3">Study flexibly online</p>
                                         <ul className="space-y-3">
                                             <li className="flex items-center gap-3 text-gray-600">
                                                 <svg className="w-5 h-5 text-[#c0392b]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -129,15 +130,6 @@ export default function AboutContent() {
 
                         
                     </div>
-                </div>
-
-                
-
-                {/* CTA Button */}
-                <div className="text-center mt-12">
-                    <button className="bg-[#c0392b] hover:bg-[#a83224] text-white font-semibold py-3 px-8 rounded-lg transition duration-300 hover:scale-105">
-                        Explore Our Programs
-                    </button>
                 </div>
             </div>
         </section>

@@ -26,7 +26,7 @@ export function BannerSection({ title, subtitle }: BannerSectionProps) {
           {subtitle ?? "Have questions or need assistance? Reach out to our team for expert support on admissions, course selection, and study abroad opportunities. We're committed to providing timely, reliable, and personalized guidance to help you make the best decisions for your academic journey."}
         </p>
         <div className="mt-6 flex items-center justify-center gap-4">
-          <a href="#" className="btn-primary" style={{ fontSize: 15, padding: "14px 34px", borderRadius:"50px" }}>Apply Now</a>
+          <a href={route('login')} className="btn-primary" style={{ fontSize: 15, padding: "14px 34px", borderRadius:"50px" }}>Apply Now</a>
           <a href="#" className="btn-outline" style={{ fontSize: 15, padding: "14px 34px", borderRadius:"50px" }}>Partner With Us</a>
         </div>
       </div>

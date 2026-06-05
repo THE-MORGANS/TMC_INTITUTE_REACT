@@ -1,29 +1,8 @@
-
 import { useState, useEffect, useRef, ReactNode } from "react";
-
-
-const WHAT_WE_DO = [
-  {
-    icon: "🎓",
-    title: "Professional Education & Certification",
-    desc: "Structured learning programmes aligned to global regulatory frameworks and industry standards.",
-  },
-  {
-    icon: "🌍",
-    title: "University Pathways & International Student Recruitment",
-    desc: "Strategic partnerships with UK and international universities to recruit and support undergraduate and postgraduate students.",
-  },
-  {
-    icon: "🏢",
-    title: "Corporate & Executive Development",
-    desc: "Tailored training solutions for regulators, financial institutions, public sector bodies and multinational organisations.",
-  },
-  {
-    icon: "🏅",
-    title: "Professional Recognition via IGRCFP",
-    desc: "Certification and CPD pathways officially granted through Institute of GRC & Financial Crime Prevention.",
-  },
-];
+import whatwedoImg from '@/assets/images/whatwedo_img.png';
+import whatwedoImg2 from '@/assets/images/whatwedo_img2.png';
+import whatwedoImg3 from '@/assets/images/whatwedo_img3.png';
+import whatwedoImg4 from '@/assets/images/whatwedo_img4.png';
 
 interface AnimatedSectionProps {
   children: ReactNode;
@@ -69,23 +48,55 @@ function useInView(threshold = 0.15) {
   return { ref, inView };
 }
 
-
 export function WhatWeDoSection() {
+  const images = [
+    { src: whatwedoImg, alt: "What We Do 1" },
+    { src: whatwedoImg2, alt: "What We Do 2" },
+    { src: whatwedoImg3, alt: "What We Do 3" },
+    { src: whatwedoImg4, alt: "What We Do 4" },
+  ];
+
   return (
     <section className="section-padding" style={{ background: "#f8f7f5" }}>
       <div className="section-container">
         <AnimatedSection>
           <h2 className="section-title" style={{ marginBottom: 8, textAlign: "left" }}>What We Do</h2>
           <p style={{ fontSize: 18, color: "#000", fontFamily: "DM Sans, sans-serif", marginBottom: 56 }}>
-            We provide professional education and certification aligned with global standards.</p>
+            We provide professional education and certification aligned with global standards.
+          </p>
         </AnimatedSection>
-        <div className="what-we-do-grid">
-          {WHAT_WE_DO.map((item, i) => (
-            <AnimatedSection key={i} delay={i * 0.1}>
-              <div className="service-card">
-                <div className="service-icon">{item.icon}</div>
-                <h3 className="service-title">{item.title}</h3>
-                <p className="service-description">{item.desc}</p>
+        
+        <div className="what-we-do-grid" style={{
+          display: "grid",
+          gridTemplateColumns: "repeat(4, 1fr)",
+          gap: "24px",
+          alignItems: "start"
+        }}>
+          {images.map((image, index) => (
+            <AnimatedSection key={index} delay={index * 0.1}>
+              <div style={{
+                overflow: "hidden",
+                borderRadius: "12px",
+                boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
+                transition: "transform 0.3s ease",
+                cursor: "pointer"
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.transform = "translateY(-8px)";
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.transform = "translateY(0)";
+              }}>
+                <img 
+                  src={image.src} 
+                  alt={image.alt}
+                  style={{
+                    width: "100%",
+                    height: "auto",
+                    display: "block",
+                    objectFit: "cover"
+                  }}
+                />
               </div>
             </AnimatedSection>
           ))}

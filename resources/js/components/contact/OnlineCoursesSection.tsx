@@ -1,5 +1,6 @@
 // components/contact/OnlineCoursesSection.tsx
 import courseBg from '@/assets/images/online-course-bg.jpg';
+import { Link } from 'wouter';
 
 export default function OnlineCoursesSection() {
     return (
@@ -28,9 +29,9 @@ export default function OnlineCoursesSection() {
                         
                         {/* Right side - Button */}
                         <div className="flex-shrink-0 pr-4 md:pr-8">
-                            <button className="bg-[#c0392b] hover:bg-[#a83224] text-white font-bold py-4 px-10 rounded-full text-lg md:text-xl transition-all duration-300 hover:scale-105 hover:shadow-2xl shadow-xl whitespace-nowrap">
+                            <Link href={route('login')} className="bg-[#c0392b] hover:bg-[#a83224] text-white font-bold py-4 px-10 rounded-full text-lg md:text-xl transition-all duration-300 hover:scale-105 hover:shadow-2xl shadow-xl whitespace-nowrap">
                                 Join with Us →
-                            </button>
+                            </Link>
                         </div>
                     </div>
                 </div>
