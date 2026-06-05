@@ -1,13 +1,14 @@
 import { useState, useEffect, useRef, ReactNode } from "react";
-import bigSquareBg from '@/assets/images/big-square-bg.jpg';
-import smallSquareBg from '@/assets/images/small-square-bg.jpg';
+import bigSquareBg from '@/assets/images/big-square-bg2.jpg';
+import smallSquareBg from '@/assets/images/small-square-bg2.jpg';
 
 const PILLARS = [
-  "About TMC Institute",
-  "Academic Partnerships & Student Recruitment",
-  "Professional Certifications (IGRCFP)",
-  "Corporate & Executive Programmes",
-  "Research, Thought Leadership & Events",
+  "Business & Management",
+  "Finance & Accounting",
+  "Risk Management",
+  "Cyber Security",
+  "Data & AI",
+  "Compliance & Regulatory Studies",
 ];
 
 interface AnimatedSectionProps {
@@ -54,10 +55,16 @@ function useInView(threshold = 0.15) {
   return { ref, inView };
 } 
 
-export function CorePillarsSection() {
+export function RecruitmentSection() {
   return (
-    <section className="section-padding" style={{ background: "#fff" }}>
-      <div className="section-container">
+    <section className="pb-20" style={{ background: "#fff" }}>
+      
+      <div className="section-container px-4">
+          <h1 className="px-4 pb-10 font-['Inter'] font-extrabold text-[40px] leading-none tracking-normal text-gray-900 mb-4">
+            International Student Recruitment & University Partnerships
+          </h1>
+          
+
         <div className="core-pillars-grid">
           {/* Left visual - Big and Small Squares */}
           <AnimatedSection>
@@ -94,11 +101,13 @@ export function CorePillarsSection() {
 
           {/* Right content */}
           <AnimatedSection delay={0.15}>
-            <h2 className="section-title" style={{ textAlign: "left", marginBottom: 8 }}>Core Pillars</h2>
-            <p style={{ fontFamily: "Inter, sans-serif", fontSize: 18, color: "#000", marginBottom: 36 }}>Five clearly defined core pillars guiding everything we do.</p>
+            <h2 className="section-title" style={{ textAlign: "left", marginBottom: 8 }}>Overview</h2>
+            <p style={{ fontFamily: "Inter, sans-serif", fontSize: 18, color: "#000", marginBottom: 36 }}>
+            TMC Institute operates a structured international student recruitment and advisory service focused on undergraduate and postgraduate progression into UK and international universities.
+            </p>
             <div className="pillars-list">
               {PILLARS.map((p, i) => (
-                <div key={i} className="pillar-item">
+                <div key={i} className="pillar-item pb-0">
                   <div className="pillar-number">{i + 1}</div>
                   <span className="pillar-text">{p}</span>
                 </div>
@@ -111,4 +120,4 @@ export function CorePillarsSection() {
   );
 }
 
-export default CorePillarsSection;
+export default RecruitmentSection;

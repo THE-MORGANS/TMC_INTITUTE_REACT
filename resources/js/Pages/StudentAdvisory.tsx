@@ -8,9 +8,14 @@ import Footer from '@/Layouts/Footer';
 import NavBar from '@/Layouts/Navbar';
 import { Head } from '@inertiajs/react';
 import { useState, useEffect } from "react";
-import CorePillarsSection from '@/components/home/CorePillarsSection';
 import EcosystemSection from '@/components/home/EcosystemSection';
 import { ContactUsSection } from '@/components/about/ContactUsSection';
+import StudentAdvisoryContent from '@/components/studentAdvisory/studentAdvisoryContent';
+import RecruitmentSection from '@/components/studentAdvisory/RecruitmentSection';
+import RecruitmentCapability from '@/components/studentAdvisory/Recruitmentcapability';
+import OurMarkets from '@/components/studentAdvisory/OurMarkets';
+import PartnershipModel from '@/components/studentAdvisory/PartnershipModel';
+import GDPRPolicy from '@/components/studentAdvisory/GDPRPolicy';
 
 export default function StudentAdvisory() {
     const [scrolled, setScrolled] = useState(false);
@@ -26,14 +31,15 @@ export default function StudentAdvisory() {
             <Head title="Student Advisory" />
             <NavBar scrolled={scrolled} />
             <BannerSection 
-            title = "Empowering your global education journey"
-            subtitle = "We are dedicated to guiding students toward the best international study opportunities through expert advice and personalized support. From course selection to admissions and relocation, we simplify every step of the process. With strong partnerships and a commitment to excellence, we help students achieve their academic goals and build successful futures worldwide."
+            title = "Your step-by-step guide to studying abroad"
+            subtitle = "Our student advisory process is designed to make your journey simple and stress-free. We begin with a personalized consultation to understand your goals, followed by tailored course and university recommendations. From application support to visa guidance and pre-departure planning, we support you at every stage, ensuring a smooth and successful transition to your chosen destination."
             />
-            <AboutContent/>
-            <WhoWeAreSection />
-            <WhatWeDoSection />
-            <CorePillarsSection />
-            <EcosystemSection />
+            <StudentAdvisoryContent/>
+            <RecruitmentSection />
+            <RecruitmentCapability/>
+            <OurMarkets />
+            <PartnershipModel/>
+            <GDPRPolicy  />
             <ContactUsSection/>
             <OnlineCoursesSection/>
             <Footer/> 

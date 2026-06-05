@@ -27,7 +27,7 @@ export function BannerSection({ title, subtitle }: BannerSectionProps) {
         </p>
         <div className="mt-6 flex items-center justify-center gap-4">
           <a href={route('login')} className="btn-primary" style={{ fontSize: 15, padding: "14px 34px", borderRadius:"50px" }}>Apply Now</a>
-          <a href="#" className="btn-outline" style={{ fontSize: 15, padding: "14px 34px", borderRadius:"50px" }}>Partner With Us</a>
+          <a href={route('contact')} className="btn-outline" style={{ fontSize: 15, padding: "14px 34px", borderRadius:"50px" }}>Partner With Us</a>
         </div>
       </div>
     </section>
