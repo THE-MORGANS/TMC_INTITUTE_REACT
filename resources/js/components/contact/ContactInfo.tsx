@@ -3,7 +3,7 @@ export default function ContactInfo() {
     const addresses = [
         {
             country: "United Kingdom",
-            address: "International House 24 Holborn Viaduct, London, EC1A 2BN, United Kingdom"
+            address: "85 Great Portland Street, London W1W 7LT, UK"
         },
         {
             country: "Nigeria",
@@ -12,11 +12,15 @@ export default function ContactInfo() {
         {
             country: "Ireland",
             address: "21 Gillabbey Terrace, Gillabbey Street, Cork, T12 KPN4, Republic of Ireland"
+        },
+        {
+            country: "US",
+            address: "1111B S Governors Ave, Suite 57613, Dover, DE 19904"
         }
     ];
 
     const phoneNumbers = [
-        { country: "United Kingdom", number: "+234 (1) 700-1770" },
+        { country: "United Kingdom", number: "+44-2078560149" },
         { country: "Nigeria", number: "(+234) 91 534 14314" }
     ];
 

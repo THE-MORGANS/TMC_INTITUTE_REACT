@@ -3,18 +3,18 @@ import tmcLogo from '@/assets/images/logo.jpg';// replace with your logo path
 
 const FOOTER_LINKS = {
   Services: [
-    { name: "Professional Education & Certification", href: '' },
-    { name: "University Pathways", href: '' },
-    { name: "Executive Development", href: '' },
-    { name: "Professional Recognition via IGRCFP", href: '' },
-    { name: "International Student Recruitment", href: '' },
+    { name: "Professional Education & Certification", href: '#' },
+    { name: "University Pathways", href: '#' },
+    { name: "Executive Development", href: '#' },
+    { name: "Professional Recognition via IGRCFP", href: '#' },
+    { name: "International Student Recruitment", href: '#' },
   ],
   Courses: [
-    { name: "Operational Risk for Auditors and Supervisors", href: '' },
-    { name: "Risk Assessment Essentials & Techniques", href:''},
-    { name: "Essentials of Risk Management", href: '' },
-    { name: "Best Practices in Operational Risk Management", href: '' },
-    { name: "Enterprise Risk Management", href: ''},
+    { name: "Operational Risk for Auditors and Supervisors", href: '#' },
+    { name: "Risk Assessment Essentials & Techniques", href:'#'},
+    { name: "Essentials of Risk Management", href: '#' },
+    { name: "Best Practices in Operational Risk Management", href: '#' },
+    { name: "Enterprise Risk Management", href: '#'},
   ],
   "Quick Links": [
     { name: "TMC Courses", href: ''},
@@ -142,9 +142,9 @@ export function Footer() {
             <p className="font-semibold">HQ United Kingdom:</p>
             <p className="text-gray-400">85 Great Portland Street First Floor London W1W 7LT United Kingdom</p>
             <p className="font-semibold mt-2">EUROPE:</p>
-            <p className="text-gray-400">International House 24 Holborn Viaduct, London, EC1A 2BN, United Kingdom</p>
-            <p className="font-semibold mt-2">ASIA:</p>
             <p className="text-gray-400">21 Gillabbey Terrace, Gillabbey Street, Cork, T12 KPN4, Republic of Ireland</p>
+            <p className="font-semibold mt-2">US:</p>
+            <p className="text-gray-400">1111B S Governors Ave, Suite 57613, Dover, DE 19904</p>
           </div>
 
           {/* Social Icons */}

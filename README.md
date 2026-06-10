@@ -74,7 +74,13 @@ Work on the Quality Assurance
 Work on the addition of US Address
 
 
-TMC
-remove the OTM course
-replace the ARGC certicat to igrcf
-remove staica
+
+work on the About us content
+work on correction of some text in Our-Structure page
+make adjustment on a particular course title
+Update the banner for the scholarship new content
+move Governance and leadership content to Our structure pages
+make correction on the professional Recognition content in the or programme page
+All notification in the system is working fine
+work on the live chat 
+
