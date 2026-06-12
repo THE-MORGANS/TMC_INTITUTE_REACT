@@ -73,7 +73,8 @@ export function NavBar({ scrolled }: NavBarProps) {
                 onMouseLeave={() => setDropOpen(false)}
               >
                 <Link
-                  href={l.href}
+                  // href={l.href}
+                  href="#"
                   className={`nav-link dropdown-trigger${isActive(l.href) ? ' active' : ''}`}
                   aria-current={isActive(l.href) ? 'page' : undefined}
                 >
