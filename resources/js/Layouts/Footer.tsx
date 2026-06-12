@@ -194,8 +194,8 @@ export function Footer() {
           All Rights Reserved.
         </p>
         <div className="flex items-center gap-5">
-          <a href={route('terms')} className="hover:text-white transition-colors">Terms of use</a>
-          <a href={route('privacy')} className="hover:text-white transition-colors">Privacy Policy</a>
+          <a href="#" className="hover:text-white transition-colors">Terms of use</a>
+          <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
         </div>
       </div>
     </footer>
