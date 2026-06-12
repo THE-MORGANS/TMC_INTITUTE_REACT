@@ -6,7 +6,7 @@
 
         <title inertia>{{ config('app.name', 'Laravel') }}</title>
         <!--====== Favicon Icon ======-->
-        <link rel="shortcut icon" href="{{asset('assets/images/favicon.png')}}" type="image/png">
+        <link rel="shortcut icon" href="{{asset('assets/images/logo.jpg')}}" type="image/png">
         
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
