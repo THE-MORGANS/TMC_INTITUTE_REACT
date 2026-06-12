@@ -1,0 +1,575 @@
+{
+  "_AuthenticatedLayout-DCyqpF-2.js": {
+    "file": "assets/AuthenticatedLayout-DCyqpF-2.js",
+    "name": "AuthenticatedLayout",
+    "imports": [
+      "resources/js/app.tsx",
+      "_transition-9mQcL8LV.js"
+    ]
+  },
+  "_BannerSection-DkI9esEF.js": {
+    "file": "assets/BannerSection-DkI9esEF.js",
+    "name": "BannerSection",
+    "imports": [
+      "resources/js/app.tsx",
+      "_banner_img-DgpNuu_c.js"
+    ]
+  },
+  "_Checkbox-Bm-mgrd8.js": {
+    "file": "assets/Checkbox-Bm-mgrd8.js",
+    "name": "Checkbox",
+    "imports": [
+      "resources/js/app.tsx"
+    ]
+  },
+  "_ContactUsSection-YXUoCeZR.js": {
+    "file": "assets/ContactUsSection-YXUoCeZR.js",
+    "name": "ContactUsSection",
+    "imports": [
+      "resources/js/app.tsx"
+    ],
+    "assets": [
+      "assets/lady-justice-BEx4Q7kK.jpg"
+    ]
+  },
+  "_EcosystemSection-B-eEyu8o.js": {
+    "file": "assets/EcosystemSection-B-eEyu8o.js",
+    "name": "EcosystemSection",
+    "imports": [
+      "resources/js/app.tsx"
+    ],
+    "assets": [
+      "assets/who-are-we-img-B7bVc7J0.jpg",
+      "assets/who-are-we-img2-Woq-19tL.jpg",
+      "assets/who-are-we-img3-BtGWDjdM.jpg",
+      "assets/whatwedo_img-CXa1jJgt.png",
+      "assets/whatwedo_img2-BnB_KTzH.png",
+      "assets/whatwedo_img3-DOppwIoV.png",
+      "assets/whatwedo_img4-DHPI00Y-.png",
+      "assets/big-square-bg-BiYBaNl3.jpg",
+      "assets/small-square-bg-DGma51S0.jpg",
+      "assets/ecosystem-bg-CKug1q0B.jpg"
+    ]
+  },
+  "_GuestLayout-C7bHOQX8.js": {
+    "file": "assets/GuestLayout-C7bHOQX8.js",
+    "name": "GuestLayout",
+    "imports": [
+      "resources/js/app.tsx",
+      "_Navbar-wZMcboRB.js"
+    ]
+  },
+  "_InputLabel-D-Z-sacv.js": {
+    "file": "assets/InputLabel-D-Z-sacv.js",
+    "name": "InputLabel",
+    "imports": [
+      "resources/js/app.tsx"
+    ]
+  },
+  "_Navbar-XIGBiT2D.css": {
+    "file": "assets/Navbar-XIGBiT2D.css",
+    "src": "_Navbar-XIGBiT2D.css"
+  },
+  "_Navbar-wZMcboRB.js": {
+    "file": "assets/Navbar-wZMcboRB.js",
+    "name": "Navbar",
+    "imports": [
+      "resources/js/app.tsx"
+    ],
+    "css": [
+      "assets/Navbar-XIGBiT2D.css"
+    ],
+    "assets": [
+      "assets/logo-BrczKyqw.jpg",
+      "assets/hero-img-COicP2Vx.jpg"
+    ]
+  },
+  "_OnlineCoursesSection-CA6qD4Lw.js": {
+    "file": "assets/OnlineCoursesSection-CA6qD4Lw.js",
+    "name": "OnlineCoursesSection",
+    "imports": [
+      "resources/js/app.tsx"
+    ],
+    "assets": [
+      "assets/online-course-bg-Cn-TVRMt.jpg"
+    ]
+  },
+  "_PrimaryButton-QGzbi3kA.js": {
+    "file": "assets/PrimaryButton-QGzbi3kA.js",
+    "name": "PrimaryButton",
+    "imports": [
+      "resources/js/app.tsx"
+    ]
+  },
+  "_TextInput-B6AZ6f50.js": {
+    "file": "assets/TextInput-B6AZ6f50.js",
+    "name": "TextInput",
+    "imports": [
+      "resources/js/app.tsx"
+    ]
+  },
+  "_banner_img-DgpNuu_c.js": {
+    "file": "assets/banner_img-DgpNuu_c.js",
+    "name": "banner_img",
+    "assets": [
+      "assets/banner_img-Xm55LDng.jpg"
+    ]
+  },
+  "_transition-9mQcL8LV.js": {
+    "file": "assets/transition-9mQcL8LV.js",
+    "name": "transition",
+    "imports": [
+      "resources/js/app.tsx"
+    ]
+  },
+  "resources/js/Pages/AboutUs.tsx": {
+    "file": "assets/AboutUs-DY-qvnWu.js",
+    "name": "AboutUs",
+    "src": "resources/js/Pages/AboutUs.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.tsx",
+      "_OnlineCoursesSection-CA6qD4Lw.js",
+      "_BannerSection-DkI9esEF.js",
+      "_EcosystemSection-B-eEyu8o.js",
+      "_Navbar-wZMcboRB.js",
+      "_ContactUsSection-YXUoCeZR.js",
+      "_banner_img-DgpNuu_c.js"
+    ],
+    "assets": [
+      "assets/about_img-DhRCeTQn.jpg",
+      "assets/about_img2-BeqgKBHy.jpg"
+    ]
+  },
+  "resources/js/Pages/Auth/ConfirmPassword.tsx": {
+    "file": "assets/ConfirmPassword-CPDp1Fz-.js",
+    "name": "ConfirmPassword",
+    "src": "resources/js/Pages/Auth/ConfirmPassword.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.tsx",
+      "_TextInput-B6AZ6f50.js",
+      "_InputLabel-D-Z-sacv.js",
+      "_PrimaryButton-QGzbi3kA.js",
+      "_GuestLayout-C7bHOQX8.js",
+      "_Navbar-wZMcboRB.js"
+    ]
+  },
+  "resources/js/Pages/Auth/ForgotPassword.tsx": {
+    "file": "assets/ForgotPassword-C-RX-f7Z.js",
+    "name": "ForgotPassword",
+    "src": "resources/js/Pages/Auth/ForgotPassword.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.tsx",
+      "_TextInput-B6AZ6f50.js",
+      "_PrimaryButton-QGzbi3kA.js",
+      "_GuestLayout-C7bHOQX8.js",
+      "_Navbar-wZMcboRB.js"
+    ]
+  },
+  "resources/js/Pages/Auth/Login copy.tsx": {
+    "file": "assets/Login copy-Z5jHnC80.js",
+    "name": "Login copy",
+    "src": "resources/js/Pages/Auth/Login copy.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.tsx",
+      "_Checkbox-Bm-mgrd8.js",
+      "_TextInput-B6AZ6f50.js",
+      "_InputLabel-D-Z-sacv.js",
+      "_PrimaryButton-QGzbi3kA.js",
+      "_GuestLayout-C7bHOQX8.js",
+      "_Navbar-wZMcboRB.js"
+    ]
+  },
+  "resources/js/Pages/Auth/Login.tsx": {
+    "file": "assets/Login-CB6leO_B.js",
+    "name": "Login",
+    "src": "resources/js/Pages/Auth/Login.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.tsx",
+      "_Checkbox-Bm-mgrd8.js",
+      "_TextInput-B6AZ6f50.js",
+      "_InputLabel-D-Z-sacv.js",
+      "_PrimaryButton-QGzbi3kA.js",
+      "_GuestLayout-C7bHOQX8.js",
+      "_Navbar-wZMcboRB.js",
+      "_OnlineCoursesSection-CA6qD4Lw.js"
+    ],
+    "assets": [
+      "assets/login_image-DlVQqHe2.jpg"
+    ]
+  },
+  "resources/js/Pages/Auth/Register copy.tsx": {
+    "file": "assets/Register copy-BETpzQe1.js",
+    "name": "Register copy",
+    "src": "resources/js/Pages/Auth/Register copy.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.tsx",
+      "_TextInput-B6AZ6f50.js",
+      "_InputLabel-D-Z-sacv.js",
+      "_PrimaryButton-QGzbi3kA.js",
+      "_GuestLayout-C7bHOQX8.js",
+      "_Navbar-wZMcboRB.js"
+    ]
+  },
+  "resources/js/Pages/Auth/Register.tsx": {
+    "file": "assets/Register-dDMVxqKp.js",
+    "name": "Register",
+    "src": "resources/js/Pages/Auth/Register.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.tsx",
+      "_Checkbox-Bm-mgrd8.js",
+      "_TextInput-B6AZ6f50.js",
+      "_InputLabel-D-Z-sacv.js",
+      "_PrimaryButton-QGzbi3kA.js",
+      "_GuestLayout-C7bHOQX8.js",
+      "_Navbar-wZMcboRB.js",
+      "_OnlineCoursesSection-CA6qD4Lw.js"
+    ],
+    "assets": [
+      "assets/register_image-e4DItDDK.png"
+    ]
+  },
+  "resources/js/Pages/Auth/ResetPassword.tsx": {
+    "file": "assets/ResetPassword-Cgt_re3E.js",
+    "name": "ResetPassword",
+    "src": "resources/js/Pages/Auth/ResetPassword.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.tsx",
+      "_TextInput-B6AZ6f50.js",
+      "_InputLabel-D-Z-sacv.js",
+      "_PrimaryButton-QGzbi3kA.js",
+      "_GuestLayout-C7bHOQX8.js",
+      "_Navbar-wZMcboRB.js"
+    ]
+  },
+  "resources/js/Pages/Auth/VerifyEmail.tsx": {
+    "file": "assets/VerifyEmail-nHDlgVXc.js",
+    "name": "VerifyEmail",
+    "src": "resources/js/Pages/Auth/VerifyEmail.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.tsx",
+      "_PrimaryButton-QGzbi3kA.js",
+      "_GuestLayout-C7bHOQX8.js",
+      "_Navbar-wZMcboRB.js"
+    ]
+  },
+  "resources/js/Pages/Contact.tsx": {
+    "file": "assets/Contact-BKWstF9J.js",
+    "name": "Contact",
+    "src": "resources/js/Pages/Contact.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.tsx",
+      "_OnlineCoursesSection-CA6qD4Lw.js",
+      "_BannerSection-DkI9esEF.js",
+      "_Navbar-wZMcboRB.js",
+      "_banner_img-DgpNuu_c.js"
+    ],
+    "assets": [
+      "assets/contact_img-CXEmNu2L.jpg"
+    ]
+  },
+  "resources/js/Pages/Dashboard.tsx": {
+    "file": "assets/Dashboard-D5_J_KL6.js",
+    "name": "Dashboard",
+    "src": "resources/js/Pages/Dashboard.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.tsx",
+      "_AuthenticatedLayout-DCyqpF-2.js",
+      "_transition-9mQcL8LV.js"
+    ]
+  },
+  "resources/js/Pages/Profile/Edit.tsx": {
+    "file": "assets/Edit-B4lBOebA.js",
+    "name": "Edit",
+    "src": "resources/js/Pages/Profile/Edit.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.tsx",
+      "_AuthenticatedLayout-DCyqpF-2.js",
+      "resources/js/Pages/Profile/Partials/DeleteUserForm.tsx",
+      "resources/js/Pages/Profile/Partials/UpdatePasswordForm.tsx",
+      "resources/js/Pages/Profile/Partials/UpdateProfileInformationForm.tsx",
+      "_transition-9mQcL8LV.js",
+      "_TextInput-B6AZ6f50.js",
+      "_InputLabel-D-Z-sacv.js",
+      "_PrimaryButton-QGzbi3kA.js"
+    ]
+  },
+  "resources/js/Pages/Profile/Partials/DeleteUserForm.tsx": {
+    "file": "assets/DeleteUserForm-D9vSTl0y.js",
+    "name": "DeleteUserForm",
+    "src": "resources/js/Pages/Profile/Partials/DeleteUserForm.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.tsx",
+      "_TextInput-B6AZ6f50.js",
+      "_InputLabel-D-Z-sacv.js",
+      "_transition-9mQcL8LV.js"
+    ]
+  },
+  "resources/js/Pages/Profile/Partials/UpdatePasswordForm.tsx": {
+    "file": "assets/UpdatePasswordForm-BA89UFy4.js",
+    "name": "UpdatePasswordForm",
+    "src": "resources/js/Pages/Profile/Partials/UpdatePasswordForm.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.tsx",
+      "_TextInput-B6AZ6f50.js",
+      "_InputLabel-D-Z-sacv.js",
+      "_PrimaryButton-QGzbi3kA.js",
+      "_transition-9mQcL8LV.js"
+    ]
+  },
+  "resources/js/Pages/Profile/Partials/UpdateProfileInformationForm.tsx": {
+    "file": "assets/UpdateProfileInformationForm-Bbd8KQj3.js",
+    "name": "UpdateProfileInformationForm",
+    "src": "resources/js/Pages/Profile/Partials/UpdateProfileInformationForm.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.tsx",
+      "_TextInput-B6AZ6f50.js",
+      "_InputLabel-D-Z-sacv.js",
+      "_PrimaryButton-QGzbi3kA.js",
+      "_transition-9mQcL8LV.js"
+    ]
+  },
+  "resources/js/Pages/Programmes.tsx": {
+    "file": "assets/Programmes-Dd4T8LMx.js",
+    "name": "Programmes",
+    "src": "resources/js/Pages/Programmes.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.tsx"
+    ]
+  },
+  "resources/js/Pages/StudentAdvisory.tsx": {
+    "file": "assets/StudentAdvisory-yL8LzSuY.js",
+    "name": "StudentAdvisory",
+    "src": "resources/js/Pages/StudentAdvisory.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.tsx",
+      "_OnlineCoursesSection-CA6qD4Lw.js",
+      "_BannerSection-DkI9esEF.js",
+      "_Navbar-wZMcboRB.js",
+      "_ContactUsSection-YXUoCeZR.js",
+      "_banner_img-DgpNuu_c.js"
+    ],
+    "assets": [
+      "assets/about_img-DhRCeTQn.jpg",
+      "assets/about_img2-BeqgKBHy.jpg"
+    ]
+  },
+  "resources/js/Pages/StudyAbroad.tsx": {
+    "file": "assets/StudyAbroad-DUbbXj26.js",
+    "name": "StudyAbroad",
+    "src": "resources/js/Pages/StudyAbroad.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.tsx",
+      "_OnlineCoursesSection-CA6qD4Lw.js",
+      "_Navbar-wZMcboRB.js",
+      "_ContactUsSection-YXUoCeZR.js",
+      "_banner_img-DgpNuu_c.js"
+    ],
+    "assets": [
+      "assets/hero-img3-CLCqFLkr.jpg",
+      "assets/arden-university-CSZS-fnV.jpg",
+      "assets/qualifi-approved-centre-BtQIhEeC.jpg",
+      "assets/ucam-university-BNsHTYSR.jpg",
+      "assets/aston-university-Cmbm-Z4I.jpg",
+      "assets/london-graduate-school-l6wFaEh7.png",
+      "assets/eie-institute-FlztgxzI.jpg",
+      "assets/royal-charter-3IfbefGS.png"
+    ]
+  },
+  "resources/js/Pages/Welcome copy.tsx": {
+    "file": "assets/Welcome copy-DbetmOvp.js",
+    "name": "Welcome copy",
+    "src": "resources/js/Pages/Welcome copy.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.tsx"
+    ]
+  },
+  "resources/js/Pages/Welcome.tsx": {
+    "file": "assets/Welcome-Bf6Q99KB.js",
+    "name": "Welcome",
+    "src": "resources/js/Pages/Welcome.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.tsx",
+      "_Navbar-wZMcboRB.js",
+      "_EcosystemSection-B-eEyu8o.js",
+      "_OnlineCoursesSection-CA6qD4Lw.js"
+    ],
+    "assets": [
+      "assets/hero-img2-OY-icxGZ.png"
+    ]
+  },
+  "resources/js/app.tsx": {
+    "file": "assets/app-CWiNDERf.js",
+    "name": "app",
+    "src": "resources/js/app.tsx",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/Pages/AboutUs.tsx",
+      "resources/js/Pages/Auth/ConfirmPassword.tsx",
+      "resources/js/Pages/Auth/ForgotPassword.tsx",
+      "resources/js/Pages/Auth/Login copy.tsx",
+      "resources/js/Pages/Auth/Login.tsx",
+      "resources/js/Pages/Auth/Register copy.tsx",
+      "resources/js/Pages/Auth/Register.tsx",
+      "resources/js/Pages/Auth/ResetPassword.tsx",
+      "resources/js/Pages/Auth/VerifyEmail.tsx",
+      "resources/js/Pages/Contact.tsx",
+      "resources/js/Pages/Dashboard.tsx",
+      "resources/js/Pages/Profile/Edit.tsx",
+      "resources/js/Pages/Profile/Partials/DeleteUserForm.tsx",
+      "resources/js/Pages/Profile/Partials/UpdatePasswordForm.tsx",
+      "resources/js/Pages/Profile/Partials/UpdateProfileInformationForm.tsx",
+      "resources/js/Pages/Programmes.tsx",
+      "resources/js/Pages/StudentAdvisory.tsx",
+      "resources/js/Pages/StudyAbroad.tsx",
+      "resources/js/Pages/Welcome copy.tsx",
+      "resources/js/Pages/Welcome.tsx"
+    ],
+    "css": [
+      "assets/app-CfhhQ_K-.css"
+    ]
+  },
+  "resources/js/assets/images/about_img.jpg": {
+    "file": "assets/about_img-DhRCeTQn.jpg",
+    "src": "resources/js/assets/images/about_img.jpg"
+  },
+  "resources/js/assets/images/about_img2.jpg": {
+    "file": "assets/about_img2-BeqgKBHy.jpg",
+    "src": "resources/js/assets/images/about_img2.jpg"
+  },
+  "resources/js/assets/images/banner_img.jpg": {
+    "file": "assets/banner_img-Xm55LDng.jpg",
+    "src": "resources/js/assets/images/banner_img.jpg"
+  },
+  "resources/js/assets/images/big-square-bg.jpg": {
+    "file": "assets/big-square-bg-BiYBaNl3.jpg",
+    "src": "resources/js/assets/images/big-square-bg.jpg"
+  },
+  "resources/js/assets/images/big-square-bg2.jpg": {
+    "file": "assets/about_img-DhRCeTQn.jpg",
+    "src": "resources/js/assets/images/about_img.jpg"
+  },
+  "resources/js/assets/images/contact_img.jpg": {
+    "file": "assets/contact_img-CXEmNu2L.jpg",
+    "src": "resources/js/assets/images/contact_img.jpg"
+  },
+  "resources/js/assets/images/ecosystem-bg.jpg": {
+    "file": "assets/ecosystem-bg-CKug1q0B.jpg",
+    "src": "resources/js/assets/images/ecosystem-bg.jpg"
+  },
+  "resources/js/assets/images/hero-img.jpg": {
+    "file": "assets/hero-img-COicP2Vx.jpg",
+    "src": "resources/js/assets/images/hero-img.jpg"
+  },
+  "resources/js/assets/images/hero-img2.png": {
+    "file": "assets/hero-img2-OY-icxGZ.png",
+    "src": "resources/js/assets/images/hero-img2.png"
+  },
+  "resources/js/assets/images/hero-img3.jpg": {
+    "file": "assets/hero-img3-CLCqFLkr.jpg",
+    "src": "resources/js/assets/images/hero-img3.jpg"
+  },
+  "resources/js/assets/images/lady-justice.jpg": {
+    "file": "assets/lady-justice-BEx4Q7kK.jpg",
+    "src": "resources/js/assets/images/lady-justice.jpg"
+  },
+  "resources/js/assets/images/login_image.jpg": {
+    "file": "assets/login_image-DlVQqHe2.jpg",
+    "src": "resources/js/assets/images/login_image.jpg"
+  },
+  "resources/js/assets/images/logo.jpg": {
+    "file": "assets/logo-BrczKyqw.jpg",
+    "src": "resources/js/assets/images/logo.jpg"
+  },
+  "resources/js/assets/images/online-course-bg.jpg": {
+    "file": "assets/online-course-bg-Cn-TVRMt.jpg",
+    "src": "resources/js/assets/images/online-course-bg.jpg"
+  },
+  "resources/js/assets/images/register_image.png": {
+    "file": "assets/register_image-e4DItDDK.png",
+    "src": "resources/js/assets/images/register_image.png"
+  },
+  "resources/js/assets/images/small-square-bg.jpg": {
+    "file": "assets/small-square-bg-DGma51S0.jpg",
+    "src": "resources/js/assets/images/small-square-bg.jpg"
+  },
+  "resources/js/assets/images/small-square-bg2.jpg": {
+    "file": "assets/about_img2-BeqgKBHy.jpg",
+    "src": "resources/js/assets/images/about_img2.jpg"
+  },
+  "resources/js/assets/images/whatwedo_img.png": {
+    "file": "assets/whatwedo_img-CXa1jJgt.png",
+    "src": "resources/js/assets/images/whatwedo_img.png"
+  },
+  "resources/js/assets/images/whatwedo_img2.png": {
+    "file": "assets/whatwedo_img2-BnB_KTzH.png",
+    "src": "resources/js/assets/images/whatwedo_img2.png"
+  },
+  "resources/js/assets/images/whatwedo_img3.png": {
+    "file": "assets/whatwedo_img3-DOppwIoV.png",
+    "src": "resources/js/assets/images/whatwedo_img3.png"
+  },
+  "resources/js/assets/images/whatwedo_img4.png": {
+    "file": "assets/whatwedo_img4-DHPI00Y-.png",
+    "src": "resources/js/assets/images/whatwedo_img4.png"
+  },
+  "resources/js/assets/images/who-are-we-img.jpg": {
+    "file": "assets/who-are-we-img-B7bVc7J0.jpg",
+    "src": "resources/js/assets/images/who-are-we-img.jpg"
+  },
+  "resources/js/assets/images/who-are-we-img2.jpg": {
+    "file": "assets/who-are-we-img2-Woq-19tL.jpg",
+    "src": "resources/js/assets/images/who-are-we-img2.jpg"
+  },
+  "resources/js/assets/images/who-are-we-img3.jpg": {
+    "file": "assets/who-are-we-img3-BtGWDjdM.jpg",
+    "src": "resources/js/assets/images/who-are-we-img3.jpg"
+  },
+  "resources/js/assets/partner/arden-university.jpg": {
+    "file": "assets/arden-university-CSZS-fnV.jpg",
+    "src": "resources/js/assets/partner/arden-university.jpg"
+  },
+  "resources/js/assets/partner/aston-university.jpg": {
+    "file": "assets/aston-university-Cmbm-Z4I.jpg",
+    "src": "resources/js/assets/partner/aston-university.jpg"
+  },
+  "resources/js/assets/partner/eie-institute.jpg": {
+    "file": "assets/eie-institute-FlztgxzI.jpg",
+    "src": "resources/js/assets/partner/eie-institute.jpg"
+  },
+  "resources/js/assets/partner/london-graduate-school.png": {
+    "file": "assets/london-graduate-school-l6wFaEh7.png",
+    "src": "resources/js/assets/partner/london-graduate-school.png"
+  },
+  "resources/js/assets/partner/qualifi-approved-centre.jpg": {
+    "file": "assets/qualifi-approved-centre-BtQIhEeC.jpg",
+    "src": "resources/js/assets/partner/qualifi-approved-centre.jpg"
+  },
+  "resources/js/assets/partner/royal-charter.png": {
+    "file": "assets/royal-charter-3IfbefGS.png",
+    "src": "resources/js/assets/partner/royal-charter.png"
+  },
+  "resources/js/assets/partner/ucam-university.jpg": {
+    "file": "assets/ucam-university-BNsHTYSR.jpg",
+    "src": "resources/js/assets/partner/ucam-university.jpg"
+  }
+}
